@@ -7,7 +7,7 @@ using Avalonia.ReactiveUI;
 namespace FluxionViewer.Android;
 
 [Activity(
-    Label = FluxionViewer.Lang.Lang.AppName,
+    Label = "Fluxion Viewer",
     Theme = "@style/MyTheme.NoActionBar",
     Icon = "@drawable/icon",
     MainLauncher = true,
