@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>ପରିଦର୍ଶନ କରନ୍ତୁ |</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>ବିଷୟରେ</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>ଲାଇସେନ୍ସ</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>ବ୍ୟବହୃତ ଟେକ୍ନୋଲୋଜି |</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>ଫ୍ଲକ୍ସିଅନ୍ ଦର୍ଶକ |</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>ଫ୍ଲକ୍ସିଅନ୍ ଫାଇଲଗୁଡ଼ିକୁ ସହଜରେ ସଂପାଦନ କରନ୍ତୁ |</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>ବ୍ୟବହାର: &lt;ଫାଇଲ&lgt; [- ସଙ୍କୋଚନ &lt;ସଙ୍କୋଚନ&lgt;] [- ସଂରକ୍ଷଣ [ସଙ୍କୋଚନ]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: ଆବଶ୍ୟକ | []: ବ tion କଳ୍ପିକ |</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;ଫାଇଲ୍&lgt;: ଫାଇଲ୍ ଲୋଡ୍ କରେ |</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>- ସଙ୍କୋଚନ ସଙ୍କୋଚନ: ନିର୍ଦ୍ଦିଷ୍ଟ ସଙ୍କୋଚନ ସହିତ ଫାଇଲ୍ ଲୋଡ୍ କରେ |</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>- ସଙ୍କୋଚନ ଏନକୋଡିଂ ଫାଇଲ୍ ସଞ୍ଚୟ କରନ୍ତୁ: ନିର୍ଦ୍ଦିଷ୍ଟ ସଙ୍କୋଚନ (ବ al କଳ୍ପିକ) ଏବଂ ଏନକୋଡିଂ ସହିତ ଫାଇଲକୁ ରୂପାନ୍ତର ଏବଂ ସଂରକ୍ଷଣ କରେ |</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: କେବଳ କମାଣ୍ଡ୍ ଲାଇନ୍ ରେ ଚାଲିଥାଏ |</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>ଯଥେଷ୍ଟ ଯୁକ୍ତି ନୁହେଁ |</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: ଏହି ସ୍କ୍ରିନ୍ ଦେଖାଏ |</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>ସମର୍ଥିତ ସଙ୍କୋଚନ ଆଲଗୋରିଦମ (ଗୁଡିକ):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>ସମର୍ଥିତ ଏନକୋଡିଂ (ଗୁଡିକ):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>ଅସମର୍ଥିତ ସଙ୍କୋଚନ &quot;$ 1&quot; |</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>ଅସମର୍ଥିତ ଏନକୋଡିଂ &quot;$ 1&quot; |</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>ଫ୍ଲକ୍ସିଅନ୍ ଫାଇଲଗୁଡିକ (* .flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>ଫାଇଲ୍ ଲୋଡ୍ କରୁଛି ...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>ଫାଇଲ୍ ସେଭ୍ କରୁଛି ...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>ନୋଡରୁ ଏହି ଗୁଣକୁ ଅପସାରଣ କରେ |</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>ନଲ୍</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>ସତ</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>ବୁଲିଆନ୍ ମିଥ୍ୟା |</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>ବର୍ଣ୍ଣ</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-ବିଟ୍ ଇଣ୍ଟିଜର୍ |</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-ବିଟ୍ ଅକ୍ଷରିତ ଇଣ୍ଟିଜର୍ |</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>ବାଇଟ୍ |</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>ବାଇଟ୍ ଦସ୍ତଖତ |</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-ବିଟ୍ ଇଣ୍ଟିଜର୍ |</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-ବିଟ୍ ଅକ୍ଷରିତ ଇଣ୍ଟିଜର୍ |</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-ବିଟ୍ ଇଣ୍ଟିଜର୍ |</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-ବିଟ୍ ଅକ୍ଷରିତ ଇଣ୍ଟିଜର୍ |</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>ଭାସମାନ |</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>ଦୁଇଥର |</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>ବାକ୍ୟ</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>ବାଇଟ୍ ଆରେ |</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>ନୂତନ ନୋଡ୍ |</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>ମୂଳ |</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>ନୂତନ ଗୁଣ</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>ନାମ:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>ମୂଲ୍ୟ:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>ଏକ ଫ୍ଲକ୍ସିଅନ୍ ଫାଇଲ୍ ଖୋଲ ...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>ଏକ ସଙ୍କୋଚିତ ଫ୍ଲକ୍ସିଅନ୍ ଫାଇଲ୍ ଖୋଲନ୍ତୁ ...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>ଫ୍ଲକ୍ସିଅନ୍ ଫାଇଲ୍ କୁ ସେଭ୍ କରନ୍ତୁ ...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>ତୁମର ସଞ୍ଚୟ ପରିବର୍ତ୍ତନ ନାହିଁ | ଆପଣ ସେଗୁଡ଼ିକୁ ବଞ୍ଚାଇବାକୁ ଚାହୁଁଛନ୍ତି କି?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>ହଁ</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>ନା</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>ବାତିଲ୍ କରନ୍ତୁ |</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>ନୋଡ୍ ଗୁଣ</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>ପ୍ରକାର:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>ନୋଡ୍ ଗୁଣ |</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>ଏହି ପ୍ୟାନେଲର ଆକାର ପରିବର୍ତ୍ତନ କରିବାକୁ ଏହାକୁ ଡ୍ରାଗ୍ କରନ୍ତୁ |</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>ଠିକ୍ ଅଛି</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>ଅଟୋ-ସେଭ୍ |</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>ଏହି ପ୍ରୋଗ୍ରାମ୍ ବିଷୟରେ ...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>ଏହି ନୋଡରେ ଏକ କଟ୍ / କପି ହୋଇଥିବା ନୋଡ୍ ଲେପନ କରନ୍ତୁ ...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>ଏହି ନୋଡ୍ କାଟ ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>ଏହି ନୋଡ୍ କପି କରନ୍ତୁ ...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>ଏକ ନୂତନ ନୋଡ୍ ଯୋଡନ୍ତୁ ...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>ମନୋନୀତ ନୋଡ୍ ବିଲୋପ କରନ୍ତୁ ...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>ଏକ ଫାଇଲ୍ ଖୋଲ ...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>ଏକ ସଙ୍କୋଚିତ ଫାଇଲ୍ ଖୋଲନ୍ତୁ ...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>ସଙ୍କୋଚନ:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>ଲୋଡ୍ କର |</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>ଏନକୋଡିଂ:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>ସଞ୍ଚୟ କରନ୍ତୁ |</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>ଏହି ଫାଇଲ୍ ସେଭ୍ କରନ୍ତୁ ...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>ଏହି ଫାଇଲ୍ କୁ ସେଭ୍ କରନ୍ତୁ ...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>କ No ଣସି ସଙ୍କୋଚନ ନାହିଁ |</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>ସେଟିଙ୍ଗ୍ ପ୍ୟାନେଲ୍ ଖୋଲନ୍ତୁ ...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>ଏକ ନୂତନ ଗୁଣ ଯୋଡନ୍ତୁ ...</value>
+    </data>
+</root>

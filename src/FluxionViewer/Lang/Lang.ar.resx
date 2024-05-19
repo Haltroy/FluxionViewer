@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>يزور</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>عن</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>رخصة</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>التقنيات المستخدمة</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>عارض الجريان</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>تحرير ملفات Fluxion بسهولة.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>الاستخدام: &lt;ملف&lgt; [--ضغط &lt;ضغط&lgt;] [--حفظ [ضغط] &lt;ترميز&lgt; &lt;ملف&lgt;] [--no-gui] [--مساعدة]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: مطلوب. []: خياري</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;ملف&lgt;: تحميل الملف</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION: تحميل الملف بضغط محدد.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>- حفظ ملف ترميز الضغط: يحول الملف ويحفظه بضغط وترميز محددين (اختياري).</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: يعمل على سطر الأوامر فقط.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>حجج غير كافية.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--مساعدة: تظهر هذه الشاشة.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>خوارزمية (خوارزميات) الضغط المدعومة:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>الترميز (الترميزات) المدعومة:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>ضغط غير مدعوم &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>ترميز غير مدعوم &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>ملفات التدفق (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>جارٍ تحميل الملف...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>جارٍ حفظ الملف...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>يزيل هذه السمة من العقدة.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>باطل</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>حقيقي</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>خطأ منطقي</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>شخصية</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>عدد صحيح 16 بت</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>عدد صحيح غير موقع 16 بت</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>بايت</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>بايت موقعة</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>عدد صحيح 32 بت</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>عدد صحيح غير موقّع 32 بت</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>عدد صحيح 64 بت</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>عدد صحيح غير موقّع 64 بت</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>يطفو</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>مزدوج</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>خيط</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>صفيف البايت</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>عقدة جديدة</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>جذر</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>سمة جديدة</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>اسم:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>قيمة:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>فتح ملف التدفق...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>فتح ملف Fluxion مضغوط...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>احفظ ملف Fluxion باسم...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>لم تحفظ التغييرات. هل ترغب في إنقاذهم؟</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>نعم</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>لا</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>يلغي</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>سمات العقدة</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>يكتب:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>خصائص العقدة</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>اسحب هذا لتغيير حجم هذه اللوحة.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>نعم</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>الحفظ التلقائي</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>عن هذا البرنامج...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>لصق العقدة المقطوعة/المنسوخة إلى هذه العقدة...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>قطع هذه العقدة...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>انسخ هذه العقدة...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>إضافة عقدة جديدة...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>حذف العقدة المحددة...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>فتح ملف...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>فتح ملف مضغوط...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>ضغط:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>حمولة</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>التشفير:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>يحفظ</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>احفظ هذا الملف...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>احفظ هذا الملف باسم...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>لا يوجد ضغط</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>فتح لوحة الإعدادات...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>إضافة سمة جديدة...</value>
+    </data>
+</root>

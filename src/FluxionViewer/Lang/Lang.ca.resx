@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Visita</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Sobre</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>llicència</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Tecnologies utilitzades</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Visor de Fluxion</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Editeu fitxers Fluxion fàcilment.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>ÚS: &lt;fitxer&lgt; [--compression &lt;compressió&lgt;] [--save [compressió] &lt;codificació&lgt; &lt;fitxer&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: obligatori. []: Opcional</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;fitxer&lgt;: carrega el fitxer</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSIÓ: Carrega el fitxer amb una compressió específica.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save FITXER DE CODIFICACIÓ DE COMPRESSIÓ: Converteix i desa el fitxer amb compressió i codificació específiques (opcional).</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: només s&apos;executa a la línia d&apos;ordres.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>No hi ha prou arguments.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: mostra aquesta pantalla.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Algorismes de compressió admesos:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Codificacions admeses:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>La compressió &quot;$1&quot; no és compatible.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>La codificació &quot;$1&quot; no és compatible.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fitxers Fluxion (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>S&apos;està carregant el fitxer...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>S&apos;està desant el fitxer...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Elimina aquest atribut del node.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Nul</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>És cert</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Booleà Fals</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Personatge</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>Enter de 16 bits</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>Enter sense signe de 16 bits</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Byte</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Byte signat</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>Enter de 32 bits</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>Enter sense signe de 32 bits</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>Enter de 64 bits</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>Enter sense signe de 64 bits</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Flota</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Doble</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Corda</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Matriu de bytes</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Nou node</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Arrel</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Nou atribut</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Nom:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Valor:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Obre un fitxer Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Obre un fitxer Fluxion comprimit...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Desa el fitxer Fluxion com a...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Tens canvis no desats. Vols salvar-los?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Sí</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>No</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Cancel · lar</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Atributs del node</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Tipus:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Propietats del node</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Arrossegueu-lo per canviar la mida d&apos;aquest tauler.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>D&apos;acord</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Desa automàticament</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Sobre aquest programa...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Enganxeu un node retallat/copiat a aquest node...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Talla aquest node...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Copia aquest node...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Afegeix un nou node...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Suprimeix el node seleccionat...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Obre un fitxer...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Obre un fitxer comprimit...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Compressió:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Carrega</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Codificació:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Desa</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Desa aquest fitxer...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Desa aquest fitxer com a...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Sense compressió</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Obre el tauler de configuració...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Afegeix un nou atribut...</value>
+    </data>
+</root>

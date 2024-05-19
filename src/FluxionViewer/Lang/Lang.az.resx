@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>ziyarət edin</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Haqqında</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Lisenziya</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>İstifadə olunan Texnologiyalar</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Fluxion fayllarını asanlıqla redaktə edin.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>İSTİFADƏ: &lt;fayl&lgt; [--sıxılma &lt;sıxılma&lgt;] [--saxla [sıxılma] &lt;kodlaşdırma&lgt; &lt;fayl&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Tələb olunur. []: Könüllü</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;fayl&lgt;: Faylı yükləyir</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMRESSION: Faylı xüsusi sıxılma ilə yükləyir.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--SAVE KOMPRESYON KODLAMA FAYI: Faylı xüsusi sıxılma (isteğe bağlı) və kodlaşdırma ilə çevirir və saxlayır.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Yalnız komanda xəttində işləyir.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Kifayət qədər arqument yoxdur.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Bu ekranı göstərir.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Dəstəklənən sıxılma alqoritmi(lər):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Dəstəklənən kodlaşdırma(lar):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Dəstəklənməyən sıxılma &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Dəstəklənməyən kodlaşdırma &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion Faylları (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Fayl yüklənir...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Fayl yadda saxlanılır...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Bu atributu qovşaqdan silir.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Sıfır</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Doğru</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boolean Yanlış</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Xarakter</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16 bitlik tam ədəd</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16 bitlik İşarəsiz Tam Ədəd</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>bayt</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>İmzalı Bayt</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32 bitlik tam ədəd</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bit İmzasız Tam Ədəd</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64 bitlik tam ədəd</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bit İmzasız Tam Ədəd</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Sal</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>İkiqat</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Simli</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Bayt massivi</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Yeni Node</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Kök</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Yeni Atribut</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Adı:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Dəyər:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Fluxion faylını açın...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Sıxılmış Fluxion faylını açın...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion faylını qeyd edin...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Saxlanmamış dəyişiklikləriniz var. Onları xilas etmək istəyirsən?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Bəli</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Yox</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Ləğv et</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Node Atributları</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Növ:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Node Xüsusiyyətləri</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Bu panelin ölçüsünü dəyişmək üçün onu dartın.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>tamam</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Avtomatik saxla</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Bu proqram haqqında...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Kəsilmiş/kopyalanmış qovşağı bu noda yapışdırın...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Bu nodu kəsin...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Bu nodu kopyalayın...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Yeni qovşaq əlavə edin...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Seçilmiş qovşağı silin...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Fayl açın...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Sıxılmış faylı açın...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Sıxılma:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>yük</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Kodlaşdırma:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Yadda saxla</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Bu faylı yadda saxla...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Bu faylı qeyd edin...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Sıxılma yoxdur</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Parametrlər panelini açın...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Yeni atribut əlavə edin...</value>
+    </data>
+</root>

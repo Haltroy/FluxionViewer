@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>भ्रमण गर्नुहोस्</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>बारे</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>इजाजतपत्र</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>प्रयोग गरिएका प्रविधिहरू</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>फ्लक्सियन दर्शक</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>सजिलैसँग Fluxion फाइलहरू सम्पादन गर्नुहोस्।</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>उपयोग: &lt;फाइल&lgt; [--संकुचन &lt;कम्प्रेसन&lgt;] [--बचत [कम्प्रेसन] &lt;इन्कोडिङ&lgt; &lt;फाइल&lgt;] [--नो-गुई] [--मद्दत]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: आवश्यक छ। []: ऐच्छिक</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: फाइल लोड गर्छ</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>- कम्प्रेसन कम्प्रेसन: विशिष्ट कम्प्रेसनको साथ फाइल लोड गर्दछ।</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>- कम्प्रेसन एन्कोडिङ फाइल बचत गर्नुहोस्: विशिष्ट सङ्कुचन (वैकल्पिक) र एन्कोडिङको साथ फाइललाई रूपान्तरण र बचत गर्दछ।</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: कमाण्ड-लाइनमा मात्र चल्छ।</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>पर्याप्त तर्क छैन।</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: यो स्क्रिन देखाउँछ।</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>समर्थित कम्प्रेसन एल्गोरिथ्म(हरू):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>समर्थित एन्कोडिङ(हरू):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>असमर्थित सङ्कुचन &quot;$1&quot;।</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>असमर्थित इन्कोडिङ &quot;$1&quot;।</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion फाइलहरू (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>फाइल लोड गर्दै...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>फाइल सुरक्षित गर्दै...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>नोडबाट यो विशेषता हटाउँछ।</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>खाली</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>सत्य</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>बुलियन गलत</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>चरित्र</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-बिट पूर्णांक</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-बिट अहस्ताक्षरित पूर्णांक</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>बाइट</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>हस्ताक्षरित बाइट</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-बिट पूर्णांक</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-बिट अहस्ताक्षरित पूर्णांक</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-बिट पूर्णांक</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-बिट अहस्ताक्षरित पूर्णांक</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>फ्लोट</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>दोहोरो</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>स्ट्रिङ</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>बाइट एरे</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>नयाँ नोड</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>रूट</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>नयाँ विशेषता</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>नाम:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>मान:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Fluxion फाइल खोल्नुहोस्...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>कम्प्रेस गरिएको फ्लक्सियन फाइल खोल्नुहोस्...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion फाइल यस रूपमा बचत गर्नुहोस्...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>तपाईंसँग सुरक्षित नगरिएका परिवर्तनहरू छन्। के तपाईं तिनीहरूलाई बचाउन चाहनुहुन्छ?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>हो</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>छैन</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>रद्द गर्नुहोस्</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>नोड विशेषताहरू</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>प्रकार:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>नोड गुणहरू</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>यो प्यानल रिसाइज गर्न यसलाई तान्नुहोस्।</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>ठिक छ</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>स्वतः बचत गर्नुहोस्</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>यस कार्यक्रम बारे...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>यस नोडमा काटिएको/प्रतिलिपि गरिएको नोड टाँस्नुहोस्...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>यो नोड काट्नुहोस्...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>यो नोड प्रतिलिपि गर्नुहोस्...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>नयाँ नोड थप्नुहोस्...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>चयन गरिएको नोड मेटाउनुहोस्...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>एउटा फाइल खोल्नुहोस्...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>कम्प्रेस गरिएको फाइल खोल्नुहोस्...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>सङ्कुचन:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>लोड</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>इन्कोडिङ:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>बचत गर्नुहोस्</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>यो फाइल सुरक्षित गर्नुहोस्...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>यस फाइललाई यस रूपमा बचत गर्नुहोस्...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>कुनै सङ्कुचन छैन</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>सेटिङ प्यानल खोल्नुहोस्...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>नयाँ विशेषता थप्नुहोस्...</value>
+    </data>
+</root>

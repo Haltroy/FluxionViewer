@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Ymwelwch</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Ynghylch</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Trwydded</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Technolegau a Ddefnyddir</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Gwyliwr Fluxion</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Golygu ffeiliau Fluxion yn hawdd.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>DEFNYDD: &lt;ffeil&lgt; [--cywasgiad &lt;cywasgiad&lgt;] [--save [cywasgiad] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Angenrheidiol. []: Dewisol</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: Yn llwytho&apos;r ffeil</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--cywasgu Cywasgu: Llwytho&apos;r ffeil gyda cywasgu penodol.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save FFEIL ENCODING CYMHWYSO: Trosi ac yn arbed y ffeil gyda cywasgu penodol (dewisol) ac amgodio.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Yn rhedeg ar orchymyn-lein yn unig.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Dim digon o ddadleuon.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Yn dangos y sgrin hon.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Algorithm(au cywasgu a gefnogir):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Amgodio(au) a gefnogir:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Cywasgiad heb ei gefnogi &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Amgodio &quot;$1&quot; heb ei gefnogi.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Ffeiliau Fluxion (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Wrthi&apos;n llwytho&apos;r ffeil...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Wrthi&apos;n cadw&apos;r ffeil...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Yn tynnu&apos;r briodwedd hon o&apos;r nod.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Nwl</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Gwir</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boole Gau</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Cymeriad</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>Cyfanrif 16-did</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>Cyfanrif heb ei arwyddo 16-did</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Beit</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Wedi&apos;i lofnodi Beit</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>Cyfanrif 32-did</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>Cyfanrif heb ei arwyddo 32-did</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>Cyfanrif 64-bit</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>Cyfanrif heb ei arwyddo 64-bit</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Arnofio</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Dwbl</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Llinyn</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Arae Beit</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Nôd Newydd</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Gwraidd</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Priodoledd Newydd</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Enw:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Gwerth:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Agor ffeil Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Agorwch ffeil Fluxion cywasgedig...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Cadw ffeil Fluxion fel...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Mae gennych newidiadau heb eu cadw. Ydych chi am eu hachub?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Oes</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Nac ydw</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Canslo</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Priodoleddau Nod</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Math:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Priodweddau Nod</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Llusgwch hwn i newid maint y panel hwn.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>iawn</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Auto-arbed</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Am y rhaglen hon...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Gludwch nod wedi&apos;i dorri/copïo i&apos;r nod hwn...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Torrwch y nod hwn ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Copïwch y nod hwn ...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Ychwanegu nod newydd...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Dileu&apos;r nod a ddewiswyd...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Agor ffeil...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Agor ffeil gywasgedig...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Cywasgu:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Llwyth</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Amgodio:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Arbed</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Cadw&apos;r ffeil hon...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Cadw&apos;r ffeil hon fel...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Dim cywasgu</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Agor panel gosodiadau...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Ychwanegu priodoledd newydd...</value>
+    </data>
+</root>

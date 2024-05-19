@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Thăm nom</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Về</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Giấy phép</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Công nghệ được sử dụng</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Trình xem Fluxion</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Chỉnh sửa tập tin Fluxion dễ dàng.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>SỬ DỤNG: &lt;file&lgt; [--nén &lt;nén&lgt;] [--save [nén] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Bắt buộc. []: Không bắt buộc</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: Tải tập tin</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION: Tải tệp có độ nén cụ thể.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save TẬP TIN MÃ HÓA NÉN: Chuyển đổi và lưu tệp bằng cách nén và mã hóa cụ thể (tùy chọn).</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Chỉ chạy trên dòng lệnh.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Không đủ lý lẽ.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Hiển thị màn hình này.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>(Các) thuật toán nén được hỗ trợ:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>(Các) mã hóa được hỗ trợ:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Nén không được hỗ trợ &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Mã hóa không được hỗ trợ &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Tệp Fluxion (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Đang tải tập tin...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Đang lưu tập tin...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Xóa thuộc tính này khỏi node.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Vô giá trị</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>ĐÚNG VẬY</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boolean sai</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Tính cách</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>Số nguyên 16 bit</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>Số nguyên không dấu 16-bit</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Byte</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Byte đã ký</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>Số nguyên 32 bit</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>Số nguyên không dấu 32-bit</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>Số nguyên 64-bit</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>Số nguyên không dấu 64-bit</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Trôi nổi</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Gấp đôi</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Sợi dây</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Mảng byte</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Nút mới</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Nguồn gốc</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Thuộc tính mới</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Tên:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Giá trị:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Mở tệp Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Mở tệp Fluxion nén...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Lưu tệp Fluxion dưới dạng...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Bạn có các thay đổi chưa lưu. Bạn có muốn cứu họ không?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Đúng</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>KHÔNG</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Hủy bỏ</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Thuộc tính nút</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Kiểu:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Thuộc tính nút</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Kéo cái này để thay đổi kích thước bảng này.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>ĐƯỢC RỒI</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Tự động lưu</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Về chương trình này...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Dán nút đã cắt/sao chép vào nút này...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Cắt nút này...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Sao chép nút này...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Thêm một nút mới...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Xóa nút đã chọn...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Mở tệp tin...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Mở một tập tin nén...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Nén:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Trọng tải</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Mã hóa:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Cứu</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Lưu tập tin này...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Lưu tập tin này dưới dạng...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Không nén</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Mở bảng cài đặt...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Thêm thuộc tính mới...</value>
+    </data>
+</root>

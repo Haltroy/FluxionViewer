@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer", "FluxionViewer\FluxionViewer.csproj", "{E642FA5A-43C3-4376-B390-C11E6F5A7712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer.Android", "FluxionViewer.Android\FluxionViewer.Android.csproj", "{26EB9B0D-AE0A-4D4C-BB30-B1E5413087E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer.Windows", "FluxionViewer.Windows\FluxionViewer.Windows.csproj", "{666CAA69-6F6D-424E-A14F-0659A61287DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer.Linux", "FluxionViewer.Linux\FluxionViewer.Linux.csproj", "{5E8CB757-1DBB-4F97-B274-DC4B0CDDA97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer.iOS", "FluxionViewer.iOS\FluxionViewer.iOS.csproj", "{985321EF-2480-47DC-A990-7CE837E52771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer.macOS", "FluxionViewer.macOS\FluxionViewer.macOS.csproj", "{A726A56D-897B-4249-B052-F2B59D2B6CC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E642FA5A-43C3-4376-B390-C11E6F5A7712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E642FA5A-43C3-4376-B390-C11E6F5A7712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E642FA5A-43C3-4376-B390-C11E6F5A7712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E642FA5A-43C3-4376-B390-C11E6F5A7712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EB9B0D-AE0A-4D4C-BB30-B1E5413087E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EB9B0D-AE0A-4D4C-BB30-B1E5413087E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EB9B0D-AE0A-4D4C-BB30-B1E5413087E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EB9B0D-AE0A-4D4C-BB30-B1E5413087E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666CAA69-6F6D-424E-A14F-0659A61287DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666CAA69-6F6D-424E-A14F-0659A61287DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666CAA69-6F6D-424E-A14F-0659A61287DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666CAA69-6F6D-424E-A14F-0659A61287DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8CB757-1DBB-4F97-B274-DC4B0CDDA97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8CB757-1DBB-4F97-B274-DC4B0CDDA97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8CB757-1DBB-4F97-B274-DC4B0CDDA97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8CB757-1DBB-4F97-B274-DC4B0CDDA97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985321EF-2480-47DC-A990-7CE837E52771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985321EF-2480-47DC-A990-7CE837E52771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985321EF-2480-47DC-A990-7CE837E52771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985321EF-2480-47DC-A990-7CE837E52771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A726A56D-897B-4249-B052-F2B59D2B6CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A726A56D-897B-4249-B052-F2B59D2B6CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A726A56D-897B-4249-B052-F2B59D2B6CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A726A56D-897B-4249-B052-F2B59D2B6CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

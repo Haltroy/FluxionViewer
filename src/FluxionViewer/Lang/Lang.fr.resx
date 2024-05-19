@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Visite</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>À propos</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Licence</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Technologies utilisées</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Visionneuse de flux</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Modifiez facilement les fichiers Fluxion.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>UTILISATION : &lt;fichier&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encodage&lgt; &lt;fichier&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt; : obligatoire. []: Facultatif</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;fichier&lgt; : Charge le fichier</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION : Charge le fichier avec une compression spécifique.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save FICHIER D&apos;ENCODAGE DE COMPRESSION : convertit et enregistre le fichier avec une compression et un encodage spécifiques (facultatif).</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui : s&apos;exécute uniquement en ligne de commande.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Pas assez d&apos;arguments.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help : affiche cet écran.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Algorithme(s) de compression pris en charge :</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Encodages pris en charge :</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Compression &quot;$1&quot; non prise en charge.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Encodage &quot;$1&quot; non pris en charge.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fichiers Fluxion (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Chargement du fichier...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Enregistrement du fichier...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Supprime cet attribut du nœud.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Nul</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Vrai</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Booléen Faux</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Personnage</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>Entier 16 bits</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>Entier non signé de 16 bits</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Octet</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Octet signé</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>Entier 32 bits</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>Entier non signé de 32 bits</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>Entier 64 bits</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>Entier non signé de 64 bits</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Flotter</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Double</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Chaîne</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Tableau d&apos;octets</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Nouveau nœud</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Racine</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Nouvel attribut</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Nom:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Valeur:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Ouvrez un fichier Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Ouvrez un fichier Fluxion compressé...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Enregistrer le fichier Fluxion sous...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Vous avez des changements non enregistrés. Souhaitez-vous les sauvegarder ?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Oui</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Non</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Annuler</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Attributs du nœud</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Taper:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Propriétés du nœud</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Faites glisser ceci pour redimensionner ce panneau.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>D&apos;ACCORD</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Sauvegarde automatique</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>À propos de ce programme...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Collez un nœud coupé/copié sur ce nœud...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Coupez ce nœud...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Copiez ce nœud...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Ajouter un nouveau nœud...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Supprimer le nœud sélectionné...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Ouvrir un fichier...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Ouvrez un fichier compressé...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Compression:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Charger</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Codage:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Sauvegarder</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Enregistrez ce fichier...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Enregistrez ce fichier sous...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Pas de compression</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Ouvrir le panneau des paramètres...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Ajouter un nouvel attribut...</value>
+    </data>
+</root>

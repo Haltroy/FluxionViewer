@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>באַזוכן</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>וועגן</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>ליסענסע</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>טעטשנאָלאָגיעס געניצט</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>פלוקסיאָן וויוער</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>רעדאַגירן פלוקסיאָן טעקעס לייכט.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>באַניץ: &lt;טעקע&lgt; [--קאַמפּרעשאַן &lt;קאַמפּרעשאַן&lgt;] [--היט [קאַמפּרעשאַן] &lt;ענקאָדינג&lgt; &lt;טעקע&lgt;] [--קיין-גוי] [--הילף]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: פארלאנגט. []: אָפּטיאָנאַל</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;טעקע&lgt;: לאָדן די טעקע</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>- קאַמפּרעשאַן קאַמפּרעשאַן: לאָודז די טעקע מיט ספּעציפיש קאַמפּרעשאַן.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>- היט קאַמפּרעשאַן קאָדירונג טעקע: קאַנווערץ און סאַוועס די טעקע מיט ספּעציפיש קאַמפּרעשאַן (אַפּשאַנאַל) און קאָדירונג.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: לויפט בלויז אויף באַפֿעלן שורה.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>נישט גענוג טענות.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--הילף: ווייזט דעם עקראַן.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>שטיצט קאַמפּרעשאַן אַלגערידאַם (s):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>שטיצט קאָדירונג(ס):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>ניט-געשטיצט קאַמפּרעשאַן &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>ניט-געשטיצט קאָדירונג &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>פלוקסיאָן טעקעס (*.פלקס)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>לאָדן די טעקע...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>היט די טעקע...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>רימוווז דעם אַטריביוט פון נאָדע.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Null</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>אמת</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>בוליאַן פאַלש</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>כאַראַקטער</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-ביסל ינטאַדזשער</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-ביסל ונסיגנעד ינטעגער</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>ביטע</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>געחתמעט בייט</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-ביסל ינטאַדזשער</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-ביסל ונסיגנעד ינטעגער</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-ביסל ינטאַדזשער</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-ביסל ונסיגנעד ינטעגער</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>פלאָוט</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>טאָפּל</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>שטריקל</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>בייט אַרריי</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>ניו נאָדע</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>וואָרצל</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>ניו אַטריביוט</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>נאָמען:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>ווערט:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>עפֿענען אַ Fluxion טעקע ...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>עפֿענען אַ קאַמפּרעסט פלוקסיאָן טעקע ...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>היט פלוקסיאָן טעקע ווי ...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>איר האָט נישט געראטעוועט ענדערונגען. צי איר ווילן צו ראַטעווען זיי?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>יא</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>ניין</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>באָטל מאַכן</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>נאָדע אַטריביוץ</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>טיפּ:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>נאָדע פּראָפּערטיעס</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>שלעפּן דעם צו טוישן די גרייס פון דעם טאַפליע.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>אקעי</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>אַוטאָ-היטן</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>וועגן דעם פּראָגראַם ...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>פּאַפּ אַ שנייַדן / קאַפּיד נאָדע צו דעם נאָדע ...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>שנייַדן דעם נאָדע ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>קאָפּי דעם נאָדע ...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>לייג אַ נייַע נאָדע ...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>ויסמעקן די אויסגעקליבן נאָדע...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>עפֿענען אַ טעקע...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>עפֿענען אַ קאַמפּרעסט טעקע ...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>צוזאמקוועטשן:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>לאָדן</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>קאָדירונג:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>היט</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>היט דעם טעקע...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>היט דעם טעקע ווי...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>קיין קאַמפּרעשאַן</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>עפֿענען סעטטינגס טאַפליע ...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>לייג אַ נייַע אַטריביוט ...</value>
+    </data>
+</root>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Külastage</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Umbes</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Litsents</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Kasutatud tehnoloogiad</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Redigeerige Fluxioni faile lihtsalt.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>KASUTAMINE: &lt;fail&lgt; [--tihendamine &lt;pakkimine&lgt;] [--salvesta [tihendamine] &lt;kodeering&lgt; &lt;fail&lgt;] [--no-gui] [--abi]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: nõutav. []: valikuline</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;fail&lgt;: laadib faili</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression KOMPRESSIOON: laadib faili kindla tihendusega.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save COMPRESSION ECODING FAIL: teisendab ja salvestab faili kindla tihenduse (valikuline) ja kodeeringuga.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: töötab ainult käsureal.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Pole piisavalt argumente.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: näitab seda ekraani.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Toetatud tihendusalgoritm(id):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Toetatud kodeering(ud):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Toetamata tihendus &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Toetamata kodeering &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion Files (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Faili laadimine...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Faili salvestamine...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Eemaldab selle atribuudi sõlmest.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Null</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Tõsi</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boolean Vale</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Iseloom</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-bitine täisarv</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bitine märgita täisarv</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Bait</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Signeeritud bait</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-bitine täisarv</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bitine märgita täisarv</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-bitine täisarv</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bitine märgita täisarv</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Float</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Kahekordne</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>String</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Baitide massiiv</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Uus sõlm</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Juur</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Uus atribuut</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Nimi:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Väärtus:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Ava Fluxion fail...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Avage tihendatud Fluxion-fail...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Salvesta Fluxioni fail nimega...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Teil on salvestamata muudatusi. Kas soovite neid päästa?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Jah</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Ei</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Tühista</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Sõlme atribuudid</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Tüüp:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Sõlme omadused</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Paneeli suuruse muutmiseks lohistage seda.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>Okei</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Automaatne salvestamine</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Selle programmi kohta...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Kleebi lõigatud/kopeeritud sõlm sellesse sõlme...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Lõika see sõlm...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Kopeeri see sõlm...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Lisa uus sõlm...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Kustuta valitud sõlm...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Ava fail...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Ava tihendatud fail...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Kokkusurumine:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Laadige</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Kodeering:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Salvesta</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Salvesta see fail...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Salvesta see fail nimega...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Kompressioon puudub</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Ava seadete paneel...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Lisa uus atribuut...</value>
+    </data>
+</root>

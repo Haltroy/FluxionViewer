@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>வருகை</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>பற்றி</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>உரிமம்</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>பயன்படுத்தப்படும் தொழில்நுட்பங்கள்</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>ஃப்ளக்ஷன் பார்வையாளர்</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Fluxion கோப்புகளை எளிதாக திருத்தவும்.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>USAGE: &lt;file&lgt; [--சுருக்க &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: தேவை. []: விருப்பமானது</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: கோப்பை ஏற்றுகிறது</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression compression: குறிப்பிட்ட சுருக்கத்துடன் கோப்பை ஏற்றுகிறது.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--சேமி சுருக்க என்கோடிங் கோப்பு: குறிப்பிட்ட சுருக்கம் (விரும்பினால்) மற்றும் குறியாக்கத்துடன் கோப்பை மாற்றி சேமிக்கிறது.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: கட்டளை வரியில் மட்டுமே இயங்கும்.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>போதுமான வாதங்கள் இல்லை.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: இந்தத் திரையைக் காட்டுகிறது.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>ஆதரிக்கப்படும் சுருக்க அல்காரிதம்(கள்):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>ஆதரிக்கப்படும் குறியாக்கம்(கள்):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>ஆதரிக்கப்படாத சுருக்க &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>ஆதரிக்கப்படாத என்கோடிங் &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>ஃப்ளக்ஷன் கோப்புகள் (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>கோப்பை ஏற்றுகிறது...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>கோப்பைச் சேமிக்கிறது...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>இந்த பண்புக்கூறை முனையிலிருந்து நீக்குகிறது.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>ஏதுமில்லை</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>உண்மை</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>பூலியன் பொய்</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>பாத்திரம்</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-பிட் முழு எண்</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-பிட் கையொப்பமிடாத முழு எண்</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>பைட்</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>கையொப்பமிட்ட பைட்</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-பிட் முழு எண்</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-பிட் கையொப்பமிடாத முழு எண்</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-பிட் முழு எண்</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-பிட் கையொப்பமிடாத முழு எண்</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>மிதவை</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>இரட்டை</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>லேசான கயிறு</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>பைட் வரிசை</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>புதிய முனை</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>வேர்</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>புதிய பண்பு</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>பெயர்:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>மதிப்பு:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Fluxion கோப்பைத் திறக்கவும்...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>சுருக்கப்பட்ட ஃப்ளக்ஷன் கோப்பைத் திறக்கவும்...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion கோப்பை இவ்வாறு சேமி...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>உங்களிடம் சேமிக்கப்படாத மாற்றங்கள் உள்ளன. நீங்கள் அவர்களை காப்பாற்ற விரும்புகிறீர்களா?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>ஆம்</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>இல்லை</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>ரத்து செய்</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>முனை பண்புக்கூறுகள்</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>வகை:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>முனை பண்புகள்</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>இந்த பேனலின் அளவை மாற்ற இதை இழுக்கவும்.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>சரி</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>தானாகச் சேமிக்கவும்</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>இந்த திட்டத்தை பற்றி...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>இந்த முனையில் ஒரு வெட்டு/நகல் முனையை ஒட்டவும்...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>இந்த முனையை வெட்டுங்கள்...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>இந்த முனையை நகலெடுக்கவும்...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>புதிய முனையைச் சேர்...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>தேர்ந்தெடுக்கப்பட்ட முனையை நீக்கு...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>கோப்பைத் திற...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>சுருக்கப்பட்ட கோப்பைத் திறக்கவும்...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>சுருக்க:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>ஏற்றவும்</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>குறியாக்கம்:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>சேமிக்கவும்</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>இந்த கோப்பை சேமிக்கவும்...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>இந்தக் கோப்பை இவ்வாறு சேமி...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>சுருக்கம் இல்லை</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>அமைப்புகள் பேனலைத் திற...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>புதிய பண்புக்கூறைச் சேர்...</value>
+    </data>
+</root>

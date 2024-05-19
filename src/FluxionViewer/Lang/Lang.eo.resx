@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Vizitu</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Pri</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Permesilo</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Teknologioj Uzitaj</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Redaktu Fluxion-dosierojn facile.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>UZADO: &lt;dosiero&lgt; [--compression &lt;kunpremo&lgt;] [--save [kunpremado] &lt;kodigo&lgt; &lt;dosiero&lgt;] [--no-gui] [--helpo]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Bezonata. []: Nedeviga</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;dosiero&lgt;: Ŝargas la dosieron</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION: Ŝarĝas la dosieron kun specifa kunpremo.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--konservi KOMPADA KODIGA DOSIERO: Konvertas kaj konservas la dosieron per specifa kunpremo (laŭvola) kaj kodado.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Funkcias nur sur komandlinio.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Ne sufiĉas argumentoj.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Montras ĉi tiun ekranon.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Subtenataj kunpremaj algoritmoj:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Subtena(j)n kodigado(j):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Nesubtenata kunpremo &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Nesubtenata kodado &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion-dosieroj (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Ŝargante la dosieron...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Konservante la dosieron...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Forigas ĉi tiun atributon de nodo.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Nula</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Vere</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Bulea Falsa</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Karaktero</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-bita Entjero</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bita Sensigna Entjero</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Byte</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Subskribita bajto</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-bita Entjero</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bita Sensigna Entjero</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-bita Entjero</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bita Sensigna Entjero</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Flosilo</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Duoble</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Ŝnuro</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Byte Array</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Nova Nodo</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Radiko</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Nova Atributo</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Nomo:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Valoro:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Malfermu Fluxion-dosieron...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Malfermu kunpremitan Fluxion-dosieron...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Konservu Fluxion-dosieron kiel...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Vi havas nekonservitajn ŝanĝojn. Ĉu vi volas savi ilin?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Jes</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Ne</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Nuligi</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Nodaj Atributoj</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Tipo:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Nodaj Propraĵoj</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Trenu ĉi tion por regrandigi ĉi tiun panelon.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>bone</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Aŭtomate konservi</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Pri ĉi tiu programo...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Algluu tranĉitan/kopiitan nodon al ĉi tiu nodo...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Tranĉi ĉi tiun nodon...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Kopiu ĉi tiun nodon...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Aldonu novan nodon...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Forigu la elektitan nodon...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Malfermu dosieron...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Malfermu kunpremitan dosieron...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Kunpremo:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Ŝarĝo</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Kodigado:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Savi</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Konservu ĉi tiun dosieron...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Konservu ĉi tiun dosieron kiel...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Neniu kunpremo</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Malfermu agordan panelon...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Aldonu novan atributon...</value>
+    </data>
+</root>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>訪問</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>について</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>ライセンス</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>使用されている技術</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>フラクションビューア</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Fluxion ファイルを簡単に編集します。</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>使用方法: &lt;ファイル&lgt; [--compression &lt;圧縮&lgt;] [--save [圧縮] &lt;エンコーディング&lgt; &lt;ファイル&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: 必須。 []: オプション</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: ファイルをロードします</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION: 特定の圧縮を使用してファイルをロードします。</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save COMPRESSION ENCODING FILE: 特定の圧縮 (オプション) とエンコーディングでファイルを変換して保存します。</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: コマンドラインのみで実行します。</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>議論が足りません。</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: この画面を表示します。</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>サポートされている圧縮アルゴリズム:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>サポートされているエンコーディング:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>サポートされていない圧縮「$1」です。</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>サポートされていないエンコーディング「$1」です。</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion ファイル (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>ファイルをロード中...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>ファイルを保存しています...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>この属性をノードから削除します。</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>ヌル</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>真実</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>ブール値 False</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>キャラクター</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16ビット整数</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16 ビット符号なし整数</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>バイト</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>符号付きバイト</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32ビット整数</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32 ビット符号なし整数</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64ビット整数</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64 ビット符号なし整数</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>浮く</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>ダブル</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>弦</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>バイト配列</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>新しいノード</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>根</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>新しい属性</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>名前：</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>価値：</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Fluxion ファイルを開きます...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>圧縮された Fluxion ファイルを開きます...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion ファイルに名前を付けて保存...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>未保存の変更があります。それらを保存しますか?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>はい</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>いいえ</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>キャンセル</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>ノードの属性</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>タイプ：</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>ノードのプロパティ</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>これをドラッグして、このパネルのサイズを変更します。</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>わかりました</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>自動保存</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>この番組について…</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>切り取り/コピーしたノードをこのノードに貼り付けます...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>このノードをカットします...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>このノードをコピー...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>新しいノードを追加...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>選択したノードを削除します...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>ファイルを開く...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>圧縮ファイルを開く...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>圧縮：</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>負荷</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>エンコーディング：</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>保存</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>このファイルを保存...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>このファイルに名前を付けて保存します...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>圧縮なし</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>設定パネルを開く...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>新しい属性を追加...</value>
+    </data>
+</root>

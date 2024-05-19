@@ -1,0 +1,41 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: BlueLabel Windows
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Setup workloads
+        run: dotnet workload restore
+      - name: Restore dependencies
+        run: dotnet restore ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
+      - name: Build
+        run: dotnet build --no-restore ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
+      
+      # Windows AMD64
+      - name: Publish (Windows AMD64)
+        run: |
+          dotnet publish -c Release -r win-x64 -o ./publish/win-x64/ ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
+          Remove-Item .\publish\win-x64\*.pdb
+        shell: pwsh
+      - name: Upload Artifact (Windows AMD64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer Windows AMD64
+          path: |
+            ./publish/win-x64/

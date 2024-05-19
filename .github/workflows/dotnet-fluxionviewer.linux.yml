@@ -1,0 +1,48 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: FluxionViewer Linux
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Setup workloads
+        run: dotnet workload restore
+      - name: Restore dependencies
+        run: dotnet restore ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+      - name: Build
+        run: dotnet build --no-restore ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+      
+      # Linux AMD64
+      - name: Publish (Linux AMD64)
+        run: |
+          dotnet publish -c Release -r linux-x64 -o ./publish/linux-x64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+          rm ./publish/linux-x64/*.dbg
+      - name: Upload Artifact (Linux AMD64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer Linux AMD64
+          path: ./publish/linux-x64/
+      
+      # Linux MUSL AMD64
+      - name: Publish (Linux AMD64)
+        run: |
+          dotnet publish -c Release -r linux-musl-x64 -o ./publish/linux-musl-x64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+          rm ./publish/linux-musl-x64/*.dbg
+      - name: Upload Artifact (Linux MUSL AMD64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer Linux MUSL AMD64
+          path: ./publish/linux-musl-x64/

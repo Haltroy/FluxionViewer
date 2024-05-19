@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>لیدنه</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>په اړه</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>جواز</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>کارول شوي ټیکنالوژي</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>د فلوکسیون لیدونکی</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>د Fluxion فایلونه په اسانۍ سره ایډیټ کړئ.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>کارول: &lt;file&lgt; [--compression &lt;compression&lgt;] [-Save [compression] &lt;encoding&lgt; &lt;file&lgt;] [-no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: اړین دی. []: اختیاري</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;فایل&lgt;: فایل پورته کوي</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--کمپریشن کمپریشن: فایل د ځانګړي کمپریشن سره باروي.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>- د کمپریشن کوډ کولو فایل خوندي کړئ: فایل د ځانګړي کمپریشن (اختیاري) او کوډ کولو سره بدلوي او خوندي کوي.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: یوازې په کمانډ لاین چلیږي.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>کافي دلیلونه ندي.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: دا سکرین ښیې.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>د کمپریشن الګوریتم ملاتړ شوی:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>ملاتړ شوي کوډونه:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>نه ملاتړی کمپریشن &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>نه ملاتړی کوډ کول &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>د فلکسیون فایلونه (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>فایل پورته کول...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>د فایل خوندي کول ...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>دا خاصیت له نوډ څخه لرې کوي.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>نول</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>رښتیا</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>بولین غلط</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>کرکټر</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-bit Integer</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bit نه لاسلیک شوی عدد</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>بایټ</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>لاسلیک شوی بایټ</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-bit Integer</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bit نه لاسلیک شوی عدد</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-bit Integer</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bit نه لاسلیک شوی عدد</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>فلوټ</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>ډبل</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>تار</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>د بایټ سرې</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>نوی نوډ</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>ريښه</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>نوی صفت</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>نوم:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>ارزښت:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>د فلکسیون فایل خلاص کړئ ...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>یو کمپریس شوی فلکسین فایل خلاص کړئ ...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>د فلکسیون فایل په توګه خوندي کړئ ...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>تاسو نه خوندي شوي بدلونونه لرئ. ایا تاسو غواړئ چې دوی وژغورئ؟</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>هو</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>نه</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>لغوه کړئ</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>نوډ ځانګړتیاوې</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>ډول:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>نوډ ملکیتونه</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>د دې پینل د اندازې کولو لپاره دا کش کړئ.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>سمه ده</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>په اتوماتيک ډول خوندي کول</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>د دې پروګرام په اړه...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>دې نوډ ته کټ/کاپي شوي نوډ پیسټ کړئ...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>دا نوډ پرې کړئ ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>دا نوډ کاپي کړئ ...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>یو نوی نوډ اضافه کړئ ...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>ټاکل شوی نوډ ړنګ کړئ...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>یو فایل خلاص کړئ ...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>یو کمپریس شوی فایل خلاص کړئ ...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>کمپریشن:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>بار</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>کوډ کول:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>خوندي کړئ</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>دا فایل خوندي کړئ ...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>دا فایل په توګه خوندي کړئ ...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>نه کمپریشن</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>د ترتیباتو پینل خلاص کړئ ...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>یو نوی خاصیت اضافه کړئ ...</value>
+    </data>
+</root>

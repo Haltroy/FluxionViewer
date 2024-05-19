@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>бару</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>туралы</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Лицензия</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Қолданылатын технологиялар</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Fluxion файлдарын оңай өңдеңіз.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>ҚОЛДАНУ: &lt;файл&lgt; [--қысу &lt;қысу&lgt;] [--сақтау [қысу] &lt;кодтау&lgt; &lt;файл&lgt;] [--no-gui] [--анықтама]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Міндетті. []: Қосымша</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;файл&lgt;: файлды жүктейді</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMRESSION: файлды арнайы қысу арқылы жүктейді.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--САҚТАУ ҚЫМЫСТЫ КОДТАУ ФАЙЛЫ: файлды арнайы қысу (қосымша) және кодтау арқылы түрлендіреді және сақтайды.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: тек пәрмен жолында жұмыс істейді.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Аргументтер жеткіліксіз.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Бұл экранды көрсетеді.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Қолдау көрсетілетін қысу алгоритмдері:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Қолдау көрсетілетін кодтау(лар):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Қолдау көрсетілмейтін қысу &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>&quot;$1&quot; кодтауына қолдау көрсетілмейді.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion файлдары (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Файл жүктелуде...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Файл сақталуда...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Бұл төлсипатты түйіннен жояды.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Нөл</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Рас</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Логикалық жалған</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Кейіпкер</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-биттік бүтін сан</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16 разрядтық таңбасыз бүтін сан</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Байт</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Қол қойылған байт</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-биттік бүтін сан</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32 разрядтық таңбасыз бүтін сан</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-биттік бүтін сан</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-биттік таңбасыз бүтін сан</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Қалқымалы</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Қосарлы</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Жол</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Байт массиві</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Жаңа түйін</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Түбір</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Жаңа атрибут</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Аты:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Мән:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Fluxion файлын ашу...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Қысылған Fluxion файлын ашыңыз...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion файлын сақтау...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Сізде сақталмаған өзгертулер бар. Сіз оларды құтқарғыңыз келе ме?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Иә</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Жоқ</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Болдырмау</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Түйін атрибуттары</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Түрі:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Түйін сипаттары</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Бұл панельдің өлшемін өзгерту үшін оны сүйреңіз.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>ЖАРАЙДЫ МА</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Автоматты сақтау</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Бұл бағдарлама туралы...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Кесілген/көшірілген түйінді осы түйінге қойыңыз...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Бұл түйінді кесіңіз...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Осы түйінді көшіру...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Жаңа түйін қосу...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Таңдалған түйінді жою...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Файлды ашу...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Қысылған файлды ашу...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Қысу:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Жүктеу</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Кодтау:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Сақтау</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Бұл файлды сақтау...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Бұл файлды сақтау...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Қысу жоқ</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Параметрлер тақтасын ашу...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Жаңа атрибут қосу...</value>
+    </data>
+</root>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Apmeklējums</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Par</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Licence</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Izmantotās tehnoloģijas</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Viegli rediģējiet Fluxion failus.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>LIETOŠANA: &lt;fails&lgt; [--saspiešana &lt;saspiešana&lgt;] [--saglabāt [saspiešana] &lt;kodējums&lgt; &lt;fails&lgt;] [--no-gui] [--palīdzība]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: obligāti. []: Neobligāti</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;fails&lgt;: ielādē failu</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression KOMPRESIJA: ielādē failu ar īpašu saspiešanu.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save SOMRESIJAS KODĒŠANAS FAILU: pārveido un saglabā failu ar īpašu saspiešanu (pēc izvēles) un kodējumu.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: darbojas tikai komandrindā.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Nepietiek argumentu.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: parāda šo ekrānu.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Atbalstītais(-i) saspiešanas algoritms(-i):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Atbalstītais(-ie) kodējums(-i):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Neatbalstīta saspiešana &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Neatbalstīts kodējums &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion faili (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Notiek faila ielāde...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Notiek faila saglabāšana...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Noņem šo atribūtu no mezgla.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Null</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Taisnība</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Būla kļūda</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Raksturs</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16 bitu vesels skaitlis</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16 bitu neparakstīts vesels skaitlis</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>baits</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Parakstīts baits</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32 bitu vesels skaitlis</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32 bitu neparakstīts vesels skaitlis</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64 bitu vesels skaitlis</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64 bitu neparakstīts vesels skaitlis</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Pludiņš</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Dubults</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Stīga</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Baitu masīvs</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Jauns mezgls</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Sakne</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Jauns atribūts</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Vārds:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Vērtība:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Atvērt Fluxion failu...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Atveriet saspiestu Fluxion failu...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Saglabāt Fluxion failu kā...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Jums ir nesaglabātas izmaiņas. Vai vēlaties tos saglabāt?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Jā</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>No</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Atcelt</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Mezglu atribūti</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Veids:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Mezglu rekvizīti</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Velciet šo, lai mainītu šī paneļa izmēru.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>labi</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Automātiski saglabāt</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Par šo programmu...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Ielīmējiet šajā mezglā izgriezto/nokopēto mezglu...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Izgriezt šo mezglu...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Kopēt šo mezglu...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Pievienot jaunu mezglu...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Dzēst atlasīto mezglu...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Atvērt failu...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Atveriet saspiestu failu...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Saspiešana:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Ielādēt</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Kodējums:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Saglabāt</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Saglabāt šo failu...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Saglabāt šo failu kā...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Nav kompresijas</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Atvērt iestatījumu paneli...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Pievienot jaunu atribūtu...</value>
+    </data>
+</root>

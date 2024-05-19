@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Vizite</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Konsènan</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Lisans</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Teknoloji yo itilize</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Edite dosye Fluxion fasil.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>Itilizasyon: &lt;file&lgt; [--konpresyon &lt;konpresyon&lgt;] [--save [konpresyon] &lt;kodaj&lgt; &lt;fichye&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Obligatwa. []: Opsyonèl</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: Chaje fichye a</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--konpresyon KONPRESYON: Chaje fichye a ak konpresyon espesifik.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save KONPRESYON KODA DOSYE: Konvèti epi sove fichye a ak konpresyon espesifik (si ou vle) ak kodaj.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Kouri sou liy kòmand sèlman.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Pa ase agiman.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Montre ekran sa a.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Sipòte algorithm konpresyon (yo):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Sipòte kodaj (yo):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Konpresyon ki pa sipòte &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Kodaj &quot;$1&quot; pa sipòte.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fichye Fluxion (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Chaje fichye a...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Sove fichye a...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Retire atribi sa a nan ne.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Nil</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Se vre</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boolean Fo</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Karaktè</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-bit nonb antye relatif</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bit nonb nonb siyen</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Byte</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Byte siyen</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-bit nonb antye relatif</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bit nonb nonb siyen</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-bit nonb antye relatif</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bit nonb nonb siyen</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Flote</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Double</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Fisèl</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Byte etalaj</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Nouvo Ne</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Rasin</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Nouvo atribi</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Non:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Valè:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Louvri yon dosye Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Louvri yon dosye Fluxion konprese...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Sove fichye Fluxion kòm...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Ou gen chanjman ki pa sove yo. Èske ou vle sove yo?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Wi</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Non</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Anile</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Atribi ne</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Kalite:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Pwopriyete ne</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Trennen sa a pou redimensionne panèl sa a.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>OK</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Oto-sove</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Konsènan pwogram sa a...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Kole yon ne koupe/kopi nan ne sa a...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Koupe ne sa a...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Kopi node sa a...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Ajoute yon nouvo ne...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Efase node ki chwazi a...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Louvri yon fichye...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Louvri yon dosye konprese...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Konpresyon:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Chaj</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Kodaj:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Sove</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Sove fichye sa...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Sove fichye sa a kòm...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Pa gen konpresyon</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Louvri panèl paramèt...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Ajoute yon nouvo atribi...</value>
+    </data>
+</root>

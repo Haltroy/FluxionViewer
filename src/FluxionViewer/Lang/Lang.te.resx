@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>సందర్శించండి</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>గురించి</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>లైసెన్స్</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>ఉపయోగించిన సాంకేతికతలు</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>ఫ్లక్షన్ వ్యూయర్</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>ఫ్లక్షన్ ఫైల్‌లను సులభంగా సవరించండి.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>USAGE: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: అవసరం. []: ఐచ్ఛికం</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: ఫైల్‌ను లోడ్ చేస్తుంది</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--కంప్రెషన్ కంప్రెషన్: నిర్దిష్ట కంప్రెషన్‌తో ఫైల్‌ను లోడ్ చేస్తుంది.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--సేవ్ కంప్రెషన్ ఎన్‌కోడింగ్ ఫైల్: నిర్దిష్ట కంప్రెషన్ (ఐచ్ఛికం) మరియు ఎన్‌కోడింగ్‌తో ఫైల్‌ను మారుస్తుంది మరియు సేవ్ చేస్తుంది.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: కమాండ్-లైన్‌లో మాత్రమే నడుస్తుంది.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>తగినంత వాదనలు లేవు.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: ఈ స్క్రీన్‌ని చూపుతుంది.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>మద్దతు ఉన్న కంప్రెషన్ అల్గోరిథం(లు):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>మద్దతు ఉన్న ఎన్‌కోడింగ్(లు):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>మద్దతు లేని కంప్రెషన్ &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>&quot;$1&quot; ఎన్‌కోడింగ్‌కు మద్దతు లేదు.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>ఫ్లక్షన్ ఫైల్స్ (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>ఫైల్ లోడ్ అవుతోంది...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>ఫైల్‌ని సేవ్ చేస్తోంది...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>నోడ్ నుండి ఈ లక్షణాన్ని తొలగిస్తుంది.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>శూన్య</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>నిజమే</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>బూలియన్ ఫాల్స్</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>పాత్ర</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-బిట్ పూర్ణాంకం</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-బిట్ సంతకం చేయని పూర్ణాంకం</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>బైట్</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>సంతకం చేసిన బైట్</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-బిట్ పూర్ణాంకం</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-బిట్ సంతకం చేయని పూర్ణాంకం</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-బిట్ పూర్ణాంకం</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-బిట్ సంతకం చేయని పూర్ణాంకం</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>ఫ్లోట్</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>రెట్టింపు</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>స్ట్రింగ్</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>బైట్ అర్రే</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>కొత్త నోడ్</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>రూట్</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>కొత్త లక్షణం</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>పేరు:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>విలువ:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>ఫ్లక్షన్ ఫైల్‌ను తెరవండి...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>కంప్రెస్డ్ ఫ్లక్షన్ ఫైల్‌ను తెరవండి...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>ఫ్లక్షన్ ఫైల్‌ను ఇలా సేవ్ చేయండి...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>మీరు సేవ్ చేయని మార్పులను కలిగి ఉన్నారు. మీరు వాటిని సేవ్ చేయాలనుకుంటున్నారా?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>అవును</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>నం</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>రద్దు చేయండి</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>నోడ్ గుణాలు</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>రకం:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>నోడ్ లక్షణాలు</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>ఈ ప్యానెల్ పరిమాణాన్ని మార్చడానికి దీన్ని లాగండి.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>అలాగే</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>ఆటో-సేవ్</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>ఈ కార్యక్రమం గురించి...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>ఈ నోడ్‌కి కట్/కాపీ చేసిన నోడ్‌ని అతికించండి...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>ఈ నోడ్‌ని కత్తిరించండి...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>ఈ నోడ్‌ని కాపీ చేయండి...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>కొత్త నోడ్‌ని జోడించండి...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>ఎంచుకున్న నోడ్‌ని తొలగించు...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>ఫైల్‌ని తెరవండి...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>కంప్రెస్డ్ ఫైల్‌ని తెరవండి...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>కుదింపు:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>లోడ్ చేయండి</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>ఎన్‌కోడింగ్:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>సేవ్ చేయండి</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>ఈ ఫైల్‌ను సేవ్ చేయండి...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>ఈ ఫైల్‌ని ఇలా సేవ్ చేయండి...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>కుదింపు లేదు</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>సెట్టింగ్‌ల ప్యానెల్‌ని తెరవండి...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>కొత్త లక్షణాన్ని జోడించండి...</value>
+    </data>
+</root>

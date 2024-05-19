@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>ಭೇಟಿ</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>ಬಗ್ಗೆ</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>ಪರವಾನಗಿ</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>ಬಳಸಿದ ತಂತ್ರಜ್ಞಾನಗಳು</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>ಫ್ಲಕ್ಶನ್ ವೀಕ್ಷಕ</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>ಫ್ಲಕ್ಶನ್ ಫೈಲ್‌ಗಳನ್ನು ಸುಲಭವಾಗಿ ಸಂಪಾದಿಸಿ.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>ಬಳಕೆ: &lt;file&lgt; [--ಸಂಕೋಚನ &lt;ಸಂಕುಚನ&lgt;] [--ಸೇವ್ [ಸಂಕುಚನ] &lt;ಎನ್‌ಕೋಡಿಂಗ್&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: ಅಗತ್ಯವಿದೆ. []: ಐಚ್ಛಿಕ</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡುತ್ತದೆ</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression compression: ನಿರ್ದಿಷ್ಟ ಕಂಪ್ರೆಷನ್‌ನೊಂದಿಗೆ ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡುತ್ತದೆ.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--ಸೇವ್ ಕಂಪ್ರೆಷನ್ ಎನ್‌ಕೋಡಿಂಗ್ ಫೈಲ್: ನಿರ್ದಿಷ್ಟ ಕಂಪ್ರೆಷನ್ (ಐಚ್ಛಿಕ) ಮತ್ತು ಎನ್‌ಕೋಡಿಂಗ್‌ನೊಂದಿಗೆ ಫೈಲ್ ಅನ್ನು ಪರಿವರ್ತಿಸುತ್ತದೆ ಮತ್ತು ಉಳಿಸುತ್ತದೆ.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: ಕಮಾಂಡ್-ಲೈನ್‌ನಲ್ಲಿ ಮಾತ್ರ ರನ್ ಆಗುತ್ತದೆ.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>ಸಾಕಷ್ಟು ವಾದಗಳಿಲ್ಲ.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--ಸಹಾಯ: ಈ ಪರದೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>ಬೆಂಬಲಿತ ಸಂಕುಚಿತ ಅಲ್ಗಾರಿದಮ್(ಗಳು):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>ಬೆಂಬಲಿತ ಎನ್ಕೋಡಿಂಗ್(ಗಳು):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>ಬೆಂಬಲಿತವಲ್ಲದ ಸಂಕುಚಿತ &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>ಬೆಂಬಲಿತವಲ್ಲದ ಎನ್‌ಕೋಡಿಂಗ್ &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>ಫ್ಲಕ್ಶನ್ ಫೈಲ್‌ಗಳು (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>ಫೈಲ್ ಅನ್ನು ಉಳಿಸಲಾಗುತ್ತಿದೆ...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>ನೋಡ್‌ನಿಂದ ಈ ಗುಣಲಕ್ಷಣವನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>ಶೂನ್ಯ</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>ನಿಜ</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>ಬೂಲಿಯನ್ ತಪ್ಪು</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>ಪಾತ್ರ</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-ಬಿಟ್ ಪೂರ್ಣಾಂಕ</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-ಬಿಟ್ ಸಹಿ ಮಾಡದ ಪೂರ್ಣಾಂಕ</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>ಬೈಟ್</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>ಸಹಿ ಮಾಡಿದ ಬೈಟ್</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-ಬಿಟ್ ಪೂರ್ಣಾಂಕ</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-ಬಿಟ್ ಸಹಿ ಮಾಡದ ಪೂರ್ಣಾಂಕ</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-ಬಿಟ್ ಪೂರ್ಣಾಂಕ</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-ಬಿಟ್ ಸಹಿ ಮಾಡದ ಪೂರ್ಣಾಂಕ</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>ಫ್ಲೋಟ್</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>ಡಬಲ್</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>ಸ್ಟ್ರಿಂಗ್</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>ಬೈಟ್ ಅರೇ</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>ಹೊಸ ನೋಡ್</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>ಬೇರು</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>ಹೊಸ ಗುಣಲಕ್ಷಣ</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>ಹೆಸರು:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>ಮೌಲ್ಯ:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>ಫ್ಲಕ್ಶನ್ ಫೈಲ್ ತೆರೆಯಿರಿ...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>ಸಂಕುಚಿತ ಫ್ಲಕ್ಶನ್ ಫೈಲ್ ತೆರೆಯಿರಿ...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>ಫ್ಲಕ್ಶನ್ ಫೈಲ್ ಅನ್ನು ಹೀಗೆ ಉಳಿಸಿ...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>ನೀವು ಉಳಿಸದ ಬದಲಾವಣೆಗಳನ್ನು ಹೊಂದಿರುವಿರಿ. ನೀವು ಅವರನ್ನು ಉಳಿಸಲು ಬಯಸುವಿರಾ?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>ಹೌದು</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>ಸಂ</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>ರದ್ದುಮಾಡಿ</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>ನೋಡ್ ಗುಣಲಕ್ಷಣಗಳು</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>ಮಾದರಿ:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>ನೋಡ್ ಗುಣಲಕ್ಷಣಗಳು</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>ಈ ಫಲಕವನ್ನು ಮರುಗಾತ್ರಗೊಳಿಸಲು ಇದನ್ನು ಎಳೆಯಿರಿ.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>ಸರಿ</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>ಸ್ವಯಂ ಉಳಿಸಿ</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>ಈ ಕಾರ್ಯಕ್ರಮದ ಬಗ್ಗೆ...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>ಈ ನೋಡ್‌ಗೆ ಕತ್ತರಿಸಿದ/ನಕಲು ಮಾಡಿದ ನೋಡ್ ಅನ್ನು ಅಂಟಿಸಿ...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>ಈ ನೋಡ್ ಅನ್ನು ಕತ್ತರಿಸಿ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>ಈ ನೋಡ್ ಅನ್ನು ನಕಲಿಸಿ...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>ಹೊಸ ನೋಡ್ ಸೇರಿಸಿ...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>ಆಯ್ಕೆಮಾಡಿದ ನೋಡ್ ಅನ್ನು ಅಳಿಸಿ...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>ಫೈಲ್ ತೆರೆಯಿರಿ...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>ಸಂಕುಚಿತ ಫೈಲ್ ತೆರೆಯಿರಿ...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>ಸಂಕೋಚನ:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>ಲೋಡ್ ಮಾಡಿ</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>ಎನ್ಕೋಡಿಂಗ್:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>ಉಳಿಸಿ</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>ಈ ಫೈಲ್ ಅನ್ನು ಉಳಿಸಿ...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>ಈ ಫೈಲ್ ಅನ್ನು ಹೀಗೆ ಉಳಿಸಿ...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>ಸಂಕೋಚನವಿಲ್ಲ</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಫಲಕವನ್ನು ತೆರೆಯಿರಿ...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>ಹೊಸ ಗುಣಲಕ್ಷಣವನ್ನು ಸೇರಿಸಿ...</value>
+    </data>
+</root>

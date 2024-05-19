@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>ጎብኝ</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>ስለ</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>ፈቃድ</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>ያገለገሉ ቴክኖሎጂዎች</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion መመልከቻ</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Fluxion ፋይሎችን በቀላሉ ያርትዑ።</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>አጠቃቀም፡ &lt;file&lgt; [--መጭመቅ &lt;መጭመቅ&lgt;] [--መጭመቅ] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;፡ ያስፈልጋል። []፡ አማራጭ</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: ፋይሉን ይጭናል</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION፡ ፋይሉን በልዩ መጭመቂያ ይጭናል።</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--ማስቀመጥ ኮምፕሬሽን ኢንኮዲንግ ፋይል፡ ፋይሉን በተለየ መጭመቂያ (አማራጭ) እና ኢንኮዲንግ ይለውጠዋል እና ያስቀምጣል።</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: በትእዛዝ መስመር ብቻ ይሰራል።</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>በቂ ክርክሮች የሉም።</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--እገዛ፡ ይህንን ስክሪን ያሳያል።</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>የሚደገፉ የማመቅ ስልተ ቀመር(ዎች)፦</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>የሚደገፉ ኢንኮዲንግ(ዎች)፦</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>የማይደገፍ &quot;$1&quot; መጭመቅ።</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>የማይደገፍ &quot;$1&quot; ኮድ ማድረግ።</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion Files (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>ፋይሉን በመጫን ላይ...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>ፋይሉን በማስቀመጥ ላይ...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>ይህንን ባህሪ ከመስቀለኛ መንገድ ያስወግዳል።</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>ከንቱ</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>እውነት ነው።</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>ቡሊያን ውሸት</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>ባህሪ</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-ቢት ኢንቲጀር</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-ቢት ያልተፈረመ ኢንቲጀር</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>ባይት</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>ባይት የተፈረመ</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-ቢት ኢንቲጀር</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-ቢት ያልተፈረመ ኢንቲጀር</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-ቢት ኢንቲጀር</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-ቢት ያልተፈረመ ኢንቲጀር</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>ተንሳፋፊ</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>ድርብ</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>ሕብረቁምፊ</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>ባይት ድርድር</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>አዲስ መስቀለኛ መንገድ</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>ሥር</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>አዲስ ባህሪ</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>ስም፡</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>ዋጋ፡</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>የFluxion ፋይል ክፈት...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>የታመቀ የFluxion ፋይል ክፈት...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion ፋይል አስቀምጥ እንደ...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>ያልተቀመጡ ለውጦች አሉዎት። እነሱን ማዳን ይፈልጋሉ?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>አዎ</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>አይ</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>ሰርዝ</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>መስቀለኛ ባህሪያት</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>ዓይነት፡-</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>የመስቀለኛ ክፍል ባህሪያት</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>የዚህን ፓነል መጠን ለመቀየር ይህንን ይጎትቱት።</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>እሺ</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>ራስ-አስቀምጥ</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>ስለዚህ ፕሮግራም...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>በዚህ መስቀለኛ መንገድ የተቆረጠ/የተቀዳ መስቀለኛ መንገድ ለጥፍ...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>ይህንን መስቀለኛ መንገድ ይቁረጡ ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>ይህን መስቀለኛ መንገድ ቅዳ...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>አዲስ መስቀለኛ መንገድ አክል...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>የተመረጠውን መስቀለኛ መንገድ ሰርዝ...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>ፋይል ክፈት...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>የታመቀ ፋይል ክፈት...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>መጨናነቅ፡</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>ጫን</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>ኢንኮዲንግ፡</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>አስቀምጥ</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>ይህን ፋይል አስቀምጥ...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>ይህን ፋይል አስቀምጥ እንደ...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>ምንም መጭመቅ የለም።</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>የቅንብሮች ፓነልን ክፈት...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>አዲስ ባህሪ አክል...</value>
+    </data>
+</root>

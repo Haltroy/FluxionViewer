@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Посетете</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>За</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Лиценца</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Користени технологии</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Лесно уредувајте ги датотеките Fluxion.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>КОРИСТЕЊЕ: &lt;датотека&lgt; [--компресија &lt;компресија&lgt;] [--зачувај [компресија] &lt;кодирање&lgt; &lt;датотека&lgt;] [--не-gui] [--помош]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Задолжително. []: Изборен</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;датотека&lgt;: ја вчитува датотеката</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression КОМПРЕСИЈА: Ја вчитува датотеката со специфична компресија.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save COMPRESSION ENCODING FILE: Ја конвертира и зачувува датотеката со специфична компресија (опционално) и кодирање.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Работи само на командната линија.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Нема доволно аргументи.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--помош: го прикажува овој екран.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Поддржани алгоритами за компресија:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Поддржано кодирање(и):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Неподдржана компресија „$1“.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Неподдржано кодирање „$1“.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion датотеки (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Се вчитува датотеката...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Се зачувува датотеката...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Го отстранува овој атрибут од јазолот.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Нула</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Вистина</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Булова неточна</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Карактер</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-битен Цел број</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-битен непотпишан цел број</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Бајт</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Потпишан бајт</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-битен Цел број</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-битен непотпишан цел број</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-битен Цел број</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-битен непотпишан цел број</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Плови</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Двојно</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Низа</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Бајти низа</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Нов јазол</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Корен</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Нов атрибут</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Име:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Вредност:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Отворете датотека Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Отворете компресирана датотека Fluxion...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Зачувајте ја датотеката Fluxion како...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Имате незачувани промени. Дали сакате да ги спасите?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Да</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Бр</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Откажи</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Атрибути на јазол</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Тип:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Својства на јазол</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Повлечете го ова за да ја промените големината на овој панел.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>добро</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Автоматско зачувување</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>За оваа програма...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Залепете исечен/копиран јазол на овој јазол...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Исечете го овој јазол ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Копирајте го овој јазол...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Додадете нов јазол...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Избришете го избраниот јазол...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Отвори датотека...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Отворете компресирана датотека...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Компресија:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Вчитај</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Кодирање:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Зачувај</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Зачувај ја оваа датотека...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Зачувајте ја оваа датотека како...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Без компресија</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Отворете го панелот за поставки...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Додадете нов атрибут...</value>
+    </data>
+</root>

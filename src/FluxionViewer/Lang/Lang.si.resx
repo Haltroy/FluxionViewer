@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>සංචාරය</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>ගැන</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>බලපත්රය</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>භාවිතා කරන තාක්ෂණයන්</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Fluxion ගොනු පහසුවෙන් සංස්කරණය කරන්න.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>භාවිතය: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: අවශ්‍යයි. []: විකල්ප</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: ගොනුව පූරණය කරයි</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION: විශේෂිත සම්පීඩනයකින් ගොනුව පූරණය කරයි.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--සේව් සම්පීඩන කේතීකරණ ගොනුව: විශේෂිත සම්පීඩනය (විකල්ප) සහ කේතනය සමඟ ගොනුව පරිවර්තනය කර සුරකියි.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: විධාන රේඛාව මත පමණක් ධාවනය වේ.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>තර්ක මදි.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: මෙම තිරය පෙන්වයි.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>සහාය දක්වන සම්පීඩන ඇල්ගොරිතම(ය):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>සහාය දක්වන කේතනය(ය):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>සහාය නොදක්වන සම්පීඩනය &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>සහය නොදක්වන &quot;$1&quot; කේතනය.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion ගොනු (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>ගොනුව පූරණය කරමින්...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>ගොනුව සුරකිමින්...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>මෙම ගුණාංගය node වෙතින් ඉවත් කරයි.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>ශුන්‍ය</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>සැබෑ</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>බූලියන් බොරු</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>ස්වභාවය</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-බිට් නිඛිල</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-බිට් අත්සන් නොකළ පූර්ණ සංඛ්‍යාව</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>බයිට්</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>අත්සන් කළ බයිට්</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-බිට් නිඛිල</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-බිට් අත්සන් නොකළ පූර්ණ සංඛ්‍යාව</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-බිට් නිඛිල</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-බිට් අත්සන් නොකළ පූර්ණ සංඛ්‍යාව</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>පාවෙන</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>ද්විත්ව</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>නූල්</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>බයිට් අරාව</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>නව නෝඩය</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>මූල</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>නව ගුණාංගය</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>නම:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>අගය:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Fluxion ගොනුවක් විවෘත කරන්න...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>සම්පීඩිත Fluxion ගොනුවක් විවෘත කරන්න...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion ගොනුව ලෙස සුරකින්න...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>ඔබට නොසුරකින ලද වෙනස්කම් ඇත. ඔබ ඒවා සුරැකීමට කැමතිද?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>ඔව්</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>නැත</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>අවලංගු කරන්න</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>නෝඩ් ගුණාංග</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>වර්ගය:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>නෝඩ් ගුණාංග</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>මෙම පැනලයේ ප්‍රමාණය වෙනස් කිරීමට මෙය අදින්න.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>හරි</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>ස්වයංක්‍රීයව සුරැකීම</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>මෙම වැඩසටහන ගැන...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>මෙම නෝඩයට කැපූ/පිටපත් කළ නෝඩයක් අලවන්න...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>මෙම නෝඩය කපන්න ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>මෙම නෝඩය පිටපත් කරන්න...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>නව නෝඩයක් එක් කරන්න...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>තෝරාගත් නෝඩය මකන්න...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>ගොනුවක් විවෘත කරන්න...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>සම්පීඩිත ගොනුවක් විවෘත කරන්න...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>සම්පීඩනය:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>පැටවීම</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>කේතනය:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>සුරකින්න</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>මෙම ගොනුව සුරකින්න...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>මෙම ගොනුව මෙසේ සුරකින්න...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>සම්පීඩනය නැත</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>සැකසුම් පැනලය විවෘත කරන්න...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>නව ගුණාංගයක් එක් කරන්න...</value>
+    </data>
+</root>

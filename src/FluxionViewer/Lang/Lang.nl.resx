@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Bezoek</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Over</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Licentie</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Gebruikte technologieën</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion-kijker</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Bewerk Fluxion-bestanden eenvoudig.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>GEBRUIK: &lt;bestand&lgt; [--compressie &lt;compressie&lgt;] [--opslaan [compressie] &lt;codering&lgt; &lt;bestand&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Vereist. []: Optioneel</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;bestand&lgt;: laadt het bestand</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSIE: Laadt het bestand met specifieke compressie.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save COMPRESSIE ENCODING BESTAND: Converteert en bewaart het bestand met specifieke compressie (optioneel) en codering.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Werkt alleen op de opdrachtregel.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Niet genoeg argumenten.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Toont dit scherm.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Ondersteunde compressie-algoritmen:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Ondersteunde codering(en):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Niet-ondersteunde compressie &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Niet-ondersteunde codering &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion-bestanden (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Het bestand laden...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Het bestand opslaan...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Verwijdert dit attribuut van het knooppunt.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Nul</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>WAAR</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Booleaans Onwaar</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Karakter</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-bits geheel getal</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bits geheel getal zonder teken</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Byte</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Ondertekend byte</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-bits geheel getal</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bits geheel getal zonder teken</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-bits geheel getal</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bits geheel getal zonder teken</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Vlot</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Dubbele</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Snaar</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Byte-array</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Nieuw knooppunt</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Wortel</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Nieuw attribuut</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Naam:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Waarde:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Een Fluxion-bestand openen...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Open een gecomprimeerd Fluxion-bestand...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion-bestand opslaan als...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>U heeft niet-opgeslagen wijzigingen. Wilt u ze opslaan?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Ja</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Nee</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Annuleren</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Knooppuntattributen</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Type:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Knooppunteigenschappen</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Sleep dit om het formaat van dit paneel te wijzigen.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>OK</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Auto-save</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Over dit programma...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Plak een geknipt/gekopieerd knooppunt naar dit knooppunt...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Snijd dit knooppunt...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Kopieer dit knooppunt...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Een nieuw knooppunt toevoegen...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Verwijder het geselecteerde knooppunt...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Een bestand openen...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Een gecomprimeerd bestand openen...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Compressie:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Laden</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Codering:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Redden</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Bewaar dit bestand...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Sla dit bestand op als...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Geen compressie</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Instellingenpaneel openen...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Een nieuw attribuut toevoegen...</value>
+    </data>
+</root>

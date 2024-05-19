@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Vierailla</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Noin</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Lisenssi</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Käytetyt tekniikat</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Muokkaa Fluxion-tiedostoja helposti.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>KÄYTTÖ: &lt;tiedosto&lgt; [--pakkaus &lt;pakkaus&lgt;] [--tallenna [pakkaus] &lt;koodaus&lgt; &lt;tiedosto&lgt;] [--no-gui] [--ohje]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Pakollinen. []: Valinnainen</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;tiedosto&lgt;: Lataa tiedoston</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression PAKKAUS: Lataa tiedoston tietyllä pakkauksella.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--tallenna PAKKAUKSETIEDOSTO: Muuntaa ja tallentaa tiedoston tietyllä pakkauksella (valinnainen) ja koodauksella.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Toimii vain komentorivillä.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Ei tarpeeksi argumentteja.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Näyttää tämän näytön.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Tuetut pakkausalgoritmit:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Tuetut koodaukset:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Pakkausta &quot;$1&quot; ei tueta.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Ei tuettu koodaus &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion-tiedostot (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Ladataan tiedostoa...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Tallennetaan tiedostoa...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Poistaa tämän määritteen solmusta.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Tyhjä</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Totta</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boolean False</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Merkki</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-bittinen kokonaisluku</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bittinen etumerkitön kokonaisluku</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Tavu</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Allekirjoitettu tavu</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-bittinen kokonaisluku</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bittinen allekirjoittamaton kokonaisluku</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-bittinen kokonaisluku</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bittinen allekirjoittamaton kokonaisluku</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Kellua</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Kaksinkertainen</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>merkkijono</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Byte Array</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Uusi solmu</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Juuri</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Uusi attribuutti</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Nimi:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Arvo:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Avaa Fluxion-tiedosto...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Avaa pakattu Fluxion-tiedosto...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Tallenna Fluxion-tiedosto nimellä...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Sinulla on tallentamattomia muutoksia. Haluatko pelastaa ne?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Joo</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Ei</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Peruuttaa</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Solmun attribuutit</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Tyyppi:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Solmun ominaisuudet</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Muuta tämän paneelin kokoa vetämällä tätä.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>OK</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Automaattinen tallennus</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Tietoja tästä ohjelmasta...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Liitä leikattu/kopioitu solmu tähän solmuun...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Leikkaa tämä solmu...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Kopioi tämä solmu...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Lisää uusi solmu...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Poista valittu solmu...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Avaa tiedosto...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Avaa pakattu tiedosto...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Puristus:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Ladata</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Koodaus:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Tallentaa</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Tallenna tämä tiedosto...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Tallenna tämä tiedosto nimellä...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Ei pakkausta</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Avaa asetuspaneeli...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Lisää uusi määrite...</value>
+    </data>
+</root>

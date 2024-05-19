@@ -1,0 +1,32 @@
+name: FluxionViewer iOS
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Setup workloads
+        run: dotnet workload restore
+      - name: Restore dependencies
+        run: dotnet restore ./src/FluxionViewer.iOS/FluxionViewer.iOS.csproj
+      - name: Build
+        run: dotnet build --no-restore ./src/FluxionViewer.iOS/FluxionViewer.iOS.csproj
+      - name: Publish (iOS)
+        run: dotnet publish --no-restore ./src/FluxionViewer.iOS/FluxionViewer.iOS.csproj -c Release -f net8.0-ios -o ./publish/ios -r ios-arm64
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer iOS
+          path: ./publish/ios/

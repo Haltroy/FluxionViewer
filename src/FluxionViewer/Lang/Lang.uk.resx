@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Відвідайте</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>про</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Ліцензія</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Технології, що використовуються</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Переглядач Fluxion</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Легко редагуйте файли Fluxion.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>ВИКОРИСТАННЯ: &lt;файл&lgt; [--стиснення &lt;стиснення&lgt;] [--зберегти [стиснення] &lt;кодування&lgt; &lt;файл&lgt;] [--no-gui] [--допомога]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: обов&apos;язково. []: необов’язковий</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;файл&lgt;: завантажує файл</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression СТИСНЕННЯ: завантажує файл із певним стисненням.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save ФАЙЛ З КОДУВАННЯМ СТИСЕННЯ: перетворює та зберігає файл із певним стисненням (необов’язково) та кодуванням.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: працює лише в командному рядку.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Недостатньо аргументів.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Показує цей екран.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Підтримувані алгоритми стиснення:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Підтримувані кодування:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Непідтримуване стиснення &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Непідтримуване кодування &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Файли Fluxion (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Завантаження файлу...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Збереження файлу...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Вилучає цей атрибут із вузла.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Нуль</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>правда</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Логічне значення False</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>характер</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-розрядне ціле число</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-розрядне ціле число без знаку</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Байт</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Байт зі знаком</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-розрядне ціле число</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-розрядне ціле число без знаку</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-розрядне ціле число</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-розрядне ціле число без знаку</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Поплавок</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Двомісний</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Рядок</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Масив байтів</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Новий вузол</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Корінь</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Новий атрибут</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Ім&apos;я:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Значення:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Відкрийте файл Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Відкрийте стиснутий файл Fluxion...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Зберегти файл Fluxion як...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>У вас є незбережені зміни. Ви хочете їх врятувати?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Так</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Немає</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Скасувати</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Атрибути вузла</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>тип:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Властивості вузла</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Перетягніть це, щоб змінити розмір панелі.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>в порядку</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Автозбереження</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Про цю програму...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Вставте вирізаний/скопійований вузол до цього вузла...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Виріжте цей вузол...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Скопіюйте цей вузол...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Додати новий вузол...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Видалити вибраний вузол...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Відкрити файл...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Відкрити стиснутий файл...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Стиснення:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>навантаження</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>кодування:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>зберегти</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Зберегти цей файл...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Зберегти цей файл як...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Без компресії</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Відкрити панель налаштувань...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Додати новий атрибут...</value>
+    </data>
+</root>

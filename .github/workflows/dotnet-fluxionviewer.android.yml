@@ -1,0 +1,39 @@
+name: FluxionViewer Android
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+      - name: Setup workloads
+        run: dotnet workload restore
+      - name: Restore dependencies
+        run: dotnet restore ./src/FluxionViewer.Android/FluxionViewer.Android.csproj
+      - name: Build
+        run: dotnet build --no-restore ./src/FluxionViewer.Android/FluxionViewer.Android.csproj
+      - name: Publish
+        run: dotnet publish --no-restore ./src/FluxionViewer.Android/FluxionViewer.Android.csproj -c Release -f net8.0-android -o ./publish/android -r android-arm64
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer Android
+          path: ./publish/android/

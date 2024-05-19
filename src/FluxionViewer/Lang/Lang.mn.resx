@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>зочилно уу</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>тухай</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Тусгай зөвшөөрөл</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Ашигласан технологиуд</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Fluxion файлуудыг хялбархан засаарай.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>ХЭРЭГЛЭЭ: &lt;файл&lgt; [--шахалт &lt;шахалт&lgt;] [--хадгалах [шахалт] &lt;кодлох&lgt; &lt;файл&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Шаардлагатай. []: Нэмэлт</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;файл&lgt;: Файлыг ачаална</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION: Файлыг тусгай шахалтаар ачаална.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save COMPRESSION CODING ФАЙЛ: Файлыг тусгай шахалт (заавал биш) болон кодчилолоор хөрвүүлж хадгална.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Зөвхөн командын мөрөнд ажилладаг.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Аргумент хангалтгүй.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Энэ дэлгэцийг харуулна.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Дэмждэг шахалтын алгоритм(ууд):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Дэмжигдсэн кодчилол(ууд):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>&quot;$1&quot; шахалтыг дэмждэггүй.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Дэмжигдээгүй &quot;$1&quot; кодчилол.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion файлууд (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Файлыг ачаалж байна...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Файлыг хадгалж байна...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Энэ атрибутыг зангилаанаас устгана.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Null</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Үнэн</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Булийн худал</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Дүр</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16 битийн бүхэл тоо</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16 битийн тэмдэггүй бүхэл тоо</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Байт</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Гарын үсэг зурсан байт</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32 битийн бүхэл тоо</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32 битийн тэмдэггүй бүхэл тоо</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64 битийн бүхэл тоо</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64 битийн тэмдэггүй бүхэл тоо</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Хөвөгч</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Давхар</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Мөр</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Байт массив</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Шинэ зангилаа</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Үндэс</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Шинэ атрибут</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Нэр:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Утга:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Fluxion файлыг нээх...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Шахсан Fluxion файлыг нээх...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion файлыг дараах байдлаар хадгалах...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Танд хадгалагдаагүй өөрчлөлтүүд байна. Та тэднийг аврахыг хүсч байна уу?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Тиймээ</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Үгүй</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Цуцлах</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Зангилааны шинж чанарууд</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Төрөл:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Зангилааны шинж чанарууд</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Энэ самбарын хэмжээг өөрчлөхийн тулд үүнийг чирнэ үү.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>БОЛЖ БАЙНА УУ</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Автоматаар хадгалах</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Энэ хөтөлбөрийн талаар...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Зүссэн/хуулсан зангилааг энэ зангилаа руу буулгана уу...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Энэ зангилааг таслах ...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Энэ зангилаа хуулах...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Шинэ зангилаа нэмэх...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Сонгосон зангилааг устгах...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Файл нээх...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Шахсан файлыг нээх...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Шахалт:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Ачаалал</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Кодлох:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Хадгалах</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Энэ файлыг хадгалах...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Энэ файлыг дараах байдлаар хадгалах...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Шахалт байхгүй</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Тохиргооны самбарыг нээх...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Шинэ атрибут нэмэх...</value>
+    </data>
+</root>

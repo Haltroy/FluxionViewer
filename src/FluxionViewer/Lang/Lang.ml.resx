@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>സന്ദർശിക്കുക</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>കുറിച്ച്</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>ലൈസൻസ്</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>ഉപയോഗിച്ച സാങ്കേതികവിദ്യകൾ</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>ഫ്ലക്‌ഷൻ വ്യൂവർ</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>ഫ്ലക്‌ഷൻ ഫയലുകൾ എളുപ്പത്തിൽ എഡിറ്റ് ചെയ്യുക.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>ഉപയോഗം: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: ആവശ്യമാണ്. []: ഓപ്ഷണൽ</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: ഫയൽ ലോഡ് ചെയ്യുന്നു</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--കംപ്രഷൻ കംപ്രഷൻ: നിർദ്ദിഷ്ട കംപ്രഷൻ ഉപയോഗിച്ച് ഫയൽ ലോഡ് ചെയ്യുന്നു.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--സേവ് കംപ്രഷൻ എൻകോഡിംഗ് ഫയൽ: നിർദ്ദിഷ്ട കംപ്രഷനും (ഓപ്ഷണൽ) എൻകോഡിംഗും ഉപയോഗിച്ച് ഫയൽ പരിവർത്തനം ചെയ്യുകയും സംരക്ഷിക്കുകയും ചെയ്യുന്നു.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: കമാൻഡ്-ലൈനിൽ മാത്രം പ്രവർത്തിക്കുന്നു.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>മതിയായ വാദങ്ങൾ ഇല്ല.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: ഈ സ്ക്രീൻ കാണിക്കുന്നു.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>പിന്തുണയ്ക്കുന്ന കംപ്രഷൻ അൽഗോരിതം(കൾ):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>പിന്തുണയ്ക്കുന്ന എൻകോഡിംഗ്(കൾ):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>പിന്തുണയ്ക്കാത്ത കംപ്രഷൻ &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>പിന്തുണയ്ക്കാത്ത എൻകോഡിംഗ് &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>ഫ്ലക്‌ഷൻ ഫയലുകൾ (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>ഫയൽ ലോഡ് ചെയ്യുന്നു...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>ഫയൽ സംരക്ഷിക്കുന്നു...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>നോഡിൽ നിന്ന് ഈ ആട്രിബ്യൂട്ട് നീക്കംചെയ്യുന്നു.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>ശൂന്യം</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>സത്യം</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>ബൂളിയൻ ഫാൾസ്</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>സ്വഭാവം</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-ബിറ്റ് പൂർണ്ണസംഖ്യ</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-ബിറ്റ് ഒപ്പിടാത്ത പൂർണ്ണസംഖ്യ</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>ബൈറ്റ്</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>ഒപ്പിട്ട ബൈറ്റ്</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-ബിറ്റ് പൂർണ്ണസംഖ്യ</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-ബിറ്റ് ഒപ്പിടാത്ത പൂർണ്ണസംഖ്യ</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-ബിറ്റ് പൂർണ്ണസംഖ്യ</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-ബിറ്റ് ഒപ്പിടാത്ത പൂർണ്ണസംഖ്യ</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>ഫ്ലോട്ട്</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>ഇരട്ട</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>സ്ട്രിംഗ്</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>ബൈറ്റ് അറേ</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>പുതിയ നോഡ്</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>റൂട്ട്</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>പുതിയ ആട്രിബ്യൂട്ട്</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>പേര്:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>മൂല്യം:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>ഒരു ഫ്ലക്‌ഷൻ ഫയൽ തുറക്കുക...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>ഒരു കംപ്രസ് ചെയ്ത ഫ്ലക്‌ഷൻ ഫയൽ തുറക്കുക...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion ഫയൽ ഇതായി സംരക്ഷിക്കുക...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>നിങ്ങൾക്ക് സംരക്ഷിക്കാത്ത മാറ്റങ്ങളുണ്ട്. അവരെ രക്ഷിക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>അതെ</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>ഇല്ല</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>റദ്ദാക്കുക</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>നോഡ് ആട്രിബ്യൂട്ടുകൾ</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>തരം:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>നോഡ് പ്രോപ്പർട്ടികൾ</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>ഈ പാനലിൻ്റെ വലുപ്പം മാറ്റാൻ ഇത് വലിച്ചിടുക.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>ശരി</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>സ്വയമേവ സംരക്ഷിക്കുക</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>ഈ പരിപാടിയെ കുറിച്ച്...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>ഈ നോഡിലേക്ക് ഒരു കട്ട്/പകർത്ത നോഡ് ഒട്ടിക്കുക...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>ഈ നോഡ് മുറിക്കുക...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>ഈ നോഡ് പകർത്തുക...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>ഒരു പുതിയ നോഡ് ചേർക്കുക...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>തിരഞ്ഞെടുത്ത നോഡ് ഇല്ലാതാക്കുക...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>ഒരു ഫയൽ തുറക്കുക...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>കംപ്രസ് ചെയ്ത ഫയൽ തുറക്കുക...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>കംപ്രഷൻ:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>ലോഡ് ചെയ്യുക</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>എൻകോഡിംഗ്:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>രക്ഷിക്കും</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>ഈ ഫയൽ സംരക്ഷിക്കുക...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>ഈ ഫയൽ ഇതായി സംരക്ഷിക്കുക...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>കംപ്രഷൻ ഇല്ല</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>ക്രമീകരണ പാനൽ തുറക്കുക...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>ഒരു പുതിയ ആട്രിബ്യൂട്ട് ചേർക്കുക...</value>
+    </data>
+</root>

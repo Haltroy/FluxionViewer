@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Heimsókn</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Um</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Leyfi</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Tækni notuð</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Breyttu Fluxion skrám auðveldlega.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>NOTKUN: &lt;skrá&lgt; [--þjöppun &lt;þjöppun&lgt;] [--vista [þjöppun] &lt;kóðun&lgt; &lt;skrá&lgt;] [--no-gui] [--hjálp]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Nauðsynlegt. []: Valfrjálst</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;skrá&lgt;: Hleður skránni</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--þjöppun ÞJÁTTUN: Hleður skránni með sérstakri þjöppun.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save ÞJÁTTUNARKÓÐARSKÁL: Umbreytir og vistar skrána með sérstakri þjöppun (valfrjálst) og kóðun.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Keyrir aðeins á skipanalínu.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Ekki næg rök.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--hjálp: Sýnir þennan skjá.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Styður þjöppunaralgrím:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Stuðlar kóðun:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Óstudd þjöppun „$1“.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Óstudd kóðun „$1“.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion Files (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Hleður skránni...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Vistar skrána...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Fjarlægir þessa eigind úr hnút.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Núll</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Satt</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boolean False</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Karakter</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16 bita heiltala</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16 bita óundirrituð heiltala</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Bæti</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Undirritaður bæti</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32 bita heiltala</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32 bita óundirrituð heiltala</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64 bita heiltala</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64 bita óundirrituð heiltala</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Fljóta</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Tvöfaldur</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Strengur</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Byte Array</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Nýr hnútur</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Rót</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Nýr eiginleiki</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Nafn:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Gildi:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Opnaðu Fluxion skrá...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Opnaðu þjappaða Fluxion skrá...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Vista Fluxion skrá sem...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Þú ert með óvistaðar breytingar. Viltu bjarga þeim?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Já</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Nei</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Hætta við</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Hnútaeiginleikar</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Gerð:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Eiginleikar hnút</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Dragðu þetta til að breyta stærð þessa spjalds.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>OK</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Sjálfvirk vistun</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Um þetta forrit...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Límdu klipptan/afritaðan hnút á þennan hnút...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Klipptu þennan hnút...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Afritaðu þennan hnút...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Bæta við nýjum hnút...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Eyða völdum hnút...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Opnaðu skrá...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Opnaðu þjappaða skrá...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Þjöppun:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Hlaða</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Kóðun:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Vista</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Vista þessa skrá...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Vistaðu þessa skrá sem...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Engin þjöppun</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Opna stillingarspjald...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Bæta við nýrri eigind...</value>
+    </data>
+</root>

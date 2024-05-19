@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_About" xml:space="preserve">
+        <value>Hakkında</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Fluxion dosyalarını kolayca görüntülemeyi ve düzenlemeyi sağlar.</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Lisans</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Kullanılan Teknolojiler</value>
+    </data>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Ziyaret Et</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Görüntüleyici</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Bu özniteliği düğümden kaldırır.</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>İsim:</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Tür:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Değer:</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>İptal</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Yeterli argüman yok.</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Deteklenmeyen sıkıştırma "$1".</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Deteklenmeyen kodlama "$1".</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Sıkıştırma yok</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion Dosyaları (*.flx)</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>KULLANIM: &lt;dosya&gt; [--compression &lt;sıkıştırma&gt;] [--save [sıkıştırma] &lt;kodlama&gt; &lt;dosya&gt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&gt;: Gerekli. []: İsteğe bağlı.</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;dosya&gt;: Dosyayı yükler.</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression SIKIŞTIRMA: Dosyası belirli bir sıkıştırma algoritmasıyla yükler.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save SIKIŞTIRMA KODLAMA DOSYA: Belirli bir dosyaya belirlenmiş sıkıştırma ve kodlama algoritmalarıyla kaydeder.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Komut satırında çalışır.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Bu ekranı gösterir.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Desteklenen sıkıştırma algoritma(ları):</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Desteklenen kodlama(lar):</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Yeni Öznitelik</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Yeni Düğüm</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Kök</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>Tamam</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Sıkıştırılmış bir Fluxion dosyasını açar...</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Bir Fluxion dosyasını açar...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Fluxion dosyasını fakrlı kaydet...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Kaydedilmemiş değişiklikleriniz var. Kaydetmek ister misiniz?</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Hayır</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Evet</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Otomatik kayıt</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Bunu sürükleyerek panelin boyutunu ayarlayabilirsiniz.</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Dosya yükleniyor...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Dosya kaydediliyor...</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Düğüm Öznitelikleri</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Düğüm Özellikleri</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Yükle</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Kaydet</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Bu program hakkında...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Yeni bir düğüm ekle...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Sıkıştırma:</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Bu düğğümü kopyala...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Bu düğümü kes...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Seçili düğümü kaldır...</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Kodlama:</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Dosya aç...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Sıkıştırılmış bir dosyayı aç...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Kesilmiş/kopyalanmış bir düğümü yapıştır...</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Dosyayı kaydet...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Dosyayı farklı kaydet...</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Bayt</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Baytlar</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Karakter</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Ondalıklı geniş sayı</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Yanlış</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Ondalıklı Sayı</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-bit Sayı</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-bit Sayı</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Hiç</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>İşaretli Bayt</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-bit Sayı</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Yazı</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Doğru</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bit İşaretsiz Sayı</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bit İşaretsiz Sayı</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bit İşaretsiz Sayı</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Ayarlar panelini göster...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Yeni bir öznitelik ekle...</value>
+    </data>
+</root>

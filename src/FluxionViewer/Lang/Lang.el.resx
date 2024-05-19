@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Επίσκεψη</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Σχετικά με</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Αδεια</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Τεχνολογίες που χρησιμοποιούνται</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Fluxion Viewer</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Επεξεργαστείτε εύκολα τα αρχεία Fluxion.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>ΧΡΗΣΗ: &lt;αρχείο&lgt; [--συμπίεση &lt;συμπίεση&lgt;] [--αποθήκευση [συμπίεση] &lt;κωδικοποίηση&lgt; &lt;αρχείο&lgt;] [--χωρίς-gui] [--βοήθεια]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;: Υποχρεωτικό. []: Προαιρετικός</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;αρχείο&lgt;: Φορτώνει το αρχείο</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION: Φορτώνει το αρχείο με συγκεκριμένη συμπίεση.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save COMPRESSION ENCODING FILE: Μετατρέπει και αποθηκεύει το αρχείο με συγκεκριμένη συμπίεση (προαιρετική) και κωδικοποίηση.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Εκτελείται μόνο στη γραμμή εντολών.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Δεν υπάρχουν αρκετά επιχειρήματα.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help: Εμφανίζει αυτήν την οθόνη.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Υποστηριζόμενοι αλγόριθμοι συμπίεσης:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Υποστηριζόμενες κωδικοποιήσεις:</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Μη υποστηριζόμενη συμπίεση &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Μη υποστηριζόμενη κωδικοποίηση &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Αρχεία Fluxion (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Φόρτωση του αρχείου...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Αποθήκευση του αρχείου...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Καταργεί αυτό το χαρακτηριστικό από τον κόμβο.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Μηδενικό</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Αληθής</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boolean False</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Χαρακτήρας</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>Ακέραιος αριθμός 16 bit</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bit Unsigned Integer</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Ψηφιόλεξη</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Υπογεγραμμένο Byte</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>Ακέραιος αριθμός 32 bit</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bit Unsigned Integer</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>Ακέραιος 64-bit</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bit Unsigned Integer</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Φλοτέρ</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Διπλό</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Σειρά</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Byte Array</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Νέος Κόμβος</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Ρίζα</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Νέα Ιδιότητα</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Ονομα:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Αξία:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Άνοιγμα αρχείου Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Ανοίξτε ένα συμπιεσμένο αρχείο Fluxion...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Αποθήκευση αρχείου Fluxion ως...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Έχετε μη αποθηκευμένες αλλαγές. Θέλετε να τα σώσετε;</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Ναί</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>Οχι</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Ματαίωση</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Χαρακτηριστικά κόμβου</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Τύπος:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Ιδιότητες κόμβου</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Σύρετε αυτό για να αλλάξετε το μέγεθος αυτού του πίνακα.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>Εντάξει</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Αυτόματη αποθήκευση</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Σχετικά με αυτό το πρόγραμμα...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Επικολλήστε έναν κομμένο/αντιγραμμένο κόμβο σε αυτόν τον κόμβο...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Κόψτε αυτόν τον κόμβο...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Αντιγράψτε αυτόν τον κόμβο...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Προσθήκη νέου κόμβου...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Διαγραφή του επιλεγμένου κόμβου...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Άνοιγμα αρχείου...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Άνοιγμα συμπιεσμένου αρχείου...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Συμπίεση:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Φορτώνω</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Κωδικοποίηση:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Αποθηκεύσετε</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Αποθηκεύστε αυτό το αρχείο...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Αποθηκεύστε αυτό το αρχείο ως...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Χωρίς συμπίεση</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Άνοιγμα πίνακα ρυθμίσεων...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Προσθήκη νέου χαρακτηριστικού...</value>
+    </data>
+</root>

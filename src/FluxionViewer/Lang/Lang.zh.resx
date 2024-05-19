@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>访问</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>关于</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>执照</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>使用的技术</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>流线观察器</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>轻松编辑 Fluxion 文件。</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>用法： &lt;文件&lgt; [--压缩 &lt;压缩&lgt;] [--save [压缩] &lt;编码&lgt; &lt;文件&lgt;] [--no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt;：必填。 []： 选修的</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;文件&lgt;：加载文件</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION：加载具有特定压缩的文件。</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--save 压缩编码文件：使用特定压缩（可选）和编码转换并保存文件。</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui：仅在命令行上运行。</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>没有足够的论据。</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--help：显示此屏幕。</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>支持的压缩算法：</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>支持的编码：</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>不支持的压缩“$1”。</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>不支持的编码“$1”。</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fluxion 文件 (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>正在加载文件...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>保存文件...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>从节点中删除此属性。</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>无效的</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>真的</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>布尔假</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>特点</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16 位整数</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16 位无符号整数</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>字节</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>有符号字节</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32 位整数</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32 位无符号整数</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64 位整数</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64 位无符号整数</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>漂浮</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>双倍的</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>细绳</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>字节数组</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>新节点</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>根</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>新属性</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>姓名：</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>价值：</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>打开 .fluxion 文件...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>打开压缩的 Fluxion 文件...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>将 Fluxion 文件另存为...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>您有未保存的更改。你想拯救他们吗？</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>是的</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>不</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>取消</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>节点属性</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>类型：</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>节点属性</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>拖动它可以调整该面板的大小。</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>好的</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>自动保存</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>关于这个计划...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>将剪切/复制的节点粘贴到该节点...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>剪掉这个节点...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>复制该节点...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>添加新节点...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>删除选定的节点...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>打开文件...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>打开压缩文件...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>压缩：</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>加载</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>编码：</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>节省</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>保存此文件...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>将此文件另存为...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>无压缩</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>打开设置面板...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>添加新属性...</value>
+    </data>
+</root>

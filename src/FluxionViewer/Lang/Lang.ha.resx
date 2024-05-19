@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+                id="root"
+                xmlns="">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="About_Visit" xml:space="preserve">
+        <value>Ziyarci</value>
+    </data>
+    <data name="About_About" xml:space="preserve">
+        <value>Game da</value>
+    </data>
+    <data name="About_License" xml:space="preserve">
+        <value>Lasisi</value>
+    </data>
+    <data name="About_TechUsed" xml:space="preserve">
+        <value>Amfani da Fasaha</value>
+    </data>
+    <data name="AppName" xml:space="preserve">
+        <value>Mai kallon Fluxion</value>
+    </data>
+    <data name="About_AboutDesc" xml:space="preserve">
+        <value>Shirya fayilolin Fluxion cikin sauƙi.</value>
+    </data>
+    <data name="help_0" xml:space="preserve">
+        <value>AMFANI: &lt;file&lgt; [--matsi &lt;matsawa&lgt;] [--save [matsi] &lt;encoding&lgt; &lt;file&lgt;] [-no-gui] [--help]</value>
+    </data>
+    <data name="help_1" xml:space="preserve">
+        <value>&lt;&lgt; Ana bukata. []: Na zaɓi</value>
+    </data>
+    <data name="help_2" xml:space="preserve">
+        <value>&lt;file&lgt;: Yana loda fayil ɗin</value>
+    </data>
+    <data name="help_3" xml:space="preserve">
+        <value>--compression COMPRESSION: Yana loda fayil ɗin tare da takamaiman matsawa.</value>
+    </data>
+    <data name="help_4" xml:space="preserve">
+        <value>--ajiye FILE KYAUTA COMPRESSION: Yana juyawa da adana fayil ɗin tare da takamaiman matsawa (na zaɓi) da rufaffen.</value>
+    </data>
+    <data name="help_5" xml:space="preserve">
+        <value>--no-gui: Yana aiki akan layin umarni kawai.</value>
+    </data>
+    <data name="cli_notenoughargs" xml:space="preserve">
+        <value>Rashin isassun muhawara.</value>
+    </data>
+    <data name="help_6" xml:space="preserve">
+        <value>--taimako: Yana nuna wannan allon.</value>
+    </data>
+    <data name="help_7" xml:space="preserve">
+        <value>Algorithm(s): matsawa mai goyan baya:</value>
+    </data>
+    <data name="help_8" xml:space="preserve">
+        <value>Tallafawa (s):</value>
+    </data>
+    <data name="cli_unsupportedcompression" xml:space="preserve">
+        <value>Matsi mara tallafi &quot;$1&quot;.</value>
+    </data>
+    <data name="cli_unsupportedencoding" xml:space="preserve">
+        <value>Ƙididdiga mara tallafi &quot;$1&quot;.</value>
+    </data>
+    <data name="FileExtName" xml:space="preserve">
+        <value>Fayilolin Fluxion (*.flx)</value>
+    </data>
+    <data name="Status_LoadingFile" xml:space="preserve">
+        <value>Ana loda fayil ɗin...</value>
+    </data>
+    <data name="Status_SavingFile" xml:space="preserve">
+        <value>Ana ajiye fayil ɗin...</value>
+    </data>
+    <data name="Attribute_Remove" xml:space="preserve">
+        <value>Yana kawar da wannan sifa daga kumburi.</value>
+    </data>
+    <data name="ValueType_Null" xml:space="preserve">
+        <value>Babu</value>
+    </data>
+    <data name="ValueType_True" xml:space="preserve">
+        <value>Gaskiya</value>
+    </data>
+    <data name="ValueType_False" xml:space="preserve">
+        <value>Boolean Ƙarya</value>
+    </data>
+    <data name="ValueType_Char" xml:space="preserve">
+        <value>Hali</value>
+    </data>
+    <data name="ValueType_Short" xml:space="preserve">
+        <value>16-bit Integer</value>
+    </data>
+    <data name="ValueType_UShort" xml:space="preserve">
+        <value>16-bit Integer mara sa hannu</value>
+    </data>
+    <data name="ValueType_Byte" xml:space="preserve">
+        <value>Byte</value>
+    </data>
+    <data name="ValueType_SByte" xml:space="preserve">
+        <value>Sa hannu Byte</value>
+    </data>
+    <data name="ValueType_Int" xml:space="preserve">
+        <value>32-bit Integer</value>
+    </data>
+    <data name="ValueType_UInt" xml:space="preserve">
+        <value>32-bit Integer mara sa hannu</value>
+    </data>
+    <data name="ValueType_Long" xml:space="preserve">
+        <value>64-bit Integer</value>
+    </data>
+    <data name="ValueType_ULong" xml:space="preserve">
+        <value>64-bit Integer mara sa hannu</value>
+    </data>
+    <data name="ValueType_Float" xml:space="preserve">
+        <value>Yawo</value>
+    </data>
+    <data name="ValueType_Double" xml:space="preserve">
+        <value>Biyu</value>
+    </data>
+    <data name="ValueType_String" xml:space="preserve">
+        <value>Zaren</value>
+    </data>
+    <data name="ValueType_ByteArray" xml:space="preserve">
+        <value>Byte Array</value>
+    </data>
+    <data name="Node_NewItem" xml:space="preserve">
+        <value>Sabon Node</value>
+    </data>
+    <data name="Node_Root" xml:space="preserve">
+        <value>Tushen</value>
+    </data>
+    <data name="Node_NewAttr" xml:space="preserve">
+        <value>Sabuwar Sifa</value>
+    </data>
+    <data name="Attr_Name" xml:space="preserve">
+        <value>Suna:</value>
+    </data>
+    <data name="Attr_Value" xml:space="preserve">
+        <value>Darajar:</value>
+    </data>
+    <data name="Open_Title" xml:space="preserve">
+        <value>Bude fayil ɗin Fluxion...</value>
+    </data>
+    <data name="OpenCompressed_Title" xml:space="preserve">
+        <value>Buɗe fayil ɗin Fluxion da aka matsa...</value>
+    </data>
+    <data name="SaveAs_Title" xml:space="preserve">
+        <value>Ajiye fayil ɗin Fluxion azaman...</value>
+    </data>
+    <data name="SaveConfirmDialog" xml:space="preserve">
+        <value>Kuna da canje-canje marasa ajiya. Kuna so ku cece su?</value>
+    </data>
+    <data name="SaveConfirmYes" xml:space="preserve">
+        <value>Ee</value>
+    </data>
+    <data name="SaveConfirmNo" xml:space="preserve">
+        <value>A&apos;a</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Soke</value>
+    </data>
+    <data name="Tab_Attr" xml:space="preserve">
+        <value>Halayen Node</value>
+    </data>
+    <data name="Attr_Type" xml:space="preserve">
+        <value>Nau&apos;in:</value>
+    </data>
+    <data name="Tab_Prop" xml:space="preserve">
+        <value>Node Properties</value>
+    </data>
+    <data name="Splitter_Tooltip" xml:space="preserve">
+        <value>Jawo wannan don sake girman wannan rukunin.</value>
+    </data>
+    <data name="OK" xml:space="preserve">
+        <value>KO</value>
+    </data>
+    <data name="Setting_AutoSave" xml:space="preserve">
+        <value>Ajiye ta atomatik</value>
+    </data>
+    <data name="ToolTip_About" xml:space="preserve">
+        <value>Game da wannan shirin...</value>
+    </data>
+    <data name="ToolTip_Paste" xml:space="preserve">
+        <value>Manna kumburin yanke/kofi zuwa wannan kumburin...</value>
+    </data>
+    <data name="ToolTip_Cut" xml:space="preserve">
+        <value>Yanke wannan kumburin...</value>
+    </data>
+    <data name="ToolTip_Copy" xml:space="preserve">
+        <value>Kwafi wannan kumburin...</value>
+    </data>
+    <data name="ToolTip_Add" xml:space="preserve">
+        <value>Ƙara sabon kumburi...</value>
+    </data>
+    <data name="ToolTip_Delete" xml:space="preserve">
+        <value>Share kumburin da aka zaɓa...</value>
+    </data>
+    <data name="ToolTip_Open" xml:space="preserve">
+        <value>Bude fayil...</value>
+    </data>
+    <data name="ToolTip_OpenCompressed" xml:space="preserve">
+        <value>Buɗe fayil ɗin da aka matsa...</value>
+    </data>
+    <data name="ToolTip_Compression" xml:space="preserve">
+        <value>Matsi:</value>
+    </data>
+    <data name="ToolTipButton_Load" xml:space="preserve">
+        <value>Loda</value>
+    </data>
+    <data name="ToolTip_Encoding" xml:space="preserve">
+        <value>Rufewa:</value>
+    </data>
+    <data name="ToolTipButton_Save" xml:space="preserve">
+        <value>Ajiye</value>
+    </data>
+    <data name="ToolTip_SaveFile" xml:space="preserve">
+        <value>Ajiye wannan fayil...</value>
+    </data>
+    <data name="ToolTip_SaveFileAs" xml:space="preserve">
+        <value>Ajiye wannan fayil ɗin azaman...</value>
+    </data>
+    <data name="Compression_None" xml:space="preserve">
+        <value>Babu matsawa</value>
+    </data>
+    <data name="ToolTip_Settings" xml:space="preserve">
+        <value>Bude kwamitin saituna...</value>
+    </data>
+    <data name="Attr_Add" xml:space="preserve">
+        <value>Ƙara sabon sifa...</value>
+    </data>
+</root>
