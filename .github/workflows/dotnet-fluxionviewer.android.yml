@@ -25,7 +25,7 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
       - name: Setup workloads
-        run: dotnet workload restore
+        run: dotnet workload restore ./src/FluxionViewer.sln
       - name: Restore dependencies
         run: dotnet restore ./src/FluxionViewer.Android/FluxionViewer.Android.csproj
       - name: Build
