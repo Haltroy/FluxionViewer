@@ -43,13 +43,13 @@
         <value>Edit file Fluxion dengan mudah.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>PENGGUNAAN: &lt;file&lgt; [--kompresi &lt;kompresi&lgt;] [--simpan [kompresi] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>PENGGUNAAN: &lt;file&gt; [--kompresi &lt;kompresi&gt;] [--simpan [kompresi] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Wajib. []: Opsional</value>
+        <value>&lt;&gt;: Wajib. []: Opsional</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Memuat file</value>
+        <value>&lt;file&gt;: Memuat file</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--kompresi KOMPRESI: Memuat file dengan kompresi tertentu.</value>

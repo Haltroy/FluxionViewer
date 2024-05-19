@@ -43,13 +43,13 @@
         <value>Fluxion ဖိုင်များကို အလွယ်တကူ တည်းဖြတ်ပါ။</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>အသုံးပြုမှု- &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>အသုံးပြုမှု- &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: လိုအပ်သည်။ []: ရွေးချယ်နိုင်သည်</value>
+        <value>&lt;&gt;: လိုအပ်သည်။ []: ရွေးချယ်နိုင်သည်</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;- ဖိုင်ကို တင်သည်။</value>
+        <value>&lt;file&gt;- ဖိုင်ကို တင်သည်။</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION- သီးခြားချုံ့မှုဖြင့် ဖိုင်ကို တင်သည်။</value>

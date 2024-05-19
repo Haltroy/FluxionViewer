@@ -43,13 +43,13 @@
         <value>Fluxion ھۆججىتىنى ئاسانلا تەھرىرلەڭ.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ئىشلىتىش ئۇسۇلى: &lt;ھۆججەت&lgt; [- قىسىش &lt;بېسىش&lgt;] [- ساقلاش</value>
+        <value>ئىشلىتىش ئۇسۇلى: &lt;ھۆججەت&gt; [- قىسىش &lt;بېسىش&gt;] [- ساقلاش</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: تەلەپ قىلىندى. []: ئىختىيارى</value>
+        <value>&lt;&gt;: تەلەپ قىلىندى. []: ئىختىيارى</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: ھۆججەتنى يۈكلەيدۇ</value>
+        <value>&lt;file&gt;: ھۆججەتنى يۈكلەيدۇ</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>- پىرىسلاش بېسىمى: ھۆججەتنى ئالاھىدە پىرىسلاش بىلەن يۈكلەيدۇ.</value>

@@ -43,13 +43,13 @@
         <value>Dezie Fluxion faịlụ mfe.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>OJI: &lt;file&lgt; [--mkpakọ &lt;mkpakọ&lgt;] [--chekwaa [mkpakọ] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>OJI: &lt;file&gt; [--mkpakọ &lt;mkpakọ&gt;] [--chekwaa [mkpakọ] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt; Achọrọ. []: Nhọrọ</value>
+        <value>&lt;&gt; Achọrọ. []: Nhọrọ</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Na-eburu faịlụ ahụ</value>
+        <value>&lt;file&gt;: Na-eburu faịlụ ahụ</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--mkpakọ COMPRESSION: Na-eburu faịlụ ahụ na mkpakọ akọwapụtara.</value>

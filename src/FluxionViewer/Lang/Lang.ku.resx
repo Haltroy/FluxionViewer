@@ -43,13 +43,13 @@
         <value>Pelên Fluxion bi hêsanî biguherînin.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>BIKARANÎN: &lt;pel&lgt; [--tevlihevkirin &lt;komperasyon&lgt;] [-- tomarkirin [komperasyon] &lt;kodkirin&lgt; &lt;pel&lgt;] [--no-gui] [--alîkarî]</value>
+        <value>BIKARANÎN: &lt;pel&gt; [--tevlihevkirin &lt;komperasyon&gt;] [-- tomarkirin [komperasyon] &lt;kodkirin&gt; &lt;pel&gt;] [--no-gui] [--alîkarî]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Pêdivî ye. []: Bijarî</value>
+        <value>&lt;&gt;: Pêdivî ye. []: Bijarî</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;pel&lgt;: Pelê bar dike</value>
+        <value>&lt;pel&gt;: Pelê bar dike</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--kompression COMPRESSION: Pelê bi pelçiqandina taybetî bar dike.</value>

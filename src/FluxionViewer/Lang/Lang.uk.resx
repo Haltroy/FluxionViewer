@@ -43,13 +43,13 @@
         <value>Легко редагуйте файли Fluxion.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ВИКОРИСТАННЯ: &lt;файл&lgt; [--стиснення &lt;стиснення&lgt;] [--зберегти [стиснення] &lt;кодування&lgt; &lt;файл&lgt;] [--no-gui] [--допомога]</value>
+        <value>ВИКОРИСТАННЯ: &lt;файл&gt; [--стиснення &lt;стиснення&gt;] [--зберегти [стиснення] &lt;кодування&gt; &lt;файл&gt;] [--no-gui] [--допомога]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: обов&apos;язково. []: необов’язковий</value>
+        <value>&lt;&gt;: обов&apos;язково. []: необов’язковий</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;файл&lgt;: завантажує файл</value>
+        <value>&lt;файл&gt;: завантажує файл</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression СТИСНЕННЯ: завантажує файл із певним стисненням.</value>

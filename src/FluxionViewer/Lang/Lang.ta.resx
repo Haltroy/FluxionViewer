@@ -43,13 +43,13 @@
         <value>Fluxion கோப்புகளை எளிதாக திருத்தவும்.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>USAGE: &lt;file&lgt; [--சுருக்க &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>USAGE: &lt;file&gt; [--சுருக்க &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: தேவை. []: விருப்பமானது</value>
+        <value>&lt;&gt;: தேவை. []: விருப்பமானது</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: கோப்பை ஏற்றுகிறது</value>
+        <value>&lt;file&gt;: கோப்பை ஏற்றுகிறது</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression compression: குறிப்பிட்ட சுருக்கத்துடன் கோப்பை ஏற்றுகிறது.</value>

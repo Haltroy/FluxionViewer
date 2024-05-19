@@ -43,13 +43,13 @@
         <value>Fluxion Dateien einfach z&apos;änneren.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>GEBRAUCH: &lt;Datei&lgt; [--Kompressioun &lt;Kompressioun&lgt;] [--späicheren [Kompressioun] &lt;Kodéierung&lgt; &lt;Datei&lgt;] [--no-gui] [--Hëllef]</value>
+        <value>GEBRAUCH: &lt;Datei&gt; [--Kompressioun &lt;Kompressioun&gt;] [--späicheren [Kompressioun] &lt;Kodéierung&gt; &lt;Datei&gt;] [--no-gui] [--Hëllef]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: obligatoresch. []: fakultativ</value>
+        <value>&lt;&gt;: obligatoresch. []: fakultativ</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;Datei&lgt;: Lued de Fichier</value>
+        <value>&lt;Datei&gt;: Lued de Fichier</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--Compression COMPRESSION: Luet d&apos;Datei mat spezifescher Kompressioun.</value>

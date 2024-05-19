@@ -43,13 +43,13 @@
         <value>Fluxion ფაილების მარტივად რედაქტირება.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>გამოყენება: &lt;ფაილი&lgt; [--შეკუმშვა &lt;შეკუმშვა&lgt;] [--შენახვა [შეკუმშვა] &lt;დაშიფვრა&lgt; &lt;ფაილი&lgt;] [--no-gui] [--დახმარება]</value>
+        <value>გამოყენება: &lt;ფაილი&gt; [--შეკუმშვა &lt;შეკუმშვა&gt;] [--შენახვა [შეკუმშვა] &lt;დაშიფვრა&gt; &lt;ფაილი&gt;] [--no-gui] [--დახმარება]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: აუცილებელია. []: სურვილისამებრ</value>
+        <value>&lt;&gt;: აუცილებელია. []: სურვილისამებრ</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: იტვირთება ფაილი</value>
+        <value>&lt;file&gt;: იტვირთება ფაილი</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: იტვირთება ფაილი კონკრეტული შეკუმშვით.</value>

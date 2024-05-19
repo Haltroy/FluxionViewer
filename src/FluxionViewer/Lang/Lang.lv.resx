@@ -43,13 +43,13 @@
         <value>Viegli rediģējiet Fluxion failus.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>LIETOŠANA: &lt;fails&lgt; [--saspiešana &lt;saspiešana&lgt;] [--saglabāt [saspiešana] &lt;kodējums&lgt; &lt;fails&lgt;] [--no-gui] [--palīdzība]</value>
+        <value>LIETOŠANA: &lt;fails&gt; [--saspiešana &lt;saspiešana&gt;] [--saglabāt [saspiešana] &lt;kodējums&gt; &lt;fails&gt;] [--no-gui] [--palīdzība]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: obligāti. []: Neobligāti</value>
+        <value>&lt;&gt;: obligāti. []: Neobligāti</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;fails&lgt;: ielādē failu</value>
+        <value>&lt;fails&gt;: ielādē failu</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression KOMPRESIJA: ielādē failu ar īpašu saspiešanu.</value>

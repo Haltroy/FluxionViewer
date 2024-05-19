@@ -43,13 +43,13 @@
         <value>Edite facilmente i schedari Fluxion.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>USAGE: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>USAGE: &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Ubligatoriu. []: Opzionale</value>
+        <value>&lt;&gt;: Ubligatoriu. []: Opzionale</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Carica u schedariu</value>
+        <value>&lt;file&gt;: Carica u schedariu</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Carica u schedariu cù cumpressione specifica.</value>

@@ -43,13 +43,13 @@
         <value>Redaktoni skedarët Fluxion me lehtësi.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>PËRDORIMI: &lt;skedar&lgt; [--ngjeshje &lt;kompresim&lgt;] [--ruaj [ngjeshje] &lt;enkodim&lgt; &lt;skedar&lgt;] [--pa-gui] [--ndihmë]</value>
+        <value>PËRDORIMI: &lt;skedar&gt; [--ngjeshje &lt;kompresim&gt;] [--ruaj [ngjeshje] &lt;enkodim&gt; &lt;skedar&gt;] [--pa-gui] [--ndihmë]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Kërkohet. []: Fakultative</value>
+        <value>&lt;&gt;: Kërkohet. []: Fakultative</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Ngarkon skedarin</value>
+        <value>&lt;file&gt;: Ngarkon skedarin</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Ngarkon skedarin me kompresim specifik.</value>

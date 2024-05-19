@@ -43,13 +43,13 @@
         <value>Επεξεργαστείτε εύκολα τα αρχεία Fluxion.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ΧΡΗΣΗ: &lt;αρχείο&lgt; [--συμπίεση &lt;συμπίεση&lgt;] [--αποθήκευση [συμπίεση] &lt;κωδικοποίηση&lgt; &lt;αρχείο&lgt;] [--χωρίς-gui] [--βοήθεια]</value>
+        <value>ΧΡΗΣΗ: &lt;αρχείο&gt; [--συμπίεση &lt;συμπίεση&gt;] [--αποθήκευση [συμπίεση] &lt;κωδικοποίηση&gt; &lt;αρχείο&gt;] [--χωρίς-gui] [--βοήθεια]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Υποχρεωτικό. []: Προαιρετικός</value>
+        <value>&lt;&gt;: Υποχρεωτικό. []: Προαιρετικός</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;αρχείο&lgt;: Φορτώνει το αρχείο</value>
+        <value>&lt;αρχείο&gt;: Φορτώνει το αρχείο</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Φορτώνει το αρχείο με συγκεκριμένη συμπίεση.</value>

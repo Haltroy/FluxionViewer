@@ -43,13 +43,13 @@
         <value>I-edit ang mga file sa Fluxion nga dali.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>PAGGAMIT: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>PAGGAMIT: &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Gikinahanglan. []: Kapilian</value>
+        <value>&lt;&gt;: Gikinahanglan. []: Kapilian</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Nagkarga sa file</value>
+        <value>&lt;file&gt;: Nagkarga sa file</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Nag-load sa file nga adunay piho nga compression.</value>

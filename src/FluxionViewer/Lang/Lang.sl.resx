@@ -43,13 +43,13 @@
         <value>Enostavno urejajte datoteke Fluxion.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>UPORABA: &lt;datoteka&lgt; [--stiskanje &lt;stiskanje&lgt;] [--shrani [stiskanje] &lt;kodiranje&lgt; &lt;datoteka&lgt;] [--no-gui] [--pomoč]</value>
+        <value>UPORABA: &lt;datoteka&gt; [--stiskanje &lt;stiskanje&gt;] [--shrani [stiskanje] &lt;kodiranje&gt; &lt;datoteka&gt;] [--no-gui] [--pomoč]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: obvezno. []: Neobvezno</value>
+        <value>&lt;&gt;: obvezno. []: Neobvezno</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;datoteka&lgt;: Naloži datoteko</value>
+        <value>&lt;datoteka&gt;: Naloži datoteko</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression STISKANJE: naloži datoteko s posebnim stiskanjem.</value>

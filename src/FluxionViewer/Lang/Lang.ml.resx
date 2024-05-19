@@ -43,13 +43,13 @@
         <value>ഫ്ലക്‌ഷൻ ഫയലുകൾ എളുപ്പത്തിൽ എഡിറ്റ് ചെയ്യുക.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ഉപയോഗം: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>ഉപയോഗം: &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: ആവശ്യമാണ്. []: ഓപ്ഷണൽ</value>
+        <value>&lt;&gt;: ആവശ്യമാണ്. []: ഓപ്ഷണൽ</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: ഫയൽ ലോഡ് ചെയ്യുന്നു</value>
+        <value>&lt;file&gt;: ഫയൽ ലോഡ് ചെയ്യുന്നു</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--കംപ്രഷൻ കംപ്രഷൻ: നിർദ്ദിഷ്ട കംപ്രഷൻ ഉപയോഗിച്ച് ഫയൽ ലോഡ് ചെയ്യുന്നു.</value>

@@ -43,13 +43,13 @@
         <value>Lengvai redaguokite Fluxion failus.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>NAUDOJIMAS: &lt;failas&lgt; [--suspaudimas &lt;suspaudimas&lgt;] [--išsaugoti [suspaudimas] &lt;kodavimas&lgt; &lt;failas&lgt;] [--no-gui] [--pagalba]</value>
+        <value>NAUDOJIMAS: &lt;failas&gt; [--suspaudimas &lt;suspaudimas&gt;] [--išsaugoti [suspaudimas] &lt;kodavimas&gt; &lt;failas&gt;] [--no-gui] [--pagalba]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: būtina. []: neprivaloma</value>
+        <value>&lt;&gt;: būtina. []: neprivaloma</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;failas&lgt;: įkeliamas failas</value>
+        <value>&lt;failas&gt;: įkeliamas failas</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression KOMPRESIJA: įkeliamas failas su specifiniu suspaudimu.</value>

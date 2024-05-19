@@ -43,13 +43,13 @@
         <value>Лёгка рэдагуйце файлы Fluxion.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ВЫКАРЫСТАННЕ: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;coding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>ВЫКАРЫСТАННЕ: &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;coding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: абавязковы. []: неабавязковы</value>
+        <value>&lt;&gt;: абавязковы. []: неабавязковы</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;файл&lgt;: загружае файл</value>
+        <value>&lt;файл&gt;: загружае файл</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: загружае файл з пэўным сцісканнем.</value>

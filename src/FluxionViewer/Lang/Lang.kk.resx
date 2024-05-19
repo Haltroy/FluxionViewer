@@ -43,13 +43,13 @@
         <value>Fluxion файлдарын оңай өңдеңіз.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ҚОЛДАНУ: &lt;файл&lgt; [--қысу &lt;қысу&lgt;] [--сақтау [қысу] &lt;кодтау&lgt; &lt;файл&lgt;] [--no-gui] [--анықтама]</value>
+        <value>ҚОЛДАНУ: &lt;файл&gt; [--қысу &lt;қысу&gt;] [--сақтау [қысу] &lt;кодтау&gt; &lt;файл&gt;] [--no-gui] [--анықтама]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Міндетті. []: Қосымша</value>
+        <value>&lt;&gt;: Міндетті. []: Қосымша</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;файл&lgt;: файлды жүктейді</value>
+        <value>&lt;файл&gt;: файлды жүктейді</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMRESSION: файлды арнайы қысу арқылы жүктейді.</value>

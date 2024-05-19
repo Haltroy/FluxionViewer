@@ -43,13 +43,13 @@
         <value>轻松编辑 Fluxion 文件。</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>用法： &lt;文件&lgt; [--压缩 &lt;压缩&lgt;] [--save [压缩] &lt;编码&lgt; &lt;文件&lgt;] [--no-gui] [--help]</value>
+        <value>用法： &lt;文件&gt; [--压缩 &lt;压缩&gt;] [--save [压缩] &lt;编码&gt; &lt;文件&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;：必填。 []： 选修的</value>
+        <value>&lt;&gt;：必填。 []： 选修的</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;文件&lgt;：加载文件</value>
+        <value>&lt;文件&gt;：加载文件</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION：加载具有特定压缩的文件。</value>

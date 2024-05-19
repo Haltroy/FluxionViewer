@@ -43,13 +43,13 @@
         <value>Fluxion файлуудыг хялбархан засаарай.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ХЭРЭГЛЭЭ: &lt;файл&lgt; [--шахалт &lt;шахалт&lgt;] [--хадгалах [шахалт] &lt;кодлох&lgt; &lt;файл&lgt;] [--no-gui] [--help]</value>
+        <value>ХЭРЭГЛЭЭ: &lt;файл&gt; [--шахалт &lt;шахалт&gt;] [--хадгалах [шахалт] &lt;кодлох&gt; &lt;файл&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Шаардлагатай. []: Нэмэлт</value>
+        <value>&lt;&gt;: Шаардлагатай. []: Нэмэлт</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;файл&lgt;: Файлыг ачаална</value>
+        <value>&lt;файл&gt;: Файлыг ачаална</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Файлыг тусгай шахалтаар ачаална.</value>

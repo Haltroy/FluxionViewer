@@ -43,13 +43,13 @@
         <value>Redaktu Fluxion-dosierojn facile.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>UZADO: &lt;dosiero&lgt; [--compression &lt;kunpremo&lgt;] [--save [kunpremado] &lt;kodigo&lgt; &lt;dosiero&lgt;] [--no-gui] [--helpo]</value>
+        <value>UZADO: &lt;dosiero&gt; [--compression &lt;kunpremo&gt;] [--save [kunpremado] &lt;kodigo&gt; &lt;dosiero&gt;] [--no-gui] [--helpo]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Bezonata. []: Nedeviga</value>
+        <value>&lt;&gt;: Bezonata. []: Nedeviga</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;dosiero&lgt;: Ŝargas la dosieron</value>
+        <value>&lt;dosiero&gt;: Ŝargas la dosieron</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Ŝarĝas la dosieron kun specifa kunpremo.</value>

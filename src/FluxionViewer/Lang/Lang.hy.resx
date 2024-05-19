@@ -43,13 +43,13 @@
         <value>Հեշտությամբ խմբագրեք Fluxion ֆայլերը:</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ՕԳՏԱԳՈՐԾՈՒՄ. &lt;ֆայլ&lgt; [--սեղմում &lt;սեղմում&lgt;] [--պահպանել [սեղմում] &lt;կոդավորում&lgt; &lt;ֆայլ&lgt;] [--no-gui] [-- օգնություն]</value>
+        <value>ՕԳՏԱԳՈՐԾՈՒՄ. &lt;ֆայլ&gt; [--սեղմում &lt;սեղմում&gt;] [--պահպանել [սեղմում] &lt;կոդավորում&gt; &lt;ֆայլ&gt;] [--no-gui] [-- օգնություն]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Պահանջվում է: []: կամընտիր</value>
+        <value>&lt;&gt;: Պահանջվում է: []: կամընտիր</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Բեռնում է ֆայլը</value>
+        <value>&lt;file&gt;: Բեռնում է ֆայլը</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--սեղմում COMPRESSION. բեռնում է ֆայլը հատուկ սեղմումով:</value>

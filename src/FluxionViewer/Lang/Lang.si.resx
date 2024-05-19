@@ -43,13 +43,13 @@
         <value>Fluxion ගොනු පහසුවෙන් සංස්කරණය කරන්න.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>භාවිතය: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>භාවිතය: &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: අවශ්‍යයි. []: විකල්ප</value>
+        <value>&lt;&gt;: අවශ්‍යයි. []: විකල්ප</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: ගොනුව පූරණය කරයි</value>
+        <value>&lt;file&gt;: ගොනුව පූරණය කරයි</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: විශේෂිත සම්පීඩනයකින් ගොනුව පූරණය කරයි.</value>

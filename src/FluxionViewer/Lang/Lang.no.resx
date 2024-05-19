@@ -43,13 +43,13 @@
         <value>Rediger Fluxion-filer enkelt.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>BRUK: &lt;fil&lgt; [--komprimering &lt;komprimering&lgt;] [--lagre [komprimering] &lt;koding&lgt; &lt;fil&lgt;] [--no-gui] [--hjelp]</value>
+        <value>BRUK: &lt;fil&gt; [--komprimering &lt;komprimering&gt;] [--lagre [komprimering] &lt;koding&gt; &lt;fil&gt;] [--no-gui] [--hjelp]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Påkrevd. []: Valgfritt</value>
+        <value>&lt;&gt;: Påkrevd. []: Valgfritt</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;fil&lgt;: Laster filen</value>
+        <value>&lt;fil&gt;: Laster filen</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--komprimering KOMPRESSERING: Laster filen med spesifikk komprimering.</value>

@@ -43,13 +43,13 @@
         <value>Z łatwością edytuj pliki Fluxion.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>UŻYCIE: &lt;plik&lgt; [--kompresja &lt;kompresja&lgt;] [--save [kompresja] &lt;kodowanie&lgt; &lt;plik&lgt;] [--no-gui] [--help]</value>
+        <value>UŻYCIE: &lt;plik&gt; [--kompresja &lt;kompresja&gt;] [--save [kompresja] &lt;kodowanie&gt; &lt;plik&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Wymagane. []: Opcjonalny</value>
+        <value>&lt;&gt;: Wymagane. []: Opcjonalny</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;plik&lgt;: Ładuje plik</value>
+        <value>&lt;plik&gt;: Ładuje plik</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression KOMPRESJA: Ładuje plik z określoną kompresją.</value>

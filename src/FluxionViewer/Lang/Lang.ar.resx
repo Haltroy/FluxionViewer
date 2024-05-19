@@ -43,13 +43,13 @@
         <value>تحرير ملفات Fluxion بسهولة.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>الاستخدام: &lt;ملف&lgt; [--ضغط &lt;ضغط&lgt;] [--حفظ [ضغط] &lt;ترميز&lgt; &lt;ملف&lgt;] [--no-gui] [--مساعدة]</value>
+        <value>الاستخدام: &lt;ملف&gt; [--ضغط &lt;ضغط&gt;] [--حفظ [ضغط] &lt;ترميز&gt; &lt;ملف&gt;] [--no-gui] [--مساعدة]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: مطلوب. []: خياري</value>
+        <value>&lt;&gt;: مطلوب. []: خياري</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;ملف&lgt;: تحميل الملف</value>
+        <value>&lt;ملف&gt;: تحميل الملف</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: تحميل الملف بضغط محدد.</value>

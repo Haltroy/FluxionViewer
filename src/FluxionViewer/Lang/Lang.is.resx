@@ -43,13 +43,13 @@
         <value>Breyttu Fluxion skrám auðveldlega.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>NOTKUN: &lt;skrá&lgt; [--þjöppun &lt;þjöppun&lgt;] [--vista [þjöppun] &lt;kóðun&lgt; &lt;skrá&lgt;] [--no-gui] [--hjálp]</value>
+        <value>NOTKUN: &lt;skrá&gt; [--þjöppun &lt;þjöppun&gt;] [--vista [þjöppun] &lt;kóðun&gt; &lt;skrá&gt;] [--no-gui] [--hjálp]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Nauðsynlegt. []: Valfrjálst</value>
+        <value>&lt;&gt;: Nauðsynlegt. []: Valfrjálst</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;skrá&lgt;: Hleður skránni</value>
+        <value>&lt;skrá&gt;: Hleður skránni</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--þjöppun ÞJÁTTUN: Hleður skránni með sérstakri þjöppun.</value>

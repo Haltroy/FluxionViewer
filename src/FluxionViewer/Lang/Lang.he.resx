@@ -43,13 +43,13 @@
         <value>ערוך קבצי Fluxion בקלות.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>שימוש: &lt;קובץ&lgt; [--דחיסה &lt;דחיסה&lgt;] [--שמור [דחיסה] &lt;קידוד&lgt; &lt;קובץ&lgt;] [--no-gui] [--עזרה]</value>
+        <value>שימוש: &lt;קובץ&gt; [--דחיסה &lt;דחיסה&gt;] [--שמור [דחיסה] &lt;קידוד&gt; &lt;קובץ&gt;] [--no-gui] [--עזרה]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: חובה. []: אופציונאלי</value>
+        <value>&lt;&gt;: חובה. []: אופציונאלי</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: טוען את הקובץ</value>
+        <value>&lt;file&gt;: טוען את הקובץ</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--דחיסה דחיסה: טוען את הקובץ עם דחיסה ספציפית.</value>

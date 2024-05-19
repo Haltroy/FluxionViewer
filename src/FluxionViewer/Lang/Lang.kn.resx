@@ -43,13 +43,13 @@
         <value>ಫ್ಲಕ್ಶನ್ ಫೈಲ್‌ಗಳನ್ನು ಸುಲಭವಾಗಿ ಸಂಪಾದಿಸಿ.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ಬಳಕೆ: &lt;file&lgt; [--ಸಂಕೋಚನ &lt;ಸಂಕುಚನ&lgt;] [--ಸೇವ್ [ಸಂಕುಚನ] &lt;ಎನ್‌ಕೋಡಿಂಗ್&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>ಬಳಕೆ: &lt;file&gt; [--ಸಂಕೋಚನ &lt;ಸಂಕುಚನ&gt;] [--ಸೇವ್ [ಸಂಕುಚನ] &lt;ಎನ್‌ಕೋಡಿಂಗ್&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: ಅಗತ್ಯವಿದೆ. []: ಐಚ್ಛಿಕ</value>
+        <value>&lt;&gt;: ಅಗತ್ಯವಿದೆ. []: ಐಚ್ಛಿಕ</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡುತ್ತದೆ</value>
+        <value>&lt;file&gt;: ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡುತ್ತದೆ</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression compression: ನಿರ್ದಿಷ್ಟ ಕಂಪ್ರೆಷನ್‌ನೊಂದಿಗೆ ಫೈಲ್ ಅನ್ನು ಲೋಡ್ ಮಾಡುತ್ತದೆ.</value>

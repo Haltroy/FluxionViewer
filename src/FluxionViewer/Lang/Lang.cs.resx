@@ -43,13 +43,13 @@
         <value>Upravujte soubory Fluxion snadno.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>POUŽITÍ: &lt;soubor&lgt; [--komprese &lt;komprese&lgt;] [--save [komprese] &lt;kódování&lgt; &lt;soubor&lgt;] [--no-gui] [--help]</value>
+        <value>POUŽITÍ: &lt;soubor&gt; [--komprese &lt;komprese&gt;] [--save [komprese] &lt;kódování&gt; &lt;soubor&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Povinné. []: Volitelné</value>
+        <value>&lt;&gt;: Povinné. []: Volitelné</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;soubor&lgt;: Načte soubor</value>
+        <value>&lt;soubor&gt;: Načte soubor</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Načte soubor se specifickou kompresí.</value>

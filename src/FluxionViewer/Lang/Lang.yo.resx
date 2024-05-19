@@ -43,13 +43,13 @@
         <value>Ṣatunkọ awọn faili Fluxion ni irọrun.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>LILO: &lt;faili&lgt; [--funmorawon &lt;compression&lgt;] [--fipamọ [funmorawon] &lt;fifile&lgt;] [--no-gui] [--iranlọwọ]</value>
+        <value>LILO: &lt;faili&gt; [--funmorawon &lt;compression&gt;] [--fipamọ [funmorawon] &lt;fifile&gt;] [--no-gui] [--iranlọwọ]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: beere. []: iyan</value>
+        <value>&lt;&gt;: beere. []: iyan</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;faili&lgt;: O kojọpọ faili naa</value>
+        <value>&lt;faili&gt;: O kojọpọ faili naa</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--funmorawon COMPRESSION: Kojọpọ faili pẹlu funmorawon kan pato.</value>

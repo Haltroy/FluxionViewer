@@ -43,13 +43,13 @@
         <value>Editja l-fajls Fluxion faċilment.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>UŻU: &lt;file&lgt; [--compression &lt;kompressjoni&lgt;] [--save [kompressjoni] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>UŻU: &lt;file&gt; [--compression &lt;kompressjoni&gt;] [--save [kompressjoni] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Meħtieġa. []: Mhux obbligatorju</value>
+        <value>&lt;&gt;: Meħtieġa. []: Mhux obbligatorju</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Tgħabbi l-fajl</value>
+        <value>&lt;file&gt;: Tgħabbi l-fajl</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--kompressjoni KOMPRESJONI: Tgħabbi l-fajl b&apos;kompressjoni speċifika.</value>

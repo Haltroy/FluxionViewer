@@ -43,13 +43,13 @@
         <value>Jednostavno uredite Fluxion datoteke.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>UPOTREBA: &lt;datoteka&lgt; [--kompresija &lt;kompresija&lgt;] [--spremi [kompresija] &lt;kodiranje&lgt; &lt;datoteka&lgt;] [--no-gui] [--pomoć]</value>
+        <value>UPOTREBA: &lt;datoteka&gt; [--kompresija &lt;kompresija&gt;] [--spremi [kompresija] &lt;kodiranje&gt; &lt;datoteka&gt;] [--no-gui] [--pomoć]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Obavezno. []: izborno</value>
+        <value>&lt;&gt;: Obavezno. []: izborno</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Učitava datoteku</value>
+        <value>&lt;file&gt;: Učitava datoteku</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression KOMPRESIJA: Učitava datoteku s određenom kompresijom.</value>

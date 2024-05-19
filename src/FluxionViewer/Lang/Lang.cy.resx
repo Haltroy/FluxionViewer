@@ -43,13 +43,13 @@
         <value>Golygu ffeiliau Fluxion yn hawdd.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>DEFNYDD: &lt;ffeil&lgt; [--cywasgiad &lt;cywasgiad&lgt;] [--save [cywasgiad] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>DEFNYDD: &lt;ffeil&gt; [--cywasgiad &lt;cywasgiad&gt;] [--save [cywasgiad] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Angenrheidiol. []: Dewisol</value>
+        <value>&lt;&gt;: Angenrheidiol. []: Dewisol</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Yn llwytho&apos;r ffeil</value>
+        <value>&lt;file&gt;: Yn llwytho&apos;r ffeil</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--cywasgu Cywasgu: Llwytho&apos;r ffeil gyda cywasgu penodol.</value>

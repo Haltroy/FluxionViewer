@@ -43,13 +43,13 @@
         <value>Fluxion ਫਾਈਲਾਂ ਨੂੰ ਆਸਾਨੀ ਨਾਲ ਸੰਪਾਦਿਤ ਕਰੋ।</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ਵਰਤੋਂ: &lt;file&lgt; [-compression &lt;compression&lgt;] [--ਸੇਵ [ਕੰਪਰੈਸ਼ਨ] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>ਵਰਤੋਂ: &lt;file&gt; [-compression &lt;compression&gt;] [--ਸੇਵ [ਕੰਪਰੈਸ਼ਨ] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: ਲੋੜੀਂਦਾ। []: ਵਿਕਲਪਿਕ</value>
+        <value>&lt;&gt;: ਲੋੜੀਂਦਾ। []: ਵਿਕਲਪਿਕ</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: ਫਾਈਲ ਲੋਡ ਕਰਦਾ ਹੈ</value>
+        <value>&lt;file&gt;: ਫਾਈਲ ਲੋਡ ਕਰਦਾ ਹੈ</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression ਕੰਪਰੈਸ਼ਨ: ਖਾਸ ਕੰਪਰੈਸ਼ਨ ਨਾਲ ਫਾਈਲ ਲੋਡ ਕਰਦਾ ਹੈ।</value>

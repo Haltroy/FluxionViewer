@@ -43,13 +43,13 @@
         <value>فایل های Fluxion را به راحتی ویرایش کنید.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>استفاده: &lt;پرونده&lgt; [--فشرده سازی &lt;فشرده&lgt;] [--ذخیره [فشرده] &lt;رمزگذاری&lgt; &lt;پرونده&lgt;] [--no-gui] [--راهنما]</value>
+        <value>استفاده: &lt;پرونده&gt; [--فشرده سازی &lt;فشرده&gt;] [--ذخیره [فشرده] &lt;رمزگذاری&gt; &lt;پرونده&gt;] [--no-gui] [--راهنما]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: الزامی است. []: اختیاری</value>
+        <value>&lt;&gt;: الزامی است. []: اختیاری</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: فایل را بارگیری می کند</value>
+        <value>&lt;file&gt;: فایل را بارگیری می کند</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: فایل را با فشرده سازی خاص بارگذاری می کند.</value>

@@ -43,13 +43,13 @@
         <value>Hariri faili za Fluxion kwa urahisi.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>MATUMIZI: &lt;faili&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>MATUMIZI: &lt;faili&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Inahitajika. []: Hiari</value>
+        <value>&lt;&gt;: Inahitajika. []: Hiari</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;faili&lgt;: Inapakia faili</value>
+        <value>&lt;faili&gt;: Inapakia faili</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--Mfinyazo Mfinyazo: Hupakia faili kwa mbano maalum.</value>

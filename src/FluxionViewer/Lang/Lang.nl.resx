@@ -43,13 +43,13 @@
         <value>Bewerk Fluxion-bestanden eenvoudig.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>GEBRUIK: &lt;bestand&lgt; [--compressie &lt;compressie&lgt;] [--opslaan [compressie] &lt;codering&lgt; &lt;bestand&lgt;] [--no-gui] [--help]</value>
+        <value>GEBRUIK: &lt;bestand&gt; [--compressie &lt;compressie&gt;] [--opslaan [compressie] &lt;codering&gt; &lt;bestand&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Vereist. []: Optioneel</value>
+        <value>&lt;&gt;: Vereist. []: Optioneel</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;bestand&lgt;: laadt het bestand</value>
+        <value>&lt;bestand&gt;: laadt het bestand</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSIE: Laadt het bestand met specifieke compressie.</value>

@@ -43,13 +43,13 @@
         <value>Bearbeiten Sie Fluxion-Dateien einfach.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>VERWENDUNG: &lt;Datei&lgt; [--compression &lt;Komprimierung&lgt;] [--save [Komprimierung] &lt;Kodierung&lgt; &lt;Datei&lgt;] [--no-gui] [--help]</value>
+        <value>VERWENDUNG: &lt;Datei&gt; [--compression &lt;Komprimierung&gt;] [--save [Komprimierung] &lt;Kodierung&gt; &lt;Datei&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Erforderlich. []: Optional</value>
+        <value>&lt;&gt;: Erforderlich. []: Optional</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;Datei&lgt;: Lädt die Datei</value>
+        <value>&lt;Datei&gt;: Lädt die Datei</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Lädt die Datei mit einer bestimmten Komprimierung.</value>

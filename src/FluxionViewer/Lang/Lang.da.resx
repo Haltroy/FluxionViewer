@@ -43,13 +43,13 @@
         <value>Rediger Fluxion-filer nemt.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>BRUG: &lt;fil&lgt; [--komprimering &lt;komprimering&lgt;] [--gem [komprimering] &lt;kodning&lgt; &lt;fil&lgt;] [--no-gui] [--hjælp]</value>
+        <value>BRUG: &lt;fil&gt; [--komprimering &lt;komprimering&gt;] [--gem [komprimering] &lt;kodning&gt; &lt;fil&gt;] [--no-gui] [--hjælp]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Påkrævet. []: Valgfrit</value>
+        <value>&lt;&gt;: Påkrævet. []: Valgfrit</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;fil&lgt;: Indlæser filen</value>
+        <value>&lt;fil&gt;: Indlæser filen</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--komprimering KOMPRESSION: Indlæser filen med specifik komprimering.</value>

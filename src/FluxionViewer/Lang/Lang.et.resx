@@ -43,13 +43,13 @@
         <value>Redigeerige Fluxioni faile lihtsalt.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>KASUTAMINE: &lt;fail&lgt; [--tihendamine &lt;pakkimine&lgt;] [--salvesta [tihendamine] &lt;kodeering&lgt; &lt;fail&lgt;] [--no-gui] [--abi]</value>
+        <value>KASUTAMINE: &lt;fail&gt; [--tihendamine &lt;pakkimine&gt;] [--salvesta [tihendamine] &lt;kodeering&gt; &lt;fail&gt;] [--no-gui] [--abi]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: nõutav. []: valikuline</value>
+        <value>&lt;&gt;: nõutav. []: valikuline</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;fail&lgt;: laadib faili</value>
+        <value>&lt;fail&gt;: laadib faili</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression KOMPRESSIOON: laadib faili kindla tihendusega.</value>

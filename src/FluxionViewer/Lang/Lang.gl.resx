@@ -43,13 +43,13 @@
         <value>Edita ficheiros Fluxion facilmente.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>USO: &lt;ficheiro&lgt; [--compression &lt;compresión&lgt;] [--save [compresión] &lt;codificación&lgt; &lt;ficheiro&lgt;] [--no-gui] [--help]</value>
+        <value>USO: &lt;ficheiro&gt; [--compression &lt;compresión&gt;] [--save [compresión] &lt;codificación&gt; &lt;ficheiro&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Obrigatorio. []: Opcional</value>
+        <value>&lt;&gt;: Obrigatorio. []: Opcional</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;ficheiro&lgt;: carga o ficheiro</value>
+        <value>&lt;ficheiro&gt;: carga o ficheiro</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESIÓN: Carga o ficheiro cunha compresión específica.</value>

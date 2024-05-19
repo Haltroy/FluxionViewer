@@ -43,13 +43,13 @@
         <value>Redigera Fluxion-filer enkelt.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ANVÄNDNING: &lt;fil&lgt; [--komprimering &lt;komprimering&lgt;] [--spara [komprimering] &lt;kodning&lgt; &lt;fil&lgt;] [--no-gui] [--hjälp]</value>
+        <value>ANVÄNDNING: &lt;fil&gt; [--komprimering &lt;komprimering&gt;] [--spara [komprimering] &lt;kodning&gt; &lt;fil&gt;] [--no-gui] [--hjälp]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Krävs. []: Valfritt</value>
+        <value>&lt;&gt;: Krävs. []: Valfritt</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;fil&lgt;: Laddar filen</value>
+        <value>&lt;fil&gt;: Laddar filen</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Laddar filen med specifik komprimering.</value>

@@ -43,13 +43,13 @@
         <value>កែសម្រួលឯកសារ Fluxion យ៉ាងងាយស្រួល។</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ការប្រើប្រាស់៖ &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>ការប្រើប្រាស់៖ &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;៖ ទាមទារ។ []៖ ស្រេចចិត្ត</value>
+        <value>&lt;&gt;៖ ទាមទារ។ []៖ ស្រេចចិត្ត</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;៖ ផ្ទុកឯកសារ</value>
+        <value>&lt;file&gt;៖ ផ្ទុកឯកសារ</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION៖ ផ្ទុកឯកសារជាមួយនឹងការបង្ហាប់ជាក់លាក់។</value>

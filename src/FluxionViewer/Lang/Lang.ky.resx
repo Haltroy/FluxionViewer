@@ -43,13 +43,13 @@
         <value>Fluxion файлдарын оңой түзөтүңүз.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>КОЛДОНУУ: &lt;файл&lgt; [--кысуу &lt;кысуу&lgt;] [--сактоо [кысылуу] &lt;коддоо&lgt; &lt;файл&lgt;] [--no-gui] [--жардам]</value>
+        <value>КОЛДОНУУ: &lt;файл&gt; [--кысуу &lt;кысуу&gt;] [--сактоо [кысылуу] &lt;коддоо&gt; &lt;файл&gt;] [--no-gui] [--жардам]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Милдеттүү. []: Кошумча</value>
+        <value>&lt;&gt;: Милдеттүү. []: Кошумча</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Файлды жүктөйт</value>
+        <value>&lt;file&gt;: Файлды жүктөйт</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression КЫСУУ: Файлды атайын кысуу менен жүктөйт.</value>

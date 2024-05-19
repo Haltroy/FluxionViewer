@@ -43,13 +43,13 @@
         <value>רעדאַגירן פלוקסיאָן טעקעס לייכט.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>באַניץ: &lt;טעקע&lgt; [--קאַמפּרעשאַן &lt;קאַמפּרעשאַן&lgt;] [--היט [קאַמפּרעשאַן] &lt;ענקאָדינג&lgt; &lt;טעקע&lgt;] [--קיין-גוי] [--הילף]</value>
+        <value>באַניץ: &lt;טעקע&gt; [--קאַמפּרעשאַן &lt;קאַמפּרעשאַן&gt;] [--היט [קאַמפּרעשאַן] &lt;ענקאָדינג&gt; &lt;טעקע&gt;] [--קיין-גוי] [--הילף]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: פארלאנגט. []: אָפּטיאָנאַל</value>
+        <value>&lt;&gt;: פארלאנגט. []: אָפּטיאָנאַל</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;טעקע&lgt;: לאָדן די טעקע</value>
+        <value>&lt;טעקע&gt;: לאָדן די טעקע</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>- קאַמפּרעשאַן קאַמפּרעשאַן: לאָודז די טעקע מיט ספּעציפיש קאַמפּרעשאַן.</value>

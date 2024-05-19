@@ -43,13 +43,13 @@
         <value>सजिलैसँग Fluxion फाइलहरू सम्पादन गर्नुहोस्।</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>उपयोग: &lt;फाइल&lgt; [--संकुचन &lt;कम्प्रेसन&lgt;] [--बचत [कम्प्रेसन] &lt;इन्कोडिङ&lgt; &lt;फाइल&lgt;] [--नो-गुई] [--मद्दत]</value>
+        <value>उपयोग: &lt;फाइल&gt; [--संकुचन &lt;कम्प्रेसन&gt;] [--बचत [कम्प्रेसन] &lt;इन्कोडिङ&gt; &lt;फाइल&gt;] [--नो-गुई] [--मद्दत]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: आवश्यक छ। []: ऐच्छिक</value>
+        <value>&lt;&gt;: आवश्यक छ। []: ऐच्छिक</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: फाइल लोड गर्छ</value>
+        <value>&lt;file&gt;: फाइल लोड गर्छ</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>- कम्प्रेसन कम्प्रेसन: विशिष्ट कम्प्रेसनको साथ फाइल लोड गर्दछ।</value>

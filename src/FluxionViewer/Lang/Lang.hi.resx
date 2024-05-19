@@ -43,13 +43,13 @@
         <value>फ़्लक्सियन फ़ाइलों को आसानी से संपादित करें।</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>उपयोग: &lt;फ़ाइल&lgt; [--संपीड़न &lt;संपीड़न&lgt;] [--सहेजें [संपीड़न] &lt;एन्कोडिंग&lgt; &lt;फ़ाइल&lgt;] [--कोई-गुई] [--सहायता]</value>
+        <value>उपयोग: &lt;फ़ाइल&gt; [--संपीड़न &lt;संपीड़न&gt;] [--सहेजें [संपीड़न] &lt;एन्कोडिंग&gt; &lt;फ़ाइल&gt;] [--कोई-गुई] [--सहायता]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: आवश्यक. []: वैकल्पिक</value>
+        <value>&lt;&gt;: आवश्यक. []: वैकल्पिक</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;फ़ाइल&lgt;: फ़ाइल लोड करता है</value>
+        <value>&lt;फ़ाइल&gt;: फ़ाइल लोड करता है</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--संपीड़न संपीड़न: फ़ाइल को विशिष्ट संपीड़न के साथ लोड करता है।</value>

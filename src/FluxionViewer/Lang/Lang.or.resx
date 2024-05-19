@@ -43,13 +43,13 @@
         <value>ଫ୍ଲକ୍ସିଅନ୍ ଫାଇଲଗୁଡ଼ିକୁ ସହଜରେ ସଂପାଦନ କରନ୍ତୁ |</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ବ୍ୟବହାର: &lt;ଫାଇଲ&lgt; [- ସଙ୍କୋଚନ &lt;ସଙ୍କୋଚନ&lgt;] [- ସଂରକ୍ଷଣ [ସଙ୍କୋଚନ]</value>
+        <value>ବ୍ୟବହାର: &lt;ଫାଇଲ&gt; [- ସଙ୍କୋଚନ &lt;ସଙ୍କୋଚନ&gt;] [- ସଂରକ୍ଷଣ [ସଙ୍କୋଚନ]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: ଆବଶ୍ୟକ | []: ବ tion କଳ୍ପିକ |</value>
+        <value>&lt;&gt;: ଆବଶ୍ୟକ | []: ବ tion କଳ୍ପିକ |</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;ଫାଇଲ୍&lgt;: ଫାଇଲ୍ ଲୋଡ୍ କରେ |</value>
+        <value>&lt;ଫାଇଲ୍&gt;: ଫାଇଲ୍ ଲୋଡ୍ କରେ |</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>- ସଙ୍କୋଚନ ସଙ୍କୋଚନ: ନିର୍ଦ୍ଦିଷ୍ଟ ସଙ୍କୋଚନ ସହିତ ଫାଇଲ୍ ଲୋଡ୍ କରେ |</value>

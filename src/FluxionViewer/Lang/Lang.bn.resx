@@ -43,13 +43,13 @@
         <value>Fluxion ফাইল সহজে সম্পাদনা করুন.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>ব্যবহার: &lt;file&lgt; [--কম্প্রেশন &lt;কম্প্রেশন&lgt;] [--সংরক্ষণ করুন [সংকোচন] &lt;এনকোডিং&lgt; &lt;ফাইল&lgt;] [--নো-গুই] [--সহায়তা]</value>
+        <value>ব্যবহার: &lt;file&gt; [--কম্প্রেশন &lt;কম্প্রেশন&gt;] [--সংরক্ষণ করুন [সংকোচন] &lt;এনকোডিং&gt; &lt;ফাইল&gt;] [--নো-গুই] [--সহায়তা]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: প্রয়োজনীয়। []: ঐচ্ছিক</value>
+        <value>&lt;&gt;: প্রয়োজনীয়। []: ঐচ্ছিক</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: ফাইল লোড করে</value>
+        <value>&lt;file&gt;: ফাইল লোড করে</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression কম্প্রেশন: নির্দিষ্ট কম্প্রেশন সহ ফাইল লোড করে।</value>

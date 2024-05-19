@@ -43,13 +43,13 @@
         <value>د Fluxion فایلونه په اسانۍ سره ایډیټ کړئ.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>کارول: &lt;file&lgt; [--compression &lt;compression&lgt;] [-Save [compression] &lt;encoding&lgt; &lt;file&lgt;] [-no-gui] [--help]</value>
+        <value>کارول: &lt;file&gt; [--compression &lt;compression&gt;] [-Save [compression] &lt;encoding&gt; &lt;file&gt;] [-no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: اړین دی. []: اختیاري</value>
+        <value>&lt;&gt;: اړین دی. []: اختیاري</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;فایل&lgt;: فایل پورته کوي</value>
+        <value>&lt;فایل&gt;: فایل پورته کوي</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--کمپریشن کمپریشن: فایل د ځانګړي کمپریشن سره باروي.</value>

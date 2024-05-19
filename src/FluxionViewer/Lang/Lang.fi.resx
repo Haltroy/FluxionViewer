@@ -43,13 +43,13 @@
         <value>Muokkaa Fluxion-tiedostoja helposti.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>KÄYTTÖ: &lt;tiedosto&lgt; [--pakkaus &lt;pakkaus&lgt;] [--tallenna [pakkaus] &lt;koodaus&lgt; &lt;tiedosto&lgt;] [--no-gui] [--ohje]</value>
+        <value>KÄYTTÖ: &lt;tiedosto&gt; [--pakkaus &lt;pakkaus&gt;] [--tallenna [pakkaus] &lt;koodaus&gt; &lt;tiedosto&gt;] [--no-gui] [--ohje]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Pakollinen. []: Valinnainen</value>
+        <value>&lt;&gt;: Pakollinen. []: Valinnainen</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;tiedosto&lgt;: Lataa tiedoston</value>
+        <value>&lt;tiedosto&gt;: Lataa tiedoston</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression PAKKAUS: Lataa tiedoston tietyllä pakkauksella.</value>

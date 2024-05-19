@@ -43,13 +43,13 @@
         <value>Лако уређујте Флукион датотеке.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>УПОТРЕБА: &lt;датотека&lgt; [--компресија &lt;компресија&lgt;] [--сачувај [компресија] &lt;кодирање&lgt; &lt;датотека&lgt;] [--но-гуи] [--помоћ]</value>
+        <value>УПОТРЕБА: &lt;датотека&gt; [--компресија &lt;компресија&gt;] [--сачувај [компресија] &lt;кодирање&gt; &lt;датотека&gt;] [--но-гуи] [--помоћ]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Обавезно. []: Опционо</value>
+        <value>&lt;&gt;: Обавезно. []: Опционо</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;датотека&lgt;: Учитава датотеку</value>
+        <value>&lt;датотека&gt;: Учитава датотеку</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--цомпрессион КОМПРЕСИЈА: Учитава датотеку са специфичном компресијом.</value>

@@ -43,13 +43,13 @@
         <value>Fluxion fayllarını asanlıqla redaktə edin.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>İSTİFADƏ: &lt;fayl&lgt; [--sıxılma &lt;sıxılma&lgt;] [--saxla [sıxılma] &lt;kodlaşdırma&lgt; &lt;fayl&lgt;] [--no-gui] [--help]</value>
+        <value>İSTİFADƏ: &lt;fayl&gt; [--sıxılma &lt;sıxılma&gt;] [--saxla [sıxılma] &lt;kodlaşdırma&gt; &lt;fayl&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Tələb olunur. []: Könüllü</value>
+        <value>&lt;&gt;: Tələb olunur. []: Könüllü</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;fayl&lgt;: Faylı yükləyir</value>
+        <value>&lt;fayl&gt;: Faylı yükləyir</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMRESSION: Faylı xüsusi sıxılma ilə yükləyir.</value>

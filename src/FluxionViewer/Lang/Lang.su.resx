@@ -43,13 +43,13 @@
         <value>Édit file Fluxion kalayan gampang.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>Pamakéan: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [komprési] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>Pamakéan: &lt;file&gt; [--compression &lt;compression&gt;] [--save [komprési] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: diperlukeun. []: Pilihan</value>
+        <value>&lt;&gt;: diperlukeun. []: Pilihan</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Ngamuat file</value>
+        <value>&lt;file&gt;: Ngamuat file</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Ngamuat file ku komprési husus.</value>

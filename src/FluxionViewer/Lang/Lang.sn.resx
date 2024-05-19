@@ -43,13 +43,13 @@
         <value>Rongedza mafaira eFluxion zviri nyore.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>KUSHANDISA: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>KUSHANDISA: &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Inodiwa. []: Sarudzo</value>
+        <value>&lt;&gt;: Inodiwa. []: Sarudzo</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Inorodha faira</value>
+        <value>&lt;file&gt;: Inorodha faira</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Inotakura iyo faira nekumanikidza chaiko.</value>

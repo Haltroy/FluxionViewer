@@ -43,13 +43,13 @@
         <value>ఫ్లక్షన్ ఫైల్‌లను సులభంగా సవరించండి.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>USAGE: &lt;file&lgt; [--compression &lt;compression&lgt;] [--save [compression] &lt;encoding&lgt; &lt;file&lgt;] [--no-gui] [--help]</value>
+        <value>USAGE: &lt;file&gt; [--compression &lt;compression&gt;] [--save [compression] &lt;encoding&gt; &lt;file&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: అవసరం. []: ఐచ్ఛికం</value>
+        <value>&lt;&gt;: అవసరం. []: ఐచ్ఛికం</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: ఫైల్‌ను లోడ్ చేస్తుంది</value>
+        <value>&lt;file&gt;: ఫైల్‌ను లోడ్ చేస్తుంది</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--కంప్రెషన్ కంప్రెషన్: నిర్దిష్ట కంప్రెషన్‌తో ఫైల్‌ను లోడ్ చేస్తుంది.</value>

@@ -43,13 +43,13 @@
         <value>Fluxion 파일을 쉽게 편집할 수 있습니다.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>사용법: &lt;파일&lgt; [--compression &lt;압축&lgt;] [--save [압축] &lt;인코딩&lgt; &lt;파일&lgt;] [--no-gui] [--help]</value>
+        <value>사용법: &lt;파일&gt; [--compression &lt;압축&gt;] [--save [압축] &lt;인코딩&gt; &lt;파일&gt;] [--no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: 필수입니다. []: 선택 사항</value>
+        <value>&lt;&gt;: 필수입니다. []: 선택 사항</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: 파일을 로드합니다.</value>
+        <value>&lt;file&gt;: 파일을 로드합니다.</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: 특정 압축으로 파일을 로드합니다.</value>

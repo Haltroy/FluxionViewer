@@ -43,13 +43,13 @@
         <value>Egyszerűen szerkesztheti a Fluxion fájlokat.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>HASZNÁLAT: &lt;fájl&lgt; [--tömörítés &lt;tömörítés&lgt;] [--mentés [tömörítés] &lt;kódolás&lgt; &lt;fájl&lgt;] [--no-gui] [--súgó]</value>
+        <value>HASZNÁLAT: &lt;fájl&gt; [--tömörítés &lt;tömörítés&gt;] [--mentés [tömörítés] &lt;kódolás&gt; &lt;fájl&gt;] [--no-gui] [--súgó]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Kötelező. []: Választható</value>
+        <value>&lt;&gt;: Kötelező. []: Választható</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;fájl&lgt;: betölti a fájlt</value>
+        <value>&lt;fájl&gt;: betölti a fájlt</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression Tömörítés: Betölti a fájlt meghatározott tömörítéssel.</value>

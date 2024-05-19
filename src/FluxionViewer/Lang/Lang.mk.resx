@@ -43,13 +43,13 @@
         <value>Лесно уредувајте ги датотеките Fluxion.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>КОРИСТЕЊЕ: &lt;датотека&lgt; [--компресија &lt;компресија&lgt;] [--зачувај [компресија] &lt;кодирање&lgt; &lt;датотека&lgt;] [--не-gui] [--помош]</value>
+        <value>КОРИСТЕЊЕ: &lt;датотека&gt; [--компресија &lt;компресија&gt;] [--зачувај [компресија] &lt;кодирање&gt; &lt;датотека&gt;] [--не-gui] [--помош]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: Задолжително. []: Изборен</value>
+        <value>&lt;&gt;: Задолжително. []: Изборен</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;датотека&lgt;: ја вчитува датотеката</value>
+        <value>&lt;датотека&gt;: ја вчитува датотеката</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression КОМПРЕСИЈА: Ја вчитува датотеката со специфична компресија.</value>

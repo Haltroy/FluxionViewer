@@ -43,13 +43,13 @@
         <value>Shirya fayilolin Fluxion cikin sauƙi.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>AMFANI: &lt;file&lgt; [--matsi &lt;matsawa&lgt;] [--save [matsi] &lt;encoding&lgt; &lt;file&lgt;] [-no-gui] [--help]</value>
+        <value>AMFANI: &lt;file&gt; [--matsi &lt;matsawa&gt;] [--save [matsi] &lt;encoding&gt; &lt;file&gt;] [-no-gui] [--help]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt; Ana bukata. []: Na zaɓi</value>
+        <value>&lt;&gt; Ana bukata. []: Na zaɓi</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: Yana loda fayil ɗin</value>
+        <value>&lt;file&gt;: Yana loda fayil ɗin</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: Yana loda fayil ɗin tare da takamaiman matsawa.</value>

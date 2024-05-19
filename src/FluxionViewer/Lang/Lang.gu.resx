@@ -43,13 +43,13 @@
         <value>Fluxion ફાઇલોને સરળતાથી સંપાદિત કરો.</value>
     </data>
     <data name="help_0" xml:space="preserve">
-        <value>વપરાશ: &lt;ફાઇલ&lgt; [--સંકોચન &lt;સંકોચન&lgt;] [--સાચવો [કોમ્પ્રેશન] &lt;એનકોડિંગ&lgt; &lt;ફાઇલ&lgt;] [--નો-ગુઆઇ] [--સહાય]</value>
+        <value>વપરાશ: &lt;ફાઇલ&gt; [--સંકોચન &lt;સંકોચન&gt;] [--સાચવો [કોમ્પ્રેશન] &lt;એનકોડિંગ&gt; &lt;ફાઇલ&gt;] [--નો-ગુઆઇ] [--સહાય]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&lgt;: જરૂરી. []: વૈકલ્પિક</value>
+        <value>&lt;&gt;: જરૂરી. []: વૈકલ્પિક</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&lgt;: ફાઇલ લોડ કરે છે</value>
+        <value>&lt;file&gt;: ફાઇલ લોડ કરે છે</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--કોમ્પ્રેસન કમ્પ્રેશન: ચોક્કસ કમ્પ્રેશન સાથે ફાઇલ લોડ કરે છે.</value>
