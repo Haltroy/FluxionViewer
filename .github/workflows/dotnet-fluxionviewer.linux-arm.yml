@@ -13,6 +13,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: No auto-builds for ARM.
-        run: echo No auto-builds on ARM for now. GitHub does not have ARM runners. 
+      - uses: actions/checkout@v3
+
+      - name: Set up .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.0.100
+
+      - name: Install QEMU
+        run: |
+          sudo apt-get update
+          sudo apt-get install qemu-system-arm -y
+
+      - name: Build and Run on QEMU
+        run: |
+          qemu-system-arm -m 256 -smp 2 -cpu cortex-a72 -kernel -append "root=/dev/sda1" <<EOF
+            dotnet publish -c Release -r linux-arm64 -o ./publish/linux-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+          EOF
+          rm ./publish/linux-arm64/*.dbg
+      - name: Upload Artifact (Linux ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer Linux ARM64
+          path: ./publish/linux-arm64/
