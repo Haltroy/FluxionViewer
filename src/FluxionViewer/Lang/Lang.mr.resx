@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>एक नवीन विशेषता जोडा...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>फ्लक्सियन आवृत्ती:</value>
+    </data>
 </root>

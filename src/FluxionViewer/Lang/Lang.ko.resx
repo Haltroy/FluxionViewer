@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>새 속성 추가...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion 버전:</value>
+    </data>
 </root>

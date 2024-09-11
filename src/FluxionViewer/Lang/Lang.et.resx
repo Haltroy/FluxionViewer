@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Lisa uus atribuut...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxioni versioon:</value>
+    </data>
 </root>

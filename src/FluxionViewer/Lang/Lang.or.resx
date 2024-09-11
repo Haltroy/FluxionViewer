@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>ଏକ ନୂତନ ଗୁଣ ଯୋଡନ୍ତୁ ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>ଫ୍ଲକ୍ସିଅନ୍ ସଂସ୍କରଣ:</value>
+    </data>
 </root>

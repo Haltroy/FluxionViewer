@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Yangi atribut qo‘shish...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion versiyasi:</value>
+    </data>
 </root>

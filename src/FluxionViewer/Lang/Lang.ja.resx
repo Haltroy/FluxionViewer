@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>新しい属性を追加...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion バージョン:</value>
+    </data>
 </root>

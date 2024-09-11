@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Aldonu novan atributon...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion-Versio:</value>
+    </data>
 </root>

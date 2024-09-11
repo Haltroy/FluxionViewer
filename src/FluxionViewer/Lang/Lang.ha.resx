@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Ƙara sabon sifa...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Sigar Fluxion:</value>
+    </data>
 </root>

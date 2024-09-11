@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>يېڭى خاسلىق قوشۇڭ ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion نۇسخىسى:</value>
+    </data>
 </root>

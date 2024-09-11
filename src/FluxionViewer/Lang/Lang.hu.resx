@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Új attribútum hozzáadása...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion verzió:</value>
+    </data>
 </root>
