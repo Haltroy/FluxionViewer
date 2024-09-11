@@ -236,4 +236,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Yeni bir öznitelik ekle...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion Sürümü:</value>
+    </data>
 </root>

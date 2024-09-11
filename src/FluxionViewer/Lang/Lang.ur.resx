@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>ایک نیا وصف شامل کریں...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion ورژن:</value>
+    </data>
 </root>

@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Lägg till ett nytt attribut...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxionsversion:</value>
+    </data>
 </root>

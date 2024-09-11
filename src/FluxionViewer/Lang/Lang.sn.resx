@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Wedzera humwe hunhu...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion Version:</value>
+    </data>
 </root>

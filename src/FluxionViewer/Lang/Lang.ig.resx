@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Tinye àgwà ọhụrụ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Ụdị Fluxion:</value>
+    </data>
 </root>

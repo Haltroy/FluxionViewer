@@ -101,6 +101,17 @@
                             <Button.Tag>
                                 <StackPanel Spacing="5">
                                     <DockPanel>
+                                        <TextBlock Text="{x:Static lang:Lang.FluxionVersionSelect}"
+                                                   DockPanel.Dock="Left"
+                                                   VerticalAlignment="Center" />
+                                        <ComboBox SelectedIndex="1" HorizontalAlignment="Stretch"
+                                                  Name="SaveVersionSelect"
+                                                  HorizontalContentAlignment="Center" Margin="5 0">
+                                            <ComboBoxItem>v1</ComboBoxItem>
+                                            <ComboBoxItem>v2</ComboBoxItem>
+                                        </ComboBox>
+                                    </DockPanel>
+                                    <DockPanel>
                                         <TextBlock DockPanel.Dock="Left" Text="{x:Static lang:Lang.ToolTip_Encoding}"
                                                    VerticalAlignment="Center" />
                                         <ComboBox Name="SaveFileEncoding" SelectedIndex="0"
@@ -128,6 +139,17 @@
                             <Button.Tag>
                                 <StackPanel Spacing="5">
                                     <DockPanel>
+                                        <TextBlock Text="{x:Static lang:Lang.FluxionVersionSelect}"
+                                                   DockPanel.Dock="Left"
+                                                   VerticalAlignment="Center" />
+                                        <ComboBox SelectedIndex="1" HorizontalAlignment="Stretch"
+                                                  Name="SaveAsVersionSelect"
+                                                  HorizontalContentAlignment="Center" Margin="5 0">
+                                            <ComboBoxItem>v1</ComboBoxItem>
+                                            <ComboBoxItem>v2</ComboBoxItem>
+                                        </ComboBox>
+                                    </DockPanel>
+                                    <DockPanel>
                                         <TextBlock DockPanel.Dock="Left" Text="{x:Static lang:Lang.ToolTip_Encoding}"
                                                    VerticalAlignment="Center" />
                                         <ComboBox Name="SaveFileAsEncoding" SelectedIndex="0"
@@ -154,7 +176,7 @@
                                     <Grid ColumnDefinitions="*,*">
                                         <Button Grid.Column="0" Content="{x:Static lang:Lang.ToolTipButton_Save}"
                                                 HorizontalAlignment="Stretch"
-                                                HorizontalContentAlignment="Center" Click="SaveAsFile" />
+                                                HorizontalContentAlignment="Center" Click="SaveAsFileClicked" />
                                         <Button Grid.Column="1" Content="{x:Static lang:Lang.Cancel}"
                                                 HorizontalAlignment="Stretch"
                                                 HorizontalContentAlignment="Center" Click="CloseDialogHost" />
@@ -211,6 +233,13 @@
                                             <ComboBoxItem Content="UTF-8" Tag="utf8" />
                                             <ComboBoxItem Content="UTF-16" Tag="utf16" />
                                             <ComboBoxItem Content="UTF-32" Tag="utf32" />
+                                        </ComboBox>
+                                        <ComboBox Name="AutoSaveVersion"
+                                                  IsEnabled="{CompiledBinding #AutoSave.IsChecked}" SelectedIndex="1"
+                                                  HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+                                                  Margin="5 0" SelectionChanged="AutoSaveVersion_OnSelectionChanged">
+                                            <ComboBoxItem Content="v1" />
+                                            <ComboBoxItem Content="v2" />
                                         </ComboBox>
                                     </StackPanel>
                                     <Button HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"

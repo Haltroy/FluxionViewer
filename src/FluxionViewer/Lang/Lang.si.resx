@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>නව ගුණාංගයක් එක් කරන්න...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion අනුවාදය:</value>
+    </data>
 </root>

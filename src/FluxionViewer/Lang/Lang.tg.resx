@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Иловаи атрибути нав...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Версияи Fluxion:</value>
+    </data>
 </root>

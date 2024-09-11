@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>לייג אַ נייַע אַטריביוט ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>פלוקסיאָן ווערסיע:</value>
+    </data>
 </root>

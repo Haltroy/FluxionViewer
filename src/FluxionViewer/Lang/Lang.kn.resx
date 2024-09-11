@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>ಹೊಸ ಗುಣಲಕ್ಷಣವನ್ನು ಸೇರಿಸಿ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>ಫ್ಲಕ್ಶನ್ ಆವೃತ್ತಿ:</value>
+    </data>
 </root>

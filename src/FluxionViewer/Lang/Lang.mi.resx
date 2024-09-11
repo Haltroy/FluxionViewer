@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Tāpirihia he huanga hōu...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Putanga Fluxion:</value>
+    </data>
 </root>
