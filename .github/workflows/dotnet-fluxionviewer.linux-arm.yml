@@ -54,7 +54,7 @@ jobs:
             export OBJCOPY=aarch64-linux-gnu-objcopy
             dotnet publish -c Release -r linux-musl-arm64 -p:LinkerFlavor=lld -p:ObjCopyName=$OBJCOPY -o ./publish/linux-musl-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
             rm ./publish/linux-musl-arm64/*.dbg
-            tar czf ./publish/fluxionviewer-linux-musl-arm64.tar.gz ./publish/linux-msul-arm64/
+            tar czf ./publish/fluxionviewer-linux-musl-arm64.tar.gz ./publish/linux-musl-arm64/
       - name: Upload Artifact (Linux MUSL ARM64)
         uses: actions/upload-artifact@v4
         with:
