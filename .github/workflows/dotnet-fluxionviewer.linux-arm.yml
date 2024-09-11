@@ -19,13 +19,15 @@ jobs:
 
       - name: Set-up cross-compiling AArch64
         run: |
+          sudo dpkg --add-architecture arm64
           sudo apt-get update
-          sudo apt-get install clang llvm gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
+          sudo apt-get install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
 
-      - name: Build and Run
+      - name: Build for ARM64
         run: |
             dotnet publish -c Release -r linux-arm64 -p:LinkerFlavor=lld -o ./publish/linux-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
             rm ./publish/linux-arm64/*.dbg
+            
       - name: Upload Artifact (Linux ARM64)
         uses: actions/upload-artifact@v4
         with:
