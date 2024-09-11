@@ -1,7 +1,4 @@
-# This workflow will build a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
-name: BlueLabel Linux ARM
+name: FluxionViewer Linux ARM
 
 on:
   push:
@@ -14,5 +11,52 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: No auto-builds for ARM.
-        run: echo No auto-builds on ARM for now. GitHub does not have ARM runners. 
+
+      - name: Set up .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Set-up cross-compiling AArch64
+        run: |
+          sudo dpkg --add-architecture arm64
+          sudo bash -c 'cat > /etc/apt/sources.list.d/arm64.list <<EOF
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy main restricted
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-updates main restricted
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-backports main restricted universe multiverse
+          EOF'
+          sudo sed -i -e 's/deb http/deb [arch=amd64] http/g' /etc/apt/sources.list
+          sudo sed -i -e 's/deb mirror/deb [arch=amd64] mirror/g' /etc/apt/sources.list
+          sudo apt update
+          sudo apt install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
+
+      - name: Setup workloads
+        run: dotnet workload restore ./src/FluxionViewer.sln
+      - name: Restore dependencies
+        run: dotnet restore ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+      - name: Build
+        run: dotnet build --no-restore ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+
+      - name: Publish (Linux ARM64)
+        run: |
+            export OBJCOPY=aarch64-linux-gnu-objcopy
+            dotnet publish -c Release -r linux-arm64 -p:LinkerFlavor=lld -p:ObjCopyName=$OBJCOPY -o ./publish/linux-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+            rm ./publish/linux-arm64/*.dbg
+            tar czf ./publish/fluxionviewer-linux-arm64.tar.gz ./publish/linux-arm64/
+      - name: Upload Artifact (Linux ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-Linux-ARM64
+          path: ./publish/fluxionviewer-linux-arm64.tar.gz
+
+      - name: Publish (Linux MUSL ARM64)
+        run: |
+            export OBJCOPY=aarch64-linux-gnu-objcopy
+            dotnet publish -c Release -r linux-musl-arm64 -p:LinkerFlavor=lld -p:ObjCopyName=$OBJCOPY -o ./publish/linux-musl-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+            rm ./publish/linux-musl-arm64/*.dbg
+            tar czf ./publish/fluxionviewer-linux-musl-arm64.tar.gz ./publish/linux-musl-arm64/
+      - name: Upload Artifact (Linux MUSL ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-Linux-MUSL-ARM64
+          path: ./publish/fluxionviewer-linux-musl-arm64.tar.gz
