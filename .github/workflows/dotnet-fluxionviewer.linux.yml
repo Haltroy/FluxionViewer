@@ -1,7 +1,4 @@
-# This workflow will build a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
-name: FluxionViewer Linux
+name: FluxionViewer Linux x64
 
 on:
   push:
@@ -25,24 +22,26 @@ jobs:
       - name: Build
         run: dotnet build --no-restore ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
       
-      # Linux AMD64
-      - name: Publish (Linux AMD64)
+      # Linux x64
+      - name: Publish (Linux x64)
         run: |
           dotnet publish -c Release -r linux-x64 -o ./publish/linux-x64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
           rm ./publish/linux-x64/*.dbg
-      - name: Upload Artifact (Linux AMD64)
+          tar czf ./publish/fluxionviewer-linux-x64.tar.gz ./publish/linux-x64/
+      - name: Upload Artifact (Linux x64)
         uses: actions/upload-artifact@v4
         with:
-          name: FluxionViewer Linux AMD64
-          path: ./publish/linux-x64/
+          name: FluxionViewer-Linux-x64
+          path: ./publish/fluxionviewer-linux-x64.tar.gz
       
-      # Linux MUSL AMD64
-      - name: Publish (Linux AMD64)
+      # Linux MUSL x64
+      - name: Publish (Linux MUSL x64)
         run: |
           dotnet publish -c Release -r linux-musl-x64 -o ./publish/linux-musl-x64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
           rm ./publish/linux-musl-x64/*.dbg
-      - name: Upload Artifact (Linux MUSL AMD64)
+          tar czf ./publish/fluxionviewer-linux-musl-x64.tar.gz ./publish/linux-musl-x64/
+      - name: Upload Artifact (Linux MUSL x64)
         uses: actions/upload-artifact@v4
         with:
-          name: FluxionViewer Linux MUSL AMD64
-          path: ./publish/linux-musl-x64/
+          name: FluxionViewer-Linux-MUSL-x64
+          path: ./publish/fluxionviewer-linux-musl-x64.tar.gz

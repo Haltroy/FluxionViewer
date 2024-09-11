@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
+          additional-path: 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\tools\Microsoft.VisualStudio.TargetingSDK.BuildTools.x64'
       - name: Setup workloads
         run: dotnet workload restore ./src/FluxionViewer.sln
       - name: Restore dependencies
@@ -27,15 +28,28 @@ jobs:
       - name: Build
         run: dotnet build --no-restore ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
       
-      # Windows AMD64
-      - name: Publish (Windows AMD64)
+      # Windows x64
+      - name: Publish (Windows x64)
         run: |
           dotnet publish -c Release -r win-x64 -o ./publish/win-x64/ ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
           Remove-Item .\publish\win-x64\*.pdb
         shell: pwsh
-      - name: Upload Artifact (Windows AMD64)
+      - name: Upload Artifact (Windows x64)
         uses: actions/upload-artifact@v4
         with:
-          name: FluxionViewer Windows AMD64
+          name: FluxionViewer-Windows-x64
           path: |
             ./publish/win-x64/
+
+      # Windows ARM64
+      - name: Publish (Windows ARM64)
+        run: |
+          dotnet publish -c Release -r win-arm64 -o ./publish/win-arm64/ ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
+          Remove-Item .\publish\win-arm64\*.pdb
+        shell: pwsh
+      - name: Upload Artifact (Windows ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-Windows-ARM64
+          path: |
+            ./publish/win-arm64/
