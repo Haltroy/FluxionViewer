@@ -20,12 +20,19 @@ jobs:
       - name: Set-up cross-compiling AArch64
         run: |
           sudo dpkg --add-architecture arm64
-          sudo apt-get update
-          sudo apt-get install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
+          sudo bash -c 'cat > /etc/apt/sources.list.d/arm64.list <<EOF
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy main restricted
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-updates main restricted
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-backports main restricted universe multiverse
+          EOF'
+          sudo sed -i -e 's/deb http/deb [arch=amd64] http/g' /etc/apt/sources.list
+          sudo apt update
+          sudo apt install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
 
       - name: Build for ARM64
         run: |
-            dotnet publish -c Release -r linux-arm64 -p:LinkerFlavor=lld -o ./publish/linux-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+            export OBJCOPY=aarch64-linux-gnu-objcopy
+            dotnet publish -c Release -r linux-arm64 -p:LinkerFlavor=lld -p:ObjCopyName=$OBJCOPY -o ./publish/linux-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
             rm ./publish/linux-arm64/*.dbg
             
       - name: Upload Artifact (Linux ARM64)
