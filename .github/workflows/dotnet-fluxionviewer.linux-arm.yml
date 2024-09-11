@@ -20,7 +20,7 @@ jobs:
       - name: Set-up cross-compiling AArch64
         run: |
           sudo apt-get update
-          sudo apt-get install clang llvm zlib1g-dev:arm64 gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
+          sudo apt-get install clang llvm gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
 
       - name: Build and Run
         run: |
