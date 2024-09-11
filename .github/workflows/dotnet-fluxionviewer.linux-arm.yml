@@ -20,10 +20,10 @@ jobs:
         with:
           dotnet-version: 7.0.100
 
-      - name: Install QEMU
+      - name: Install GCC AArch64
         run: |
           sudo apt-get update
-          sudo apt-get install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu-y
+          sudo apt-get install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
 
       - name: Build and Run on QEMU
         run: |
