@@ -26,6 +26,10 @@ jobs:
           deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-backports main restricted universe multiverse
           EOF'
           sudo sed -i -e 's/deb http/deb [arch=amd64] http/g' /etc/apt/sources.list
+          echo Package List
+          ls -l /etc/apt/sources.list.d/
+          echo Sources
+          cat /etc/apt/sources.list
           sudo apt update
           sudo apt install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
 
