@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>ਇੱਕ ਨਵੀਂ ਵਿਸ਼ੇਸ਼ਤਾ ਸ਼ਾਮਲ ਕਰੋ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion ਸੰਸਕਰਣ:</value>
+    </data>
 </root>

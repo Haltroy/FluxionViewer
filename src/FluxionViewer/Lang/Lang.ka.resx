@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>დაამატეთ ახალი ატრიბუტი...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion ვერსია:</value>
+    </data>
 </root>

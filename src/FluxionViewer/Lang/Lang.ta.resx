@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>புதிய பண்புக்கூறைச் சேர்...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>ஃப்ளக்ஷன் பதிப்பு:</value>
+    </data>
 </root>

@@ -25,7 +25,7 @@ public partial class MainView : UserControl
 
     private static readonly FilePickerFileType[] fileTypes =
     [
-        new FilePickerFileType(Lang.Lang.FileExtName)
+        new(Lang.Lang.FileExtName)
         {
             Patterns = "*.flx".Split('|'),
             MimeTypes = "application/fluxion".Split('|'),
@@ -778,7 +778,7 @@ public partial class MainView : UserControl
     {
         Saved = false;
         if (AutoSave?.IsChecked is true && AutoSaveEncoding?.SelectedItem is ComboBoxItem { Tag: string encoding })
-            Save(encoding);
+            Save(encoding, (byte)(AutoSaveVersion.SelectedIndex + 1));
     }
 
     private static Encoding GetEncoding(string encoding)
@@ -792,12 +792,12 @@ public partial class MainView : UserControl
         };
     }
 
-    private void Save(string encoding)
+    private void Save(string encoding, byte version)
     {
-        Save(GetEncoding(encoding));
+        Save(GetEncoding(encoding), version);
     }
 
-    private async void Save(Encoding encoding)
+    private async void Save(Encoding encoding, byte version)
     {
         if (IsSaving || loadedFile is null) return;
         IsSaving = true;
@@ -810,7 +810,7 @@ public partial class MainView : UserControl
         switch (loadedFileCompression)
         {
             case "none":
-                root.Write(await loadedFile.OpenWriteAsync(), encoding);
+                root.Write(await loadedFile.OpenWriteAsync(), encoding, version);
                 break;
         }
 
@@ -823,17 +823,19 @@ public partial class MainView : UserControl
 // ReSharper disable UnusedParameter.Local
     private void Init(object? sender, VisualTreeAttachmentEventArgs e)
     {
-        LoadSettings(out var encoding, out var autoSave);
+        LoadSettings(out var encoding, out var autoSave, out var version);
         if (AutoSaveEncoding is not null) AutoSaveEncoding.SelectedIndex = encoding;
         if (AutoSave is not null) AutoSave.IsChecked = autoSave;
+        if (AutoSaveVersion is not null) AutoSaveVersion.SelectedIndex = version - 1;
         IsSettingsSaving = false;
     }
 // ReSharper restore UnusedParameter.Local
 
-    private void LoadSettings(out int encoding, out bool autoSave)
+    private void LoadSettings(out int encoding, out bool autoSave, out int ver)
     {
         encoding = 0;
         autoSave = false;
+        ver = 1;
         if (!Directory.Exists(AppFolder) || !File.Exists(AppSettingsFile)) return;
         var root = Fluxion.Read(AppSettingsFile);
         foreach (FluxionAttribute attr in root.Attributes)
@@ -846,6 +848,11 @@ public partial class MainView : UserControl
                 case "encoding":
                     if (attr.Value is int e)
                         encoding = e;
+                    break;
+
+                case "version":
+                    if (attr.Value is int v)
+                        ver = v;
                     break;
             }
     }
@@ -860,10 +867,12 @@ public partial class MainView : UserControl
             root.Attributes.Add(new FluxionAttribute { Name = "autosave", Value = AutoSave.IsChecked is true });
         if (AutoSaveEncoding is not null)
             root.Attributes.Add(new FluxionAttribute { Name = "encoding", Value = AutoSaveEncoding.SelectedIndex });
+        if (AutoSaveVersion is not null)
+            root.Attributes.Add(new FluxionAttribute { Name = "version", Value = AutoSaveVersion.SelectedIndex });
         using Stream fs = File.Exists(AppSettingsFile)
             ? new FileStream(AppSettingsFile, FileMode.Truncate, FileAccess.ReadWrite, FileShare.ReadWrite)
             : File.Create(AppSettingsFile);
-        root.Write(fs, Encoding.UTF8);
+        root.Write(fs, Encoding.UTF8, 2);
 
         IsSettingsSaving = false;
     }
@@ -1007,10 +1016,16 @@ public partial class MainView : UserControl
     {
         await Dispatcher.UIThread.InvokeAsync(() =>
         {
-            if (loadedFile is null) SaveAsFile(sender, e);
+            if (loadedFile is null)
+                SaveAsFile(new SenderCombo { Encoding = SaveFileEncoding, Version = SaveVersionSelect }, e);
             if (SaveFileEncoding?.SelectedItem is not ComboBox { Tag: string encoding }) return;
-            Save(encoding);
+            Save(encoding, (byte)(SaveVersionSelect.SelectedIndex + 1));
         });
+    }
+
+    private void SaveAsFileClicked(object? sender, RoutedEventArgs e)
+    {
+        SaveAsFile(new SenderCombo { Encoding = SaveFileAsEncoding, Version = SaveAsVersionSelect }, e);
     }
 
     // ReSharper disable UnusedParameter.Local
@@ -1020,8 +1035,9 @@ public partial class MainView : UserControl
         {
             if (Parent is not TopLevel topLevel) return;
             if (SaveCompression.SelectedItem is not ComboBoxItem { Tag: string compression } ||
-                Nodes.Items[0] is not TreeViewItem { Tag: FluxionNode root } ||
-                SaveFileAsEncoding?.SelectedItem is not ComboBox { Tag: string encoding }) return;
+                Nodes.Items[0] is not TreeViewItem { Tag: FluxionNode root } || sender is not SenderCombo sc ||
+                sc.Encoding is not { } encodingCB || sc.Version is not { } versionCB ||
+                encodingCB.SelectedItem is not ComboBox { Tag: string encoding }) return;
             if (!topLevel.StorageProvider.CanSave) return;
 
             var file = await topLevel.StorageProvider.SaveFilePickerAsync(new FilePickerSaveOptions
@@ -1039,7 +1055,7 @@ public partial class MainView : UserControl
                 true);
             IsSaving = true;
             await Dispatcher.UIThread.InvokeAsync(() => SavingProgressPanel.IsVisible = true);
-            root.Write(stream, file_encoding);
+            root.Write(stream, file_encoding, (byte)(versionCB.SelectedIndex + 1));
             Saved = true;
             IsSaving = false;
             await Dispatcher.UIThread.InvokeAsync(() => SavingProgressPanel.IsVisible = false);
@@ -1073,7 +1089,7 @@ public partial class MainView : UserControl
     {
         var cloned = CloneNode(node);
         var clone = new TreeViewItem { Header = item.Header, Tag = cloned };
-        foreach (FluxionNode sub_node in cloned) ReadFluxionNode(sub_node, item);
+        foreach (var sub_node in cloned.Children) ReadFluxionNode(sub_node, item);
 
         return clone;
     }
@@ -1083,7 +1099,7 @@ public partial class MainView : UserControl
         var clone = new FluxionNode { Name = node.Name, Value = node.Value };
         foreach (FluxionAttribute attr in node.Attributes)
             clone.Attributes.Add(new FluxionAttribute { Name = attr.Name, Value = attr.Value });
-        foreach (FluxionNode sub_node in node) clone.Add(CloneNode(sub_node));
+        foreach (var sub_node in node.Children) clone.Add(CloneNode(sub_node));
         return clone;
     }
 
@@ -1103,7 +1119,7 @@ public partial class MainView : UserControl
     {
         TreeViewItem item = new() { Tag = node, Header = node.Name };
         if (node.Count > 0)
-            foreach (FluxionNode sub_node in node)
+            foreach (var sub_node in node.Children)
                 ReadFluxionNode(sub_node, item);
         if (parent is null)
             Nodes.Items.Add(item);
@@ -1117,4 +1133,18 @@ public partial class MainView : UserControl
         SaveSettings();
     }
     // ReSharper restore UnusedParameter.Local
+
+
+// ReSharper disable UnusedParameter.Local
+    private void AutoSaveVersion_OnSelectionChanged(object? sender, SelectionChangedEventArgs e)
+    {
+        SaveSettings();
+    }
+    // ReSharper restore UnusedParameter.Local
+
+    private class SenderCombo
+    {
+        public ComboBox? Encoding { get; init; }
+        public ComboBox? Version { get; init; }
+    }
 }

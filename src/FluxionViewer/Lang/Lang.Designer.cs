@@ -482,5 +482,11 @@ namespace FluxionViewer.Lang {
                 return ResourceManager.GetString("Attr_Add", resourceCulture);
             }
         }
+        
+        public static string FluxionVersionSelect {
+            get {
+                return ResourceManager.GetString("FluxionVersionSelect", resourceCulture);
+            }
+        }
     }
 }

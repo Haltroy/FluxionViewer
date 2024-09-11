@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>ഒരു പുതിയ ആട്രിബ്യൂട്ട് ചേർക്കുക...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>ഫ്ലക്‌ഷൻ പതിപ്പ്:</value>
+    </data>
 </root>

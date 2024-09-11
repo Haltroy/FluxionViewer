@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Cuir tréith nua leis...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Leagan Fluxion:</value>
+    </data>
 </root>

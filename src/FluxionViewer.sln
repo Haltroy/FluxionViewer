@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer.Windows", "Fl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer.Linux", "FluxionViewer.Linux\FluxionViewer.Linux.csproj", "{5E8CB757-1DBB-4F97-B274-DC4B0CDDA97C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxionViewer.macOS", "FluxionViewer.macOS\FluxionViewer.macOS.csproj", "{A726A56D-897B-4249-B052-F2B59D2B6CC0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,9 +40,5 @@ Global
 		{985321EF-2480-47DC-A990-7CE837E52771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{985321EF-2480-47DC-A990-7CE837E52771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{985321EF-2480-47DC-A990-7CE837E52771}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A726A56D-897B-4249-B052-F2B59D2B6CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A726A56D-897B-4249-B052-F2B59D2B6CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A726A56D-897B-4249-B052-F2B59D2B6CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A726A56D-897B-4249-B052-F2B59D2B6CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

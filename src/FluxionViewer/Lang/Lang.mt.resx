@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Żid attribut ġdid...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Verżjoni Fluxion:</value>
+    </data>
 </root>

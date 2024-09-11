@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Taybetmendiyek nû lê zêde bike...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Guhertoya Fluxion:</value>
+    </data>
 </root>

@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Hoʻohui i kahi ʻano hou...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Manaʻo Fluxion:</value>
+    </data>
 </root>

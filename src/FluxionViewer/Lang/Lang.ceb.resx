@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Pagdugang og bag-ong attribute...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Bersyon sa Fluxion:</value>
+    </data>
 </root>

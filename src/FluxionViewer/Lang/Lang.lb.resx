@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Füügt en neit Attribut derbäi ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Flux Versioun:</value>
+    </data>
 </root>

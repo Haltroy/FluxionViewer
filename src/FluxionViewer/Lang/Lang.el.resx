@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Προσθήκη νέου χαρακτηριστικού...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Έκδοση Fluxion:</value>
+    </data>
 </root>

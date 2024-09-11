@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>ရည်ညွှန်းချက်အသစ်တစ်ခု ထည့်ပါ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion ဗားရှင်း-</value>
+    </data>
 </root>

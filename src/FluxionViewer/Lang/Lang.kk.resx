@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Жаңа атрибут қосу...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion нұсқасы:</value>
+    </data>
 </root>

@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Dodajte nov atribut ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Različica Fluxion:</value>
+    </data>
 </root>

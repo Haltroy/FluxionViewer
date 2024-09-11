@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Ավելացնել նոր հատկանիշ...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Fluxion Տարբերակ.</value>
+    </data>
 </root>

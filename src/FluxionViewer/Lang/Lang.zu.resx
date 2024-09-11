@@ -243,4 +243,7 @@
     <data name="Attr_Add" xml:space="preserve">
         <value>Engeza isibaluli esisha...</value>
     </data>
+    <data name="FluxionVersionSelect" xml:space="preserve">
+        <value>Inguqulo ye-Fluxion:</value>
+    </data>
 </root>
