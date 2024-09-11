@@ -23,14 +23,12 @@ jobs:
       - name: Install QEMU
         run: |
           sudo apt-get update
-          sudo apt-get install qemu-system-arm -y
+          sudo apt-get install gcc-aarch64-linux-gnu g++-aarch64-linux-gnu-y
 
       - name: Build and Run on QEMU
         run: |
-          qemu-system-arm -m 256 -smp 2 -cpu cortex-a72 -kernel -append "root=/dev/sda1" <<EOF
             dotnet publish -c Release -r linux-arm64 -o ./publish/linux-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
-          EOF
-          rm ./publish/linux-arm64/*.dbg
+            rm ./publish/linux-arm64/*.dbg
       - name: Upload Artifact (Linux ARM64)
         uses: actions/upload-artifact@v4
         with:
