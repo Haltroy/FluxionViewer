@@ -25,11 +25,15 @@ jobs:
           deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-updates main restricted
           deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-backports main restricted universe multiverse
           EOF'
-          sudo sed -i -e 's/deb http/deb [arch=amd64] http/g' /etc/apt/sources.list
-          echo Package List
-          ls -l /etc/apt/sources.list.d/
+          sudo sed -i -e 's/deb mirror/deb [arch=amd64] mirror/g' /etc/apt/sources.list
+          echo Azure Sources
+          cat /etc/apt/sources.list.d/azure-cli.sources
+          echo Microsoft-prod Sources
+          cat /etc/apt/sources.list.d/microsoft-prod.list
           echo Sources
           cat /etc/apt/sources.list
+          echo that weird Mirrors file
+          cat /etc/apt/apt-mirrors.txt 
           sudo apt update
           sudo apt install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
 
