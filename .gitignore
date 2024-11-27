@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Include the Arch Linux Binary PKGBUILD directory
+![Ll]inux/[Aa]rch/[Bb]in/

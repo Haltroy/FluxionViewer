@@ -25,6 +25,15 @@ This program is released under GNU GPL v3. [Click here](./LICENSE) to read more.
 
 Please refer to the appropiate OS version from the project file for that specific platform (ex. FluxionViewer.Android/FluxionViewer.Android.csproj).
 
+## Installation
+
+Releases for Windows (Intel, AMD, ARM), Android (as APK) and generic binaries and distribution-specific packages for Linux are available on [Releases](https://github.com/Haltroy/FluxionViewer/releases).
+
+For Arch-based Linux users, download the PKGBUILD files and put them in a folder. Then run `makepkg -i` inside that folder to build & install FluxionViewer.
+ - [Normal](https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/arch/main/PKGBUILD) (builds the latest release) [`fluxionviewer`]
+ - [Binary](https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/arch/bin/PKGBUILD) (skips building the latest release, downloads and repackages the generic binaries) [`fluxionviewer-bin`]
+ - [Development]https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/arch/dev/PKGBUILD() (builds the main branch) [`fluxionviewer-git`]
+
 ## Build
 
 Requires [.NET SDK](https://dotnet.microsoft.com) (latest available).

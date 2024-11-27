@@ -48,6 +48,7 @@ public partial class MainView : UserControl
         Version.Text =
             "v"
             + GetAppVersion();
+        if (Design.IsDesignMode) ReadFluxionNode(GenerateExampleFLX(), null);
     }
 
     internal object? Clipboard
@@ -66,6 +67,17 @@ public partial class MainView : UserControl
         Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "haltroy", "fluxion-viewer");
 
     private static string AppSettingsFile => Path.Combine(AppFolder, "settings.flx");
+
+    private static FluxionNode GenerateExampleFLX()
+    {
+        var node = new FluxionNode { Name = "Root" };
+        node.Add(new FluxionNode { Name = "TestItem", Value = "This is a test." });
+        var subNode = new FluxionNode { Name = "NodeWithAttr", Value = 25 };
+        subNode.Attributes.Add(new FluxionAttribute
+            { Name = "TestAttr", Value = new byte[] { 0, 1, 2, 4, 8, 16, 64, 128, 255 } });
+        node.Add(subNode);
+        return node;
+    }
 
     private static string GetAppVersion()
     {
