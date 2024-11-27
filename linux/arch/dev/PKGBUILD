@@ -28,7 +28,7 @@ build() {
         -r linux-$FV_ARCH \
         -o "${srcdir}/${pkgname}" \
         FluxionViewer.Linux/FluxionViewer.Linux.csproj
-  rm ../${pkgname}/FluxionViewer.Linux.dbg
+  rm "${srcdir}/${pkgname}/FluxionViewer.Linux.dbg"
 }
 
 package() {
