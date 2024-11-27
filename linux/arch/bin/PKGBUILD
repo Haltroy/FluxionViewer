@@ -8,9 +8,9 @@ license=(GPL-3.0-or-later)
 provides=(fluxionviewer)
 arch=(x86_64 aarch64)
 options=("!strip")
-source=(fluxionviewer.desktop.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/distribution/src/linux/desktop.desktop"
-        fluxionviewer.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/distribution/src/linux/shortcut"
-        fluxionviewer.png.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/distribution/src/FluxionViewer/Assets/logo.png")
+source=(fluxionviewer.desktop.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/src/linux/desktop.desktop"
+        fluxionviewer.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/src/linux/shortcut"
+        fluxionviewer.png.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/src/FluxionViewer/Assets/logo.png")
 source_x86_64=("https://github.com/Haltroy/FluxionViewer/releases/download/${pkgver}/${pkgname//-bin/""}-linux-x64.tar.gz")
 source_aarch64=("https://github.com/Haltroy/FluxionViewer/releases/download/${pkgver}/${pkgname//-bin/""}-linux-arm64.tar.gz")
 
