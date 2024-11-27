@@ -1,16 +1,12 @@
 name: FluxionViewer Windows
-
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
-
+    branches: ["main"]
 jobs:
   build:
-
     runs-on: windows-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: Setup .NET
@@ -23,7 +19,6 @@ jobs:
         run: dotnet restore ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
       - name: Build
         run: dotnet build --no-restore ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
-      
       # Windows x64
       - name: Publish (Windows x64)
         run: |
@@ -36,19 +31,16 @@ jobs:
           name: FluxionViewer-Windows-x64
           path: |
             ./publish/win-x64/
-
       - name: Make Setup (Windows x64)
         uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
         with:
           path: ./src/FluxionViewer.Windows/FluxionViewer-x64.iss
-
-    - name: Upload Artifact (Windows x64 Installer)
+      - name: Upload Artifact (Windows x64 Installer)
         uses: actions/upload-artifact@v4
         with:
-          name: FluxionViewer-Windows-x64
+          name: FluxionViewer-Windows-x64-Installer
           path: |
             ./publish/FluxionViewer-x64.exe
-
       # Windows ARM64
       - name: Publish (Windows ARM64)
         run: |
@@ -61,3 +53,13 @@ jobs:
           name: FluxionViewer-Windows-ARM64
           path: |
             ./publish/win-arm64/
+      - name: Make Setup (Windows ARM64)
+        uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
+        with:
+          path: ./src/FluxionViewer.Windows/FluxionViewer-ARM64.iss
+      - name: Upload Artifact (Windows ARM64 Installer)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-Windows-ARM64-Installer
+          path: |
+            ./publish/FluxionViewer-ARM64.exe
