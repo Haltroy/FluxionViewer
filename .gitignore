@@ -399,3 +399,8 @@ FodyWeavers.xsd
 
 # Include the Arch Linux Binary PKGBUILD directory
 ![Ll]inux/[Aa]rch/[Bb]in/
+
+# Debian package builds
+[Li]nux/[Dd]ebian/x64/
+[Li]nux/[Dd]ebian/arm64/
+[Li]nux/[Dd]ebian/*.deb
