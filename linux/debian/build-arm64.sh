@@ -28,4 +28,4 @@ mkdir -p ${SCRIPT_DIR}/arm64/usr/lib/fluxionviewer
 cp -r ${publishDir}/. ${SCRIPT_DIR}/arm64/usr/lib/fluxionviewer/
 
 echo Make the package
-dpkg-deb --root-owner-group --build ${SCRIPT_DIR}/arm64/ ${publishDir}/../fluxionviewer.aarch64.deb
+dpkg-deb --root-owner-group --build ${SCRIPT_DIR}/arm64/ ${SCRIPT_DIR}/fluxionviewer.aarch64.deb

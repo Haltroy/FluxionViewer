@@ -48,12 +48,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-amd64-Debian
-          path: ./publish/fluxionviewer-amd64.deb
-      # Debian ARM64
-      - name: Debian Package ARM64
-        run: ./linux/debian/build-arm64.sh ./publish/linux-arm64/
-      - name: Upload Artifact (Debian ARM64)
-        uses: actions/upload-artifact@v4
-        with:
-          name: FluxionViewer-aarch64-Debian
-          path: ./publish/fluxionviewer-aarch64.deb
+          path: ./linux/debian/fluxionviewer-amd64.deb

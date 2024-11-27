@@ -404,3 +404,4 @@ FodyWeavers.xsd
 [Li]nux/[Dd]ebian/x64/
 [Li]nux/[Dd]ebian/arm64/
 [Li]nux/[Dd]ebian/*.deb
+*.deb
