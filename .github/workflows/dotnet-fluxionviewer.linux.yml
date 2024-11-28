@@ -64,7 +64,7 @@ jobs:
       - name: Build APK in Alpine Container
         run: |
           docker run --rm -v $(pwd):/build -w /build alpine:latest sh -c "
-          apk add --no-cache alpine-sdk tar bash sudo &&
+          apk add --no-cache alpine-sdk tar bash sudo build-base &&
           export APKBUILD_SUDO=sudo &&
           adduser -G abuild -D builder &&
           echo 'builder ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers &&
@@ -79,7 +79,8 @@ jobs:
           abuild -r
           cd ../musl-x64 &&
           abuild checksum &&
-          abuild -r'"
+          abuild -r' &&
+          ls -l /var/cache/apk"
           ls -l
           ls -l ./linux/alpine/
           ls -l ./linux/alpine/x64/
