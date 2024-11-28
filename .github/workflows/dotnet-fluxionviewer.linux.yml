@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set-up some packages for packaging
+        run: |
+          sudo apt update
+          sudo apt install alien -y
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
@@ -49,3 +53,11 @@ jobs:
         with:
           name: FluxionViewer-amd64-Debian
           path: ./linux/debian/fluxionviewer.amd64.deb
+      # RPM x64 (convert with Alien)
+      - name: RPM conversion x64
+        run: sudo ${which alien} -r ./linux/debian/*.deb
+      - name: Upload Artifact (RPM x64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-amd64-RPM
+          path: ./linux/debian/*.rpm

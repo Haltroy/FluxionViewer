@@ -24,7 +24,7 @@ jobs:
           sudo sed -i -e 's/deb http/deb [arch=amd64] http/g' /etc/apt/sources.list
           sudo sed -i -e 's/deb mirror/deb [arch=amd64] mirror/g' /etc/apt/sources.list
           sudo apt update
-          sudo apt install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
+          sudo apt install alien clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
       - name: Setup workloads
         run: dotnet workload restore ./src/FluxionViewer.sln
       - name: Restore dependencies
@@ -61,3 +61,11 @@ jobs:
         with:
           name: FluxionViewer-aarch64-Debian
           path: ./linux/debian/fluxionviewer.aarch64.deb
+      # RPM x64 (convert with Alien)
+      - name: RPM conversion ARM64
+        run: sudo ${which alien} -r ./linux/debian/*.deb
+      - name: Upload Artifact (RPM ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-aarch64-RPM
+          path: ./linux/debian/*.rpm
