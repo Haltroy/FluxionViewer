@@ -70,6 +70,8 @@ jobs:
           echo 'builder ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers &&
           chown -R builder:abuild /build/linux/alpine/x64 &&
           chmod -R u+w /build/linux/alpine/x64 &&
+          chown -R builder:abuild /build/linux/alpine/musl-x64 &&
+          chmod -R u+w /build/linux/alpine/musl-x64 &&
           su builder -c 'abuild-keygen -ain'
           su builder -c '
           cd ./linux/alpine/x64 &&
