@@ -80,8 +80,10 @@ jobs:
           cd ../musl-x64 &&
           abuild checksum &&
           abuild -r'"
+          ls -l
+          ls -l ./linux/alpine/
       - name: Upload Artifact (Alpine packages)
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-Linux-Alpine
-          path: ./**/*.apk
+          path: ./linux/alpine/*.apk
