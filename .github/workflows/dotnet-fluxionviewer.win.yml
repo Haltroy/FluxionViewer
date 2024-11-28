@@ -13,8 +13,6 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-      - name: Setup workloads
-        run: dotnet workload restore ./src/FluxionViewer.sln
       - name: Restore dependencies
         run: dotnet restore ./src/FluxionViewer.Windows/FluxionViewer.Windows.csproj
       - name: Build

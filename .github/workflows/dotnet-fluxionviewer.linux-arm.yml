@@ -25,8 +25,6 @@ jobs:
           sudo sed -i -e 's/deb mirror/deb [arch=amd64] mirror/g' /etc/apt/sources.list
           sudo apt update
           sudo apt install alien clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
-      - name: Setup workloads
-        run: dotnet workload restore ./src/FluxionViewer.sln
       - name: Restore dependencies
         run: dotnet restore ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
       - name: Build
@@ -42,17 +40,6 @@ jobs:
         with:
           name: FluxionViewer-Linux-ARM64
           path: ./publish/fluxionviewer-linux-arm64.tar.gz
-      - name: Publish (Linux MUSL ARM64)
-        run: |
-          export OBJCOPY=aarch64-linux-gnu-objcopy
-          dotnet publish -c Release -r linux-musl-arm64 -p:LinkerFlavor=lld -p:ObjCopyName=$OBJCOPY -o ./publish/linux-musl-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
-          rm ./publish/linux-musl-arm64/*.dbg
-          tar czf ./publish/fluxionviewer-linux-musl-arm64.tar.gz ./publish/linux-musl-arm64/
-      - name: Upload Artifact (Linux MUSL ARM64)
-        uses: actions/upload-artifact@v4
-        with:
-          name: FluxionViewer-Linux-MUSL-ARM64
-          path: ./publish/fluxionviewer-linux-musl-arm64.tar.gz
       # Debian ARM64
       - name: Debian Package ARM64
         run: ./linux/debian/build-arm64.sh ./publish/linux-arm64/
@@ -68,4 +55,16 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-aarch64-RPM
-          path: ./linux/debian/*.rpm
+          path: ./*.rpm
+      # Linux MUSL ARM64
+      - name: Publish (Linux MUSL ARM64)
+        run: |
+          export OBJCOPY=aarch64-linux-gnu-objcopy
+          dotnet publish -c Release -r linux-musl-arm64 -p:LinkerFlavor=lld -p:ObjCopyName=$OBJCOPY -o ./publish/linux-musl-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+          rm ./publish/linux-musl-arm64/*.dbg
+          tar czf ./publish/fluxionviewer-linux-musl-arm64.tar.gz ./publish/linux-musl-arm64/
+      - name: Upload Artifact (Linux MUSL ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-Linux-MUSL-ARM64
+          path: ./publish/fluxionviewer-linux-musl-arm64.tar.gz
