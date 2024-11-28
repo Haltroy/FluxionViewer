@@ -84,4 +84,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-Linux-Alpine
-          path: ./linux/alpine/*/*.apk
+          path: ./**/*.apk

@@ -74,6 +74,7 @@ jobs:
         run: |
           docker run --rm -v $(pwd):/build -w /build alpine:latest sh -c "
           apk add --no-cache alpine-sdk tar bash &&
+          export APKBUILD_SUDO=sudo &&
           adduser -G abuild -D builder &&
           echo 'builder ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers &&
           chown -R builder:abuild /build/linux/alpine/arm64 &&
@@ -93,4 +94,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-Linux-Alpine
-          path: ./linux/alpine/*/*.apk
+          path: ./**/*.apk
