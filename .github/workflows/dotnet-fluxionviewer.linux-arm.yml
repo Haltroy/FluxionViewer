@@ -77,9 +77,9 @@ jobs:
           adduser -D builder &&
           echo 'builder ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers &&
           chown -R builder:builder /build &&
+          su builder -c 'abuild-keygen -ain'
           su builder -c '
           export CARCH=aarch64 &&
-          abuild-keygen -ain
           cd ./linux/alpine/arm64 &&
           abuild checksum &&
           abuild -r
