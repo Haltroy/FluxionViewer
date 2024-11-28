@@ -3,7 +3,7 @@
 pkgname=fluxionviewer
 pkgver=1.1
 pkgrel=1
-pkgdesc="Edit and view FLuxion files easily."
+pkgdesc="Edit and view Fluxion files easily."
 url="https://haltroy.com/en/fluxion"
 arch="x86_64"
 license="GPL-3-or-later"
