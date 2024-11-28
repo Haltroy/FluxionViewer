@@ -82,6 +82,8 @@ jobs:
           abuild -r'"
           ls -l
           ls -l ./linux/alpine/
+          ls -l ./linux/alpine/x64/
+          ls -l ./linux/alpine/musl-x64/
       - name: Upload Artifact (Alpine packages)
         uses: actions/upload-artifact@v4
         with:
