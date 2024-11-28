@@ -1,4 +1,4 @@
-name: FluxionViewer Linux x64
+name: FluxionViewer Linux
 on:
   push:
     branches: ["main"]
@@ -44,7 +44,7 @@ jobs:
           sudo sed -i -e 's/deb http/deb [arch=amd64] http/g' /etc/apt/sources.list
           sudo sed -i -e 's/deb mirror/deb [arch=amd64] mirror/g' /etc/apt/sources.list
           sudo apt update
-          sudo apt install alien clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
+          sudo apt install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
       # Linux ARM64
       - name: Publish (Linux ARM64)
         run: |
@@ -81,7 +81,7 @@ jobs:
           path: ./publish/fluxionviewer-linux-musl-arm64.tar.gz
       # Debian x64
       - name: Debian Package x64
-        run: ./linux/debian/build-x64.sh ./publish/linux-x64/
+        run: ./linux/debian.sh ./publish/linux-x64/ x64
       - name: Upload Artifact (Debian x64)
         uses: actions/upload-artifact@v4
         with:
@@ -89,25 +89,22 @@ jobs:
           path: ./linux/debian/fluxionviewer.amd64.deb
       # Debian ARM64
       - name: Debian Package ARM64
-        run: ./linux/debian/build-arm64.sh ./publish/linux-arm64/
+        run: ./linux/debian.sh ./publish/linux-arm64/ arm64
       - name: Upload Artifact (Debian ARM64)
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-aarch64-Debian
           path: ./linux/debian/fluxionviewer.aarch64.deb
-      # RPM x64 (convert with Alien)
-      - name: RPM conversion x64
-        run: sudo $(which alien) -r ./linux/debian/*.deb
+      # DEB -> RPM (convert with Alien)
+      - name: DEB -> RPM conversion
+        run: sudo $(which alien) -r ./linux/*.deb
       - name: Upload Artifact (RPM x64)
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-amd64-RPM
-          path: ./*.rpm
-      # RPM x64 (convert with Alien)
-      - name: RPM conversion ARM64
-        run: sudo $(which alien) -r ./linux/debian/*.deb
+          path: ./*.x86_64.rpm
       - name: Upload Artifact (RPM ARM64)
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-aarch64-RPM
-          path: ./*.rpm
+          path: ./*.aarch64.rpm
