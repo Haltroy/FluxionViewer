@@ -86,7 +86,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-amd64-Debian
-          path: ./linux/fluxionviewer.amd64.deb
+          path: ./linux/*.amd64.deb
       # Debian ARM64
       - name: Debian Package ARM64
         run: ./linux/debian.sh ./publish/linux-arm64/ arm64
@@ -94,7 +94,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-aarch64-Debian
-          path: ./linux/fluxionviewer.aarch64.deb
+          path: ./linux/*.aarch64.deb
       # DEB -> RPM (convert with Alien)
       - name: DEB -> RPM conversion
         run: sudo $(which alien) -rv ./linux/*.deb
