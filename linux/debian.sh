@@ -4,21 +4,22 @@ publishDir="${1}"
 arch="${2}"
 deb_arch="${arch}"
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+version="$(<${SCRIPT_DIR}/../version)"
 
 echo Cleanup
 rm -R ${SCRIPT_DIR}/${arch}/
 
 if [ "$arch" = "x64" ]; then
-    FV_ARCH="amd64"
+    deb_arch="amd64"
 elif [ "$arch" = "arm64" ]; then
-    FV_ARCH="aarch64"
+    deb_arch="aarch64"
 fi
 
 echo Write Debian control
 mkdir -p ${SCRIPT_DIR}/${arch}/DEBIAN
 cat >${SCRIPT_DIR}/${arch}/DEBIAN/control <<EOL
 Package: fluxionviewer
-Version: 1.1
+Version: ${version}
 Section: devel
 Priority: optional
 Architecture: ${deb_arch}
@@ -47,7 +48,7 @@ mkdir -p ${SCRIPT_DIR}/${arch}/usr/lib/fluxionviewer
 cp -r ${publishDir}/. ${SCRIPT_DIR}/${arch}/usr/lib/fluxionviewer/
 
 echo Make the package
-dpkg-deb --root-owner-group --build ${SCRIPT_DIR}/${arch}/ ${SCRIPT_DIR}/fluxionviewer.${deb_arch}.deb
+dpkg-deb --root-owner-group --build ${SCRIPT_DIR}/${arch}/ ${SCRIPT_DIR}/fluxionviewer.${version}.${deb_arch}.deb
 
 echo Cleanup
 rm -R ${SCRIPT_DIR}/${arch}/

@@ -97,7 +97,7 @@ jobs:
           path: ./linux/fluxionviewer.aarch64.deb
       # DEB -> RPM (convert with Alien)
       - name: DEB -> RPM conversion
-        run: sudo $(which alien) -rV ./linux/*.deb
+        run: sudo $(which alien) -rv ./linux/*.deb
       - name: Upload Artifact (RPM x64)
         uses: actions/upload-artifact@v4
         with:
