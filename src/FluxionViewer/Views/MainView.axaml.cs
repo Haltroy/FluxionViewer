@@ -1,9 +1,12 @@
 using System;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.IO.Compression;
+using System.Net.Http;
 using System.Reflection;
 using System.Text;
+using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
@@ -23,7 +26,16 @@ public partial class MainView : UserControl
     internal static readonly StyledProperty<object?> ClipboardProperty =
         AvaloniaProperty.Register<MainView, object?>(nameof(Clipboard));
 
-    private static readonly FilePickerFileType[] fileTypes =
+    internal static readonly StyledProperty<bool> CheckingForUpdatesProperty =
+        AvaloniaProperty.Register<MainView, bool>(nameof(CheckingForUpdates), true);
+
+    internal static readonly StyledProperty<bool> UpToDateProperty =
+        AvaloniaProperty.Register<MainView, bool>(nameof(UpToDate));
+
+    internal static readonly StyledProperty<bool> UpdateAvailableProperty =
+        AvaloniaProperty.Register<MainView, bool>(nameof(UpdateAvailable));
+
+    private static readonly FilePickerFileType[] FileTypes =
     [
         new(Lang.Lang.FileExtName)
         {
@@ -34,13 +46,13 @@ public partial class MainView : UserControl
         FilePickerFileTypes.All
     ];
 
-    private bool IsSaving;
+    private bool _isSaving;
 
-    private bool IsSettingsSaving = true;
+    private bool _isSettingsSaving = true;
 
-    private IStorageFile? loadedFile;
-    private string loadedFileCompression = "none";
-    private bool Saved = true;
+    private IStorageFile? _loadedFile;
+    private string _loadedFileCompression = "none";
+    private bool _saved = true;
 
     public MainView()
     {
@@ -48,7 +60,26 @@ public partial class MainView : UserControl
         Version.Text =
             "v"
             + GetAppVersion();
-        if (Design.IsDesignMode) ReadFluxionNode(GenerateExampleFLX(), null);
+        if (Design.IsDesignMode) ReadFluxionNode(GenerateExampleFluxionNode(), null);
+        CheckForUpdates();
+    }
+
+    public bool CheckingForUpdates
+    {
+        get => GetValue(CheckingForUpdatesProperty);
+        set => SetValue(CheckingForUpdatesProperty, value);
+    }
+
+    public bool UpToDate
+    {
+        get => GetValue(UpToDateProperty);
+        set => SetValue(UpToDateProperty, value);
+    }
+
+    public bool UpdateAvailable
+    {
+        get => GetValue(UpdateAvailableProperty);
+        set => SetValue(UpdateAvailableProperty, value);
     }
 
     internal object? Clipboard
@@ -68,7 +99,7 @@ public partial class MainView : UserControl
 
     private static string AppSettingsFile => Path.Combine(AppFolder, "settings.flx");
 
-    private static FluxionNode GenerateExampleFLX()
+    private static FluxionNode GenerateExampleFluxionNode()
     {
         var node = new FluxionNode { Name = "Root" };
         node.Add(new FluxionNode { Name = "TestItem", Value = "This is a test." });
@@ -77,6 +108,47 @@ public partial class MainView : UserControl
             { Name = "TestAttr", Value = new byte[] { 0, 1, 2, 4, 8, 16, 64, 128, 255 } });
         node.Add(subNode);
         return node;
+    }
+
+    private async void CheckForUpdates()
+    {
+        try
+        {
+            await Dispatcher.UIThread.InvokeAsync(async () =>
+            {
+                if (Design.IsDesignMode)
+                {
+                    CheckingForUpdates = false;
+                    UpToDate = true;
+                    UpdateAvailable = false;
+                    return;
+                }
+
+                const string updateCheckLocation =
+                    "https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/distribution/version";
+                using var httpClient = new HttpClient();
+                var responseTask = Task.Run(() => httpClient.GetAsync(updateCheckLocation));
+                var response = await responseTask;
+                response.EnsureSuccessStatusCode();
+                var versionText = await response.Content.ReadAsStringAsync();
+                var version = new Version(versionText);
+                if (version.CompareTo(GetVersion()) > 0)
+                {
+                    CheckingForUpdates = false;
+                    UpToDate = false;
+                    UpdateAvailable = true;
+                    return;
+                }
+
+                CheckingForUpdates = false;
+                UpToDate = true;
+                UpdateAvailable = false;
+            });
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
 
     private static string GetAppVersion()
@@ -92,30 +164,46 @@ public partial class MainView : UserControl
             : "?";
     }
 
+    private static Version GetVersion()
+    {
+        return Assembly.GetExecutingAssembly() is { } ass
+               && ass.GetName() is { } name
+               && name.Version != null
+            ? name.Version
+            : new Version();
+    }
+
     public async void LoadArgs(string[] args)
     {
-        await Dispatcher.UIThread.InvokeAsync(async () =>
+        try
         {
-            if (args.Length < 1) return;
-            var file = args[0];
-            if (args.Length >= 3)
-                loadedFileCompression = args[Array.IndexOf(args, "--compression") + 1].ToLowerInvariant();
-            if (Parent is not TopLevel topLevel) return;
-            loadedFile = await topLevel.StorageProvider.TryGetFileFromPathAsync(file);
-            if (loadedFile is null) return;
-            SavingProgressPanel.IsVisible = true;
-            SaveStatusText.Text = Lang.Lang.Status_LoadingFile;
-            await using Stream stream = loadedFileCompression.ToLowerInvariant() switch
+            await Dispatcher.UIThread.InvokeAsync(async () =>
             {
-                "gzip" => new GZipStream(await loadedFile.OpenReadAsync(), CompressionMode.Decompress),
-                "brotli" => new BrotliStream(await loadedFile.OpenReadAsync(), CompressionMode.Decompress),
-                "deflate" => new DeflateStream(await loadedFile.OpenReadAsync(), CompressionMode.Decompress),
-                "zlib" => new ZLibStream(await loadedFile.OpenReadAsync(), CompressionMode.Decompress),
-                _ => throw new Exception()
-            };
-            ReadFluxionNode(Fluxion.Read(stream), null);
-            SavingProgressPanel.IsVisible = false;
-        });
+                if (args.Length < 1) return;
+                var file = args[0];
+                if (args.Length >= 3)
+                    _loadedFileCompression = args[Array.IndexOf(args, "--compression") + 1].ToLowerInvariant();
+                if (Parent is not TopLevel topLevel) return;
+                _loadedFile = await topLevel.StorageProvider.TryGetFileFromPathAsync(file);
+                if (_loadedFile is null) return;
+                SavingProgressPanel.IsVisible = true;
+                SaveStatusText.Text = Lang.Lang.Status_LoadingFile;
+                await using Stream stream = _loadedFileCompression.ToLowerInvariant() switch
+                {
+                    "gzip" => new GZipStream(await _loadedFile.OpenReadAsync(), CompressionMode.Decompress),
+                    "brotli" => new BrotliStream(await _loadedFile.OpenReadAsync(), CompressionMode.Decompress),
+                    "deflate" => new DeflateStream(await _loadedFile.OpenReadAsync(), CompressionMode.Decompress),
+                    "zlib" => new ZLibStream(await _loadedFile.OpenReadAsync(), CompressionMode.Decompress),
+                    _ => throw new Exception()
+                };
+                ReadFluxionNode(Fluxion.Read(stream), null);
+                SavingProgressPanel.IsVisible = false;
+            });
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
 
     // ReSharper disable once UnusedParameter.Local
@@ -187,8 +275,8 @@ public partial class MainView : UserControl
         DockPanel.SetDock(name, Dock.Left);
         attributePanel2.Children.Add(name);
 
-        TextBox name_value = new() { Margin = new Thickness(5, 0), Text = attr.Name };
-        attributePanel2.Children.Add(name_value);
+        TextBox nameValue = new() { Margin = new Thickness(5, 0), Text = attr.Name };
+        attributePanel2.Children.Add(nameValue);
 
         attrPanel.Children.Add(attributePanel2);
 
@@ -197,20 +285,20 @@ public partial class MainView : UserControl
         DockPanel.SetDock(name, Dock.Left);
         attributePanel3.Children.Add(value);
 
-        TextBox value_value = new()
+        TextBox valueValue = new()
             { Margin = new Thickness(5, 0), Text = attr.Value + "", IsEnabled = attributeValueType.SelectedIndex > 2 };
 
-        name_value.TextChanged += (_, _) =>
+        nameValue.TextChanged += (_, _) =>
         {
             if (Attributes is null || !Attributes.IsEnabled) return;
-            attr.Name = name_value.Text ?? string.Empty;
+            attr.Name = nameValue.Text ?? string.Empty;
             SaveState();
         };
-        value_value.TextChanged += (_, _) =>
+        valueValue.TextChanged += (_, _) =>
         {
             if (Attributes is null || !Attributes.IsEnabled) return;
-            if (!value_value.IsEnabled) return;
-            attr.Value = ParseValue(attributeValueType.SelectedIndex, value_value.Text ?? string.Empty);
+            if (!valueValue.IsEnabled) return;
+            attr.Value = ParseValue(attributeValueType.SelectedIndex, valueValue.Text ?? string.Empty);
             SaveState();
         };
         attributeValueType.SelectionChanged += (_, _) =>
@@ -218,22 +306,22 @@ public partial class MainView : UserControl
             if (Attributes is null || !Attributes.IsEnabled) return;
             if (attributeValueType.SelectedIndex < 3)
             {
-                value_value.IsEnabled = false;
+                valueValue.IsEnabled = false;
                 return;
             }
 
             attr.Value = ConvertValue(attributeValueType.SelectedIndex, attr.Value);
-            value_value.IsEnabled = false;
-            value_value.Text = attr.Value switch
+            valueValue.IsEnabled = false;
+            valueValue.Text = attr.Value switch
             {
-                bool bool_value => bool_value ? "true" : "false",
-                byte[] byte_array => BitConverter.ToString(byte_array).Replace("-", " "),
+                bool boolValue => boolValue ? "true" : "false",
+                byte[] byteArray => BitConverter.ToString(byteArray).Replace("-", " "),
                 _ => "" + attr.Value
             };
-            value_value.IsEnabled = true;
+            valueValue.IsEnabled = true;
             SaveState();
         };
-        attributePanel3.Children.Add(value_value);
+        attributePanel3.Children.Add(valueValue);
 
         attrPanel.Children.Add(attributePanel3);
 
@@ -317,61 +405,61 @@ public partial class MainView : UserControl
             case 3:
                 byte byteValue = before switch
                 {
-                    bool bool_to_byte => bool_to_byte ? (byte)1 : (byte)0,
-                    byte byte_to_byte => byte_to_byte,
-                    sbyte sbyte_to_byte => (byte)sbyte_to_byte,
-                    char char_to_byte => (byte)char_to_byte,
-                    short short_to_byte => short_to_byte > byte.MaxValue ? byte.MaxValue :
-                        short_to_byte < byte.MinValue ? byte.MinValue : (byte)short_to_byte,
-                    ushort ushort_to_byte => ushort_to_byte > byte.MaxValue ? byte.MaxValue : (byte)ushort_to_byte,
-                    int int_to_byte => int_to_byte > byte.MaxValue ? byte.MaxValue :
-                        int_to_byte < byte.MinValue ? byte.MinValue : (byte)int_to_byte,
-                    uint uint_to_byte => uint_to_byte > byte.MaxValue ? byte.MaxValue : (byte)uint_to_byte,
-                    long long_to_byte => long_to_byte > byte.MaxValue ? byte.MaxValue :
-                        long_to_byte < byte.MinValue ? byte.MinValue : (byte)long_to_byte,
-                    ulong ulong_to_byte => ulong_to_byte > byte.MaxValue ? byte.MaxValue : (byte)ulong_to_byte,
-                    float float_to_byte => float_to_byte > byte.MaxValue ? byte.MaxValue :
-                        float_to_byte < byte.MinValue ? byte.MinValue : (byte)float_to_byte,
-                    double double_to_byte => double_to_byte > byte.MaxValue ? byte.MaxValue :
-                        double_to_byte < byte.MinValue ? byte.MinValue : (byte)double_to_byte,
-                    string string_to_byte => byte.TryParse(string_to_byte, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedByte)
-                        ? string_convertedByte
+                    bool boolToByte => boolToByte ? (byte)1 : (byte)0,
+                    byte byteToByte => byteToByte,
+                    sbyte sbyteToByte => (byte)sbyteToByte,
+                    char charToByte => (byte)charToByte,
+                    short shortToByte => shortToByte > byte.MaxValue ? byte.MaxValue :
+                        shortToByte < byte.MinValue ? byte.MinValue : (byte)shortToByte,
+                    ushort ushortToByte => ushortToByte > byte.MaxValue ? byte.MaxValue : (byte)ushortToByte,
+                    int intToByte => intToByte > byte.MaxValue ? byte.MaxValue :
+                        intToByte < byte.MinValue ? byte.MinValue : (byte)intToByte,
+                    uint uintToByte => uintToByte > byte.MaxValue ? byte.MaxValue : (byte)uintToByte,
+                    long longToByte => longToByte > byte.MaxValue ? byte.MaxValue :
+                        longToByte < byte.MinValue ? byte.MinValue : (byte)longToByte,
+                    ulong ulongToByte => ulongToByte > byte.MaxValue ? byte.MaxValue : (byte)ulongToByte,
+                    float floatToByte => floatToByte > byte.MaxValue ? byte.MaxValue :
+                        floatToByte < byte.MinValue ? byte.MinValue : (byte)floatToByte,
+                    double doubleToByte => doubleToByte > byte.MaxValue ? byte.MaxValue :
+                        doubleToByte < byte.MinValue ? byte.MinValue : (byte)doubleToByte,
+                    string stringToByte => byte.TryParse(stringToByte, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedByte)
+                        ? stringConvertedByte
                         : (byte)0,
-                    byte[] byte_array_to_byte => byte_array_to_byte.Length > 0 ? byte_array_to_byte[0] : (byte)0,
+                    byte[] byteArrayToByte => byteArrayToByte.Length > 0 ? byteArrayToByte[0] : (byte)0,
                     _ => 0
                 };
                 return byteValue;
             case 4:
                 sbyte sbyteValue = before switch
                 {
-                    bool bool_to_sbyte => bool_to_sbyte ? (sbyte)1 : (sbyte)0,
-                    byte byte_to_sbyte => (sbyte)byte_to_sbyte,
-                    sbyte sbyte_to_sbyte => sbyte_to_sbyte,
-                    char char_to_sbyte => char_to_sbyte > sbyte.MaxValue ? sbyte.MaxValue : (sbyte)char_to_sbyte,
-                    short short_to_sbyte => short_to_sbyte > sbyte.MaxValue ? sbyte.MaxValue :
-                        short_to_sbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)short_to_sbyte,
-                    ushort ushort_to_sbyte => ushort_to_sbyte > sbyte.MaxValue
+                    bool boolToSbyte => boolToSbyte ? (sbyte)1 : (sbyte)0,
+                    byte byteToSbyte => (sbyte)byteToSbyte,
+                    sbyte sbyteToSbyte => sbyteToSbyte,
+                    char charToSbyte => charToSbyte > sbyte.MaxValue ? sbyte.MaxValue : (sbyte)charToSbyte,
+                    short shortToSbyte => shortToSbyte > sbyte.MaxValue ? sbyte.MaxValue :
+                        shortToSbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)shortToSbyte,
+                    ushort ushortToSbyte => ushortToSbyte > sbyte.MaxValue
                         ? sbyte.MaxValue
-                        : (sbyte)ushort_to_sbyte,
-                    int int_to_sbyte => int_to_sbyte > sbyte.MaxValue ? sbyte.MaxValue :
-                        int_to_sbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)int_to_sbyte,
-                    uint uint_to_sbyte => uint_to_sbyte > sbyte.MaxValue ? sbyte.MaxValue : (sbyte)uint_to_sbyte,
-                    long long_to_sbyte => long_to_sbyte > sbyte.MaxValue ? sbyte.MaxValue :
-                        long_to_sbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)long_to_sbyte,
-                    ulong ulong_to_sbyte => ulong_to_sbyte > (ulong)sbyte.MaxValue
+                        : (sbyte)ushortToSbyte,
+                    int intToSbyte => intToSbyte > sbyte.MaxValue ? sbyte.MaxValue :
+                        intToSbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)intToSbyte,
+                    uint uintToSbyte => uintToSbyte > sbyte.MaxValue ? sbyte.MaxValue : (sbyte)uintToSbyte,
+                    long longToSbyte => longToSbyte > sbyte.MaxValue ? sbyte.MaxValue :
+                        longToSbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)longToSbyte,
+                    ulong ulongToSbyte => ulongToSbyte > (ulong)sbyte.MaxValue
                         ? sbyte.MaxValue
-                        : (sbyte)ulong_to_sbyte,
-                    float float_to_sbyte => float_to_sbyte > sbyte.MaxValue ? sbyte.MaxValue :
-                        float_to_sbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)float_to_sbyte,
-                    double double_to_sbyte => double_to_sbyte > sbyte.MaxValue ? sbyte.MaxValue :
-                        double_to_sbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)double_to_sbyte,
-                    string string_to_sbyte => sbyte.TryParse(string_to_sbyte, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedSByte)
-                        ? string_convertedSByte
+                        : (sbyte)ulongToSbyte,
+                    float floatToSbyte => floatToSbyte > sbyte.MaxValue ? sbyte.MaxValue :
+                        floatToSbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)floatToSbyte,
+                    double doubleToSbyte => doubleToSbyte > sbyte.MaxValue ? sbyte.MaxValue :
+                        doubleToSbyte < sbyte.MinValue ? sbyte.MinValue : (sbyte)doubleToSbyte,
+                    string stringToSbyte => sbyte.TryParse(stringToSbyte, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedSByte)
+                        ? stringConvertedSByte
                         : (sbyte)0,
-                    byte[] byte_array_to_sbyte => byte_array_to_sbyte.Length > 0
-                        ? (sbyte)byte_array_to_sbyte[0]
+                    byte[] byteArrayToSbyte => byteArrayToSbyte.Length > 0
+                        ? (sbyte)byteArrayToSbyte[0]
                         : (sbyte)0,
                     _ => 0
                 };
@@ -379,26 +467,26 @@ public partial class MainView : UserControl
             case 5:
                 var charValue = before switch
                 {
-                    bool bool_to_char => bool_to_char ? (char)1 : (char)0,
-                    byte byte_to_char => (char)byte_to_char,
-                    sbyte sbyte_to_char => (char)sbyte_to_char,
-                    char char_to_char => char_to_char,
-                    short short_to_char => short_to_char < char.MinValue ? char.MinValue : (char)short_to_char,
-                    ushort ushort_to_char => ushort_to_char > char.MaxValue ? char.MaxValue : (char)ushort_to_char,
-                    int int_to_char => int_to_char > char.MaxValue ? char.MaxValue :
-                        int_to_char < char.MinValue ? char.MinValue : (char)int_to_char,
-                    uint uint_to_char => uint_to_char > char.MaxValue ? char.MaxValue : (char)uint_to_char,
-                    long long_to_char => long_to_char > char.MaxValue ? char.MaxValue :
-                        long_to_char < char.MinValue ? char.MinValue : (char)long_to_char,
-                    ulong ulong_to_char => ulong_to_char > char.MaxValue ? char.MaxValue : (char)ulong_to_char,
-                    float float_to_char => float_to_char > char.MaxValue ? char.MaxValue :
-                        float_to_char < char.MinValue ? char.MinValue : (char)float_to_char,
-                    double double_to_char => double_to_char > char.MaxValue ? char.MaxValue :
-                        double_to_char < char.MinValue ? char.MinValue : (char)double_to_char,
-                    string string_to_char => char.TryParse(string_to_char, out var string_convertedChar)
-                        ? string_convertedChar
+                    bool boolToChar => boolToChar ? (char)1 : (char)0,
+                    byte byteToChar => (char)byteToChar,
+                    sbyte sbyteToChar => (char)sbyteToChar,
+                    char charToChar => charToChar,
+                    short shortToChar => shortToChar < char.MinValue ? char.MinValue : (char)shortToChar,
+                    ushort ushortToChar => ushortToChar > char.MaxValue ? char.MaxValue : (char)ushortToChar,
+                    int intToChar => intToChar > char.MaxValue ? char.MaxValue :
+                        intToChar < char.MinValue ? char.MinValue : (char)intToChar,
+                    uint uintToChar => uintToChar > char.MaxValue ? char.MaxValue : (char)uintToChar,
+                    long longToChar => longToChar > char.MaxValue ? char.MaxValue :
+                        longToChar < char.MinValue ? char.MinValue : (char)longToChar,
+                    ulong ulongToChar => ulongToChar > char.MaxValue ? char.MaxValue : (char)ulongToChar,
+                    float floatToChar => floatToChar > char.MaxValue ? char.MaxValue :
+                        floatToChar < char.MinValue ? char.MinValue : (char)floatToChar,
+                    double doubleToChar => doubleToChar > char.MaxValue ? char.MaxValue :
+                        doubleToChar < char.MinValue ? char.MinValue : (char)doubleToChar,
+                    string stringToChar => char.TryParse(stringToChar, out var stringConvertedChar)
+                        ? stringConvertedChar
                         : (char)0,
-                    byte[] byte_array_to_char => byte_array_to_char.Length > 0 ? (char)byte_array_to_char[0] : (char)0,
+                    byte[] byteArrayToChar => byteArrayToChar.Length > 0 ? (char)byteArrayToChar[0] : (char)0,
                     _ => (char)0
                 };
                 return charValue;
@@ -406,257 +494,257 @@ public partial class MainView : UserControl
             case 6:
                 short shortValue = before switch
                 {
-                    bool bool_to_short => bool_to_short ? (short)1 : (short)0,
-                    byte byte_to_short => byte_to_short,
-                    sbyte sbyte_to_short => sbyte_to_short,
-                    char char_to_short => char_to_short > short.MaxValue ? short.MaxValue : (short)char_to_short,
-                    short short_to_short => short_to_short,
-                    ushort ushort_to_short => ushort_to_short > short.MaxValue
+                    bool boolToShort => boolToShort ? (short)1 : (short)0,
+                    byte byteToShort => byteToShort,
+                    sbyte sbyteToShort => sbyteToShort,
+                    char charToShort => charToShort > short.MaxValue ? short.MaxValue : (short)charToShort,
+                    short shortToShort => shortToShort,
+                    ushort ushortToShort => ushortToShort > short.MaxValue
                         ? short.MaxValue
-                        : (short)ushort_to_short,
-                    int int_to_short => int_to_short > short.MaxValue ? short.MaxValue :
-                        int_to_short < short.MinValue ? short.MinValue : (short)int_to_short,
-                    uint uint_to_short => uint_to_short > short.MaxValue ? short.MaxValue : (short)uint_to_short,
-                    long long_to_short => long_to_short > short.MaxValue ? short.MaxValue :
-                        long_to_short < short.MinValue ? short.MinValue : (short)long_to_short,
-                    ulong ulong_to_short => ulong_to_short > (ulong)short.MaxValue
+                        : (short)ushortToShort,
+                    int intToShort => intToShort > short.MaxValue ? short.MaxValue :
+                        intToShort < short.MinValue ? short.MinValue : (short)intToShort,
+                    uint uintToShort => uintToShort > short.MaxValue ? short.MaxValue : (short)uintToShort,
+                    long longToShort => longToShort > short.MaxValue ? short.MaxValue :
+                        longToShort < short.MinValue ? short.MinValue : (short)longToShort,
+                    ulong ulongToShort => ulongToShort > (ulong)short.MaxValue
                         ? short.MaxValue
-                        : (short)ulong_to_short,
-                    float float_to_short => float_to_short > short.MaxValue ? short.MaxValue :
-                        float_to_short < short.MinValue ? short.MinValue : (short)float_to_short,
-                    double double_to_short => double_to_short > short.MaxValue ? short.MaxValue :
-                        double_to_short < short.MinValue ? short.MinValue : (byte)double_to_short,
-                    string string_to_short => short.TryParse(string_to_short, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedShort)
-                        ? string_convertedShort
+                        : (short)ulongToShort,
+                    float floatToShort => floatToShort > short.MaxValue ? short.MaxValue :
+                        floatToShort < short.MinValue ? short.MinValue : (short)floatToShort,
+                    double doubleToShort => doubleToShort > short.MaxValue ? short.MaxValue :
+                        doubleToShort < short.MinValue ? short.MinValue : (byte)doubleToShort,
+                    string stringToShort => short.TryParse(stringToShort, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedShort)
+                        ? stringConvertedShort
                         : (short)0,
-                    byte[] byte_array_to_short => BitConverter.ToInt16(byte_array_to_short),
+                    byte[] byteArrayToShort => BitConverter.ToInt16(byteArrayToShort),
                     _ => 0
                 };
                 return shortValue;
             case 7:
                 ushort ushortValue = before switch
                 {
-                    bool bool_to_ushort => bool_to_ushort ? (ushort)1 : (ushort)0,
-                    byte byte_to_ushort => byte_to_ushort,
-                    sbyte sbyte_to_ushort => (ushort)sbyte_to_ushort,
-                    char char_to_ushort => char_to_ushort,
-                    short short_to_ushort => short_to_ushort < ushort.MinValue
+                    bool boolToUshort => boolToUshort ? (ushort)1 : (ushort)0,
+                    byte byteToUshort => byteToUshort,
+                    sbyte sbyteToUshort => (ushort)sbyteToUshort,
+                    char charToUshort => charToUshort,
+                    short shortToUshort => shortToUshort < ushort.MinValue
                         ? ushort.MinValue
-                        : (ushort)short_to_ushort,
-                    ushort ushort_to_ushort => ushort_to_ushort,
-                    int int_to_ushort => int_to_ushort > ushort.MaxValue ? ushort.MaxValue :
-                        int_to_ushort < ushort.MinValue ? ushort.MinValue : (ushort)int_to_ushort,
-                    uint uint_to_ushort => uint_to_ushort > ushort.MaxValue ? ushort.MaxValue : (ushort)uint_to_ushort,
-                    long long_to_ushort => long_to_ushort > ushort.MaxValue ? ushort.MaxValue :
-                        long_to_ushort < ushort.MinValue ? ushort.MinValue : (ushort)long_to_ushort,
-                    ulong ulong_to_ushort => ulong_to_ushort > ushort.MaxValue
+                        : (ushort)shortToUshort,
+                    ushort ushortToUshort => ushortToUshort,
+                    int intToUshort => intToUshort > ushort.MaxValue ? ushort.MaxValue :
+                        intToUshort < ushort.MinValue ? ushort.MinValue : (ushort)intToUshort,
+                    uint uintToUshort => uintToUshort > ushort.MaxValue ? ushort.MaxValue : (ushort)uintToUshort,
+                    long longToUshort => longToUshort > ushort.MaxValue ? ushort.MaxValue :
+                        longToUshort < ushort.MinValue ? ushort.MinValue : (ushort)longToUshort,
+                    ulong ulongToUshort => ulongToUshort > ushort.MaxValue
                         ? ushort.MaxValue
-                        : (ushort)ulong_to_ushort,
-                    float float_to_ushort => float_to_ushort > ushort.MaxValue ? ushort.MaxValue :
-                        float_to_ushort < ushort.MinValue ? ushort.MinValue : (ushort)float_to_ushort,
-                    double double_to_ushort => double_to_ushort > ushort.MaxValue ? ushort.MaxValue :
-                        double_to_ushort < ushort.MinValue ? ushort.MinValue : (byte)double_to_ushort,
-                    string string_to_ushort => ushort.TryParse(string_to_ushort, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedUshort)
-                        ? string_convertedUshort
+                        : (ushort)ulongToUshort,
+                    float floatToUshort => floatToUshort > ushort.MaxValue ? ushort.MaxValue :
+                        floatToUshort < ushort.MinValue ? ushort.MinValue : (ushort)floatToUshort,
+                    double doubleToUshort => doubleToUshort > ushort.MaxValue ? ushort.MaxValue :
+                        doubleToUshort < ushort.MinValue ? ushort.MinValue : (byte)doubleToUshort,
+                    string stringToUshort => ushort.TryParse(stringToUshort, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedUshort)
+                        ? stringConvertedUshort
                         : (ushort)0,
-                    byte[] byte_array_to_ushort => BitConverter.ToUInt16(byte_array_to_ushort),
+                    byte[] byteArrayToUshort => BitConverter.ToUInt16(byteArrayToUshort),
                     _ => 0
                 };
                 return ushortValue;
             case 8:
                 var intValue = before switch
                 {
-                    bool bool_to_int => bool_to_int ? 1 : 0,
-                    byte byte_to_int => byte_to_int,
-                    sbyte sbyte_to_int => sbyte_to_int,
-                    char char_to_int => char_to_int,
-                    short short_to_int => short_to_int,
-                    ushort int_to_ushort => int_to_ushort,
-                    int int_to_int => int_to_int,
-                    uint uint_to_int => uint_to_int > int.MaxValue ? int.MaxValue : (int)uint_to_int,
-                    long long_to_int => long_to_int > int.MaxValue ? int.MaxValue :
-                        long_to_int < int.MinValue ? int.MinValue : (int)long_to_int,
-                    ulong ulong_to_int => ulong_to_int > int.MaxValue
+                    bool boolToInt => boolToInt ? 1 : 0,
+                    byte byteToInt => byteToInt,
+                    sbyte sbyteToInt => sbyteToInt,
+                    char charToInt => charToInt,
+                    short shortToInt => shortToInt,
+                    ushort intToUshort => intToUshort,
+                    int intToInt => intToInt,
+                    uint uintToInt => uintToInt > int.MaxValue ? int.MaxValue : (int)uintToInt,
+                    long longToInt => longToInt > int.MaxValue ? int.MaxValue :
+                        longToInt < int.MinValue ? int.MinValue : (int)longToInt,
+                    ulong ulongToInt => ulongToInt > int.MaxValue
                         ? int.MaxValue
-                        : (int)ulong_to_int,
-                    float float_to_int => float_to_int > int.MaxValue ? int.MaxValue :
-                        float_to_int < int.MinValue ? int.MinValue : (int)float_to_int,
-                    double double_to_int => double_to_int > int.MaxValue ? int.MaxValue :
-                        double_to_int < int.MinValue ? int.MinValue : (byte)double_to_int,
-                    string string_to_int => int.TryParse(string_to_int, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedInt)
-                        ? string_convertedInt
+                        : (int)ulongToInt,
+                    float floatToInt => floatToInt > int.MaxValue ? int.MaxValue :
+                        floatToInt < int.MinValue ? int.MinValue : (int)floatToInt,
+                    double doubleToInt => doubleToInt > int.MaxValue ? int.MaxValue :
+                        doubleToInt < int.MinValue ? int.MinValue : (byte)doubleToInt,
+                    string stringToInt => int.TryParse(stringToInt, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedInt)
+                        ? stringConvertedInt
                         : 0,
-                    byte[] byte_array_to_int => BitConverter.ToInt32(byte_array_to_int),
+                    byte[] byteArrayToInt => BitConverter.ToInt32(byteArrayToInt),
                     _ => 0
                 };
                 return intValue;
             case 9:
                 uint uintValue = before switch
                 {
-                    bool bool_to_uint => bool_to_uint ? (uint)1 : 0,
-                    byte byte_to_uint => byte_to_uint,
-                    sbyte sbyte_to_uint => (uint)sbyte_to_uint,
-                    char char_to_uint => char_to_uint,
-                    short short_to_uint => (uint)short_to_uint,
-                    ushort uint_to_ushort => uint_to_ushort,
-                    int int_to_uint => int_to_uint < uint.MinValue ? uint.MinValue : (uint)int_to_uint,
-                    uint uint_to_uint => uint_to_uint,
-                    long long_to_uint => long_to_uint > uint.MaxValue ? uint.MaxValue :
-                        long_to_uint < uint.MinValue ? uint.MinValue : (uint)long_to_uint,
-                    ulong ulong_to_uint => ulong_to_uint > uint.MaxValue
+                    bool boolToUint => boolToUint ? (uint)1 : 0,
+                    byte byteToUint => byteToUint,
+                    sbyte sbyteToUint => (uint)sbyteToUint,
+                    char charToUint => charToUint,
+                    short shortToUint => (uint)shortToUint,
+                    ushort uintToUshort => uintToUshort,
+                    int intToUint => intToUint < uint.MinValue ? uint.MinValue : (uint)intToUint,
+                    uint uintToUint => uintToUint,
+                    long longToUint => longToUint > uint.MaxValue ? uint.MaxValue :
+                        longToUint < uint.MinValue ? uint.MinValue : (uint)longToUint,
+                    ulong ulongToUint => ulongToUint > uint.MaxValue
                         ? uint.MaxValue
-                        : (uint)ulong_to_uint,
-                    float float_to_uint => float_to_uint > uint.MaxValue ? uint.MaxValue :
-                        float_to_uint < uint.MinValue ? uint.MinValue : (uint)float_to_uint,
-                    double double_to_uint => double_to_uint > uint.MaxValue ? uint.MaxValue :
-                        double_to_uint < uint.MinValue ? uint.MinValue : (byte)double_to_uint,
-                    string string_to_uint => uint.TryParse(string_to_uint, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedUInt)
-                        ? string_convertedUInt
+                        : (uint)ulongToUint,
+                    float floatToUint => floatToUint > uint.MaxValue ? uint.MaxValue :
+                        floatToUint < uint.MinValue ? uint.MinValue : (uint)floatToUint,
+                    double doubleToUint => doubleToUint > uint.MaxValue ? uint.MaxValue :
+                        doubleToUint < uint.MinValue ? uint.MinValue : (byte)doubleToUint,
+                    string stringToUint => uint.TryParse(stringToUint, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedUInt)
+                        ? stringConvertedUInt
                         : 0,
-                    byte[] byte_array_to_uint => BitConverter.ToUInt32(byte_array_to_uint),
+                    byte[] byteArrayToUint => BitConverter.ToUInt32(byteArrayToUint),
                     _ => 0
                 };
                 return uintValue;
             case 10:
                 var longValue = before switch
                 {
-                    bool bool_to_long => bool_to_long ? 1 : 0,
-                    byte byte_to_long => byte_to_long,
-                    sbyte sbyte_to_long => sbyte_to_long,
-                    char char_to_long => char_to_long,
-                    short short_to_long => short_to_long,
-                    ushort long_to_ushort => long_to_ushort,
-                    int int_to_long => int_to_long,
-                    uint uint_to_long => uint_to_long,
-                    long long_to_long => long_to_long,
-                    ulong ulong_to_long => ulong_to_long > long.MaxValue
+                    bool boolToLong => boolToLong ? 1 : 0,
+                    byte byteToLong => byteToLong,
+                    sbyte sbyteToLong => sbyteToLong,
+                    char charToLong => charToLong,
+                    short shortToLong => shortToLong,
+                    ushort longToUshort => longToUshort,
+                    int intToLong => intToLong,
+                    uint uintToLong => uintToLong,
+                    long longToLong => longToLong,
+                    ulong ulongToLong => ulongToLong > long.MaxValue
                         ? long.MaxValue
-                        : (long)ulong_to_long,
-                    float float_to_long => float_to_long > long.MaxValue ? long.MaxValue :
-                        float_to_long < long.MinValue ? long.MinValue : (long)float_to_long,
-                    double double_to_long => double_to_long > long.MaxValue ? long.MaxValue :
-                        double_to_long < long.MinValue ? long.MinValue : (byte)double_to_long,
-                    string string_to_long => long.TryParse(string_to_long, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedLong)
-                        ? string_convertedLong
+                        : (long)ulongToLong,
+                    float floatToLong => floatToLong > long.MaxValue ? long.MaxValue :
+                        floatToLong < long.MinValue ? long.MinValue : (long)floatToLong,
+                    double doubleToLong => doubleToLong > long.MaxValue ? long.MaxValue :
+                        doubleToLong < long.MinValue ? long.MinValue : (byte)doubleToLong,
+                    string stringToLong => long.TryParse(stringToLong, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedLong)
+                        ? stringConvertedLong
                         : 0,
-                    byte[] byte_array_to_long => BitConverter.ToInt64(byte_array_to_long),
+                    byte[] byteArrayToLong => BitConverter.ToInt64(byteArrayToLong),
                     _ => 0
                 };
                 return longValue;
             case 11:
                 ulong ulongValue = before switch
                 {
-                    bool bool_to_ulong => bool_to_ulong ? 1 : (ulong)0,
-                    byte byte_to_ulong => byte_to_ulong,
-                    sbyte sbyte_to_ulong => (ulong)sbyte_to_ulong,
-                    char char_to_ulong => char_to_ulong,
-                    short short_to_ulong => (ulong)short_to_ulong,
-                    ushort ulong_to_ushort => ulong_to_ushort,
-                    int int_to_ulong => (ulong)int_to_ulong,
-                    uint uint_to_ulong => uint_to_ulong,
-                    long long_to_ulong => long_to_ulong < (long)ulong.MinValue ? ulong.MinValue : (ulong)long_to_ulong,
-                    ulong ulong_to_ulong => ulong_to_ulong,
-                    float float_to_ulong => float_to_ulong > ulong.MaxValue ? ulong.MaxValue :
-                        float_to_ulong < ulong.MinValue ? ulong.MinValue : (ulong)float_to_ulong,
-                    double double_to_ulong => double_to_ulong > ulong.MaxValue ? ulong.MaxValue :
-                        double_to_ulong < ulong.MinValue ? ulong.MinValue : (byte)double_to_ulong,
-                    string string_to_ulong => ulong.TryParse(string_to_ulong, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedUlong)
-                        ? string_convertedUlong
+                    bool boolToUlong => boolToUlong ? 1 : (ulong)0,
+                    byte byteToUlong => byteToUlong,
+                    sbyte sbyteToUlong => (ulong)sbyteToUlong,
+                    char charToUlong => charToUlong,
+                    short shortToUlong => (ulong)shortToUlong,
+                    ushort ulongToUshort => ulongToUshort,
+                    int intToUlong => (ulong)intToUlong,
+                    uint uintToUlong => uintToUlong,
+                    long longToUlong => longToUlong < (long)ulong.MinValue ? ulong.MinValue : (ulong)longToUlong,
+                    ulong ulongToUlong => ulongToUlong,
+                    float floatToUlong => floatToUlong > ulong.MaxValue ? ulong.MaxValue :
+                        floatToUlong < ulong.MinValue ? ulong.MinValue : (ulong)floatToUlong,
+                    double doubleToUlong => doubleToUlong > ulong.MaxValue ? ulong.MaxValue :
+                        doubleToUlong < ulong.MinValue ? ulong.MinValue : (byte)doubleToUlong,
+                    string stringToUlong => ulong.TryParse(stringToUlong, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedUlong)
+                        ? stringConvertedUlong
                         : 0,
-                    byte[] byte_array_to_ulong => BitConverter.ToUInt64(byte_array_to_ulong),
+                    byte[] byteArrayToUlong => BitConverter.ToUInt64(byteArrayToUlong),
                     _ => 0
                 };
                 return ulongValue;
             case 12:
                 var floatValue = before switch
                 {
-                    bool bool_to_float => bool_to_float ? 1 : 0,
-                    byte byte_to_float => byte_to_float,
-                    sbyte sbyte_to_float => sbyte_to_float,
-                    char char_to_float => char_to_float,
-                    short short_to_float => short_to_float,
-                    ushort float_to_ushort => float_to_ushort,
-                    int int_to_float => int_to_float,
-                    uint uint_to_float => uint_to_float,
-                    long long_to_float => long_to_float,
-                    ulong ulong_to_float => ulong_to_float,
-                    float float_to_float => float_to_float,
-                    double double_to_float => double_to_float > float.MaxValue ? float.MaxValue :
-                        double_to_float < float.MinValue ? float.MinValue : (byte)double_to_float,
-                    string string_to_float => float.TryParse(string_to_float, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedFloat)
-                        ? string_convertedFloat
+                    bool boolToFloat => boolToFloat ? 1 : 0,
+                    byte byteToFloat => byteToFloat,
+                    sbyte sbyteToFloat => sbyteToFloat,
+                    char charToFloat => charToFloat,
+                    short shortToFloat => shortToFloat,
+                    ushort floatToUshort => floatToUshort,
+                    int intToFloat => intToFloat,
+                    uint uintToFloat => uintToFloat,
+                    long longToFloat => longToFloat,
+                    ulong ulongToFloat => ulongToFloat,
+                    float floatToFloat => floatToFloat,
+                    double doubleToFloat => doubleToFloat > float.MaxValue ? float.MaxValue :
+                        doubleToFloat < float.MinValue ? float.MinValue : (byte)doubleToFloat,
+                    string stringToFloat => float.TryParse(stringToFloat, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedFloat)
+                        ? stringConvertedFloat
                         : 0,
-                    byte[] byte_array_to_float => BitConverter.ToSingle(byte_array_to_float),
+                    byte[] byteArrayToFloat => BitConverter.ToSingle(byteArrayToFloat),
                     _ => 0
                 };
                 return floatValue;
             case 13:
                 var doubleValue = before switch
                 {
-                    bool bool_to_double => bool_to_double ? 1 : 0,
-                    byte byte_to_double => byte_to_double,
-                    sbyte sbyte_to_double => sbyte_to_double,
-                    char char_to_double => char_to_double,
-                    short short_to_double => short_to_double,
-                    ushort double_to_ushort => double_to_ushort,
-                    int int_to_double => int_to_double,
-                    uint uint_to_double => uint_to_double,
-                    long long_to_double => long_to_double,
-                    ulong ulong_to_double => ulong_to_double,
-                    float float_to_double => float_to_double,
-                    double double_to_double => double_to_double,
-                    string string_to_double => double.TryParse(string_to_double, NumberStyles.None,
-                        CultureInfo.InvariantCulture, out var string_convertedDouble)
-                        ? string_convertedDouble
+                    bool boolToDouble => boolToDouble ? 1 : 0,
+                    byte byteToDouble => byteToDouble,
+                    sbyte sbyteToDouble => sbyteToDouble,
+                    char charToDouble => charToDouble,
+                    short shortToDouble => shortToDouble,
+                    ushort doubleToUshort => doubleToUshort,
+                    int intToDouble => intToDouble,
+                    uint uintToDouble => uintToDouble,
+                    long longToDouble => longToDouble,
+                    ulong ulongToDouble => ulongToDouble,
+                    float floatToDouble => floatToDouble,
+                    double doubleToDouble => doubleToDouble,
+                    string stringToDouble => double.TryParse(stringToDouble, NumberStyles.None,
+                        CultureInfo.InvariantCulture, out var stringConvertedDouble)
+                        ? stringConvertedDouble
                         : 0,
-                    byte[] byte_array_to_double => BitConverter.ToDouble(byte_array_to_double),
+                    byte[] byteArrayToDouble => BitConverter.ToDouble(byteArrayToDouble),
                     _ => 0
                 };
                 return doubleValue;
             case 14:
                 var stringValue = before switch
                 {
-                    bool bool_to_string => bool_to_string ? "true" : "false",
-                    byte byte_to_string => "" + byte_to_string,
-                    sbyte byte_to_string => "" + byte_to_string,
-                    char char_to_string => "" + char_to_string,
-                    short short_to_string => "" + short_to_string,
-                    ushort ushort_to_string => "" + ushort_to_string,
-                    int int_to_string => "" + int_to_string,
-                    uint uint_to_string => "" + uint_to_string,
-                    long long_to_string => "" + long_to_string,
-                    ulong ulong_to_string => "" + ulong_to_string,
-                    float float_to_string => "" + float_to_string,
-                    double double_to_string => "" + double_to_string,
-                    string string_to_string => string_to_string,
-                    byte[] byte_array_to_string => BitConverter.ToString(byte_array_to_string).Replace("-", " "),
+                    bool boolToString => boolToString ? "true" : "false",
+                    byte byteToString => "" + byteToString,
+                    sbyte byteToString => "" + byteToString,
+                    char charToString => "" + charToString,
+                    short shortToString => "" + shortToString,
+                    ushort ushortToString => "" + ushortToString,
+                    int intToString => "" + intToString,
+                    uint uintToString => "" + uintToString,
+                    long longToString => "" + longToString,
+                    ulong ulongToString => "" + ulongToString,
+                    float floatToString => "" + floatToString,
+                    double doubleToString => "" + doubleToString,
+                    string stringToString => stringToString,
+                    byte[] byteArrayToString => BitConverter.ToString(byteArrayToString).Replace("-", " "),
                     _ => string.Empty
                 };
                 return stringValue;
             case 15:
                 var byteArrayValue = before switch
                 {
-                    bool bool_to_byteArray => BitConverter.GetBytes(bool_to_byteArray),
-                    byte byte_to_byteArray => [byte_to_byteArray],
-                    sbyte byte_to_byteArray => [(byte)byte_to_byteArray],
-                    char char_to_byteArray => BitConverter.GetBytes(char_to_byteArray),
-                    short short_to_byteArray => BitConverter.GetBytes(short_to_byteArray),
-                    ushort ushort_to_byteArray => BitConverter.GetBytes(ushort_to_byteArray),
-                    int int_to_byteArray => BitConverter.GetBytes(int_to_byteArray),
-                    uint uint_to_byteArray => BitConverter.GetBytes(uint_to_byteArray),
-                    long long_to_byteArray => BitConverter.GetBytes(long_to_byteArray),
-                    ulong ulong_to_byteArray => BitConverter.GetBytes(ulong_to_byteArray),
-                    float float_to_byteArray => BitConverter.GetBytes(float_to_byteArray),
-                    double double_to_byteArray => BitConverter.GetBytes(double_to_byteArray),
-                    string string_to_byteArray => Encoding.Default.GetBytes(string_to_byteArray),
-                    byte[] byte_array_to_byteArray => byte_array_to_byteArray,
+                    bool boolToByteArray => BitConverter.GetBytes(boolToByteArray),
+                    byte byteToByteArray => [byteToByteArray],
+                    sbyte byteToByteArray => [(byte)byteToByteArray],
+                    char charToByteArray => BitConverter.GetBytes(charToByteArray),
+                    short shortToByteArray => BitConverter.GetBytes(shortToByteArray),
+                    ushort ushortToByteArray => BitConverter.GetBytes(ushortToByteArray),
+                    int intToByteArray => BitConverter.GetBytes(intToByteArray),
+                    uint uintToByteArray => BitConverter.GetBytes(uintToByteArray),
+                    long longToByteArray => BitConverter.GetBytes(longToByteArray),
+                    ulong ulongToByteArray => BitConverter.GetBytes(ulongToByteArray),
+                    float floatToByteArray => BitConverter.GetBytes(floatToByteArray),
+                    double doubleToByteArray => BitConverter.GetBytes(doubleToByteArray),
+                    string stringToByteArray => Encoding.Default.GetBytes(stringToByteArray),
+                    byte[] byteArrayToByteArray => byteArrayToByteArray,
                     _ => []
                 };
                 return byteArrayValue;
@@ -697,11 +785,11 @@ public partial class MainView : UserControl
         {
             var node = new FluxionNode { Name = Lang.Lang.Node_NewItem, Value = null };
             parent.Add(node);
-            var new_item = new TreeViewItem
+            var newItem = new TreeViewItem
                 { Header = Lang.Lang.Node_NewItem, Tag = node, IsExpanded = true };
-            item.Items.Add(new_item);
+            item.Items.Add(newItem);
             item.IsExpanded = true;
-            Nodes.SelectedItem = new_item;
+            Nodes.SelectedItem = newItem;
         }
         else
         {
@@ -714,7 +802,7 @@ public partial class MainView : UserControl
             Nodes.SelectedItem = root;
         }
 
-        Saved = false;
+        _saved = false;
         SaveState();
     }
     // ReSharper restore UnusedParameter.Local
@@ -728,8 +816,8 @@ public partial class MainView : UserControl
         node.Value = ConvertValue(cb.SelectedIndex, node.Value);
         NodeValue.Text = node.Value switch
         {
-            bool bool_value => bool_value ? "true" : "false",
-            byte[] byte_array => BitConverter.ToString(byte_array).Replace("-", " "),
+            bool boolValue => boolValue ? "true" : "false",
+            byte[] byteArray => BitConverter.ToString(byteArray).Replace("-", " "),
             _ => "" + node.Value
         };
         NodeValue.IsEnabled = true;
@@ -788,7 +876,7 @@ public partial class MainView : UserControl
 
     private void SaveState()
     {
-        Saved = false;
+        _saved = false;
         if (AutoSave?.IsChecked is true && AutoSaveEncoding?.SelectedItem is ComboBoxItem { Tag: string encoding })
             Save(encoding, (byte)(AutoSaveVersion.SelectedIndex + 1));
     }
@@ -811,24 +899,31 @@ public partial class MainView : UserControl
 
     private async void Save(Encoding encoding, byte version)
     {
-        if (IsSaving || loadedFile is null) return;
-        IsSaving = true;
-        await Dispatcher.UIThread.InvokeAsync(() =>
+        try
         {
-            SaveStatusText.Text = Lang.Lang.Status_SavingFile;
-            SavingProgressPanel.IsVisible = true;
-        });
-        if (Nodes.Items[0] is not TreeViewItem { Tag: FluxionNode root }) return;
-        switch (loadedFileCompression)
-        {
-            case "none":
-                root.Write(await loadedFile.OpenWriteAsync(), encoding, version);
-                break;
-        }
+            if (_isSaving || _loadedFile is null) return;
+            _isSaving = true;
+            await Dispatcher.UIThread.InvokeAsync(() =>
+            {
+                SaveStatusText.Text = Lang.Lang.Status_SavingFile;
+                SavingProgressPanel.IsVisible = true;
+            });
+            if (Nodes.Items[0] is not TreeViewItem { Tag: FluxionNode root }) return;
+            switch (_loadedFileCompression)
+            {
+                case "none":
+                    root.Write(await _loadedFile.OpenWriteAsync(), encoding, version);
+                    break;
+            }
 
-        Saved = true;
-        IsSaving = false;
-        await Dispatcher.UIThread.InvokeAsync(() => SavingProgressPanel.IsVisible = false);
+            _saved = true;
+            _isSaving = false;
+            await Dispatcher.UIThread.InvokeAsync(() => SavingProgressPanel.IsVisible = false);
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
 
 
@@ -839,7 +934,7 @@ public partial class MainView : UserControl
         if (AutoSaveEncoding is not null) AutoSaveEncoding.SelectedIndex = encoding;
         if (AutoSave is not null) AutoSave.IsChecked = autoSave;
         if (AutoSaveVersion is not null) AutoSaveVersion.SelectedIndex = version - 1;
-        IsSettingsSaving = false;
+        _isSettingsSaving = false;
     }
 // ReSharper restore UnusedParameter.Local
 
@@ -871,9 +966,9 @@ public partial class MainView : UserControl
 
     private void SaveSettings()
     {
-        if (IsSettingsSaving) return;
+        if (_isSettingsSaving) return;
         if (!Directory.Exists(AppFolder)) Directory.CreateDirectory(AppFolder);
-        IsSettingsSaving = true;
+        _isSettingsSaving = true;
         var root = new FluxionNode { Name = "FluxionViewer", Value = GetAppVersion() };
         if (AutoSave is not null)
             root.Attributes.Add(new FluxionAttribute { Name = "autosave", Value = AutoSave.IsChecked is true });
@@ -886,15 +981,15 @@ public partial class MainView : UserControl
             : File.Create(AppSettingsFile);
         root.Write(fs, Encoding.UTF8, 2);
 
-        IsSettingsSaving = false;
+        _isSettingsSaving = false;
     }
 
     internal void Close()
     {
         if (SavingProgressPanel.IsVisible) return;
-        if (Saved)
+        if (_saved)
         {
-            while (IsSettingsSaving)
+            while (_isSettingsSaving)
             {
             } // Wait until settings are saved.
 
@@ -911,13 +1006,20 @@ public partial class MainView : UserControl
 
     private async void SaveAndExit(object? sender, RoutedEventArgs e)
     {
-        await Dispatcher.UIThread.InvokeAsync(() =>
+        try
         {
-            SaveFile(sender, e);
-            if (Parent is not MainWindow mw) return;
-            mw.AllowClose = true;
-            mw.Close();
-        });
+            await Dispatcher.UIThread.InvokeAsync(() =>
+            {
+                SaveFile(sender, e);
+                if (Parent is not MainWindow mw) return;
+                mw.AllowClose = true;
+                mw.Close();
+            });
+        }
+        catch (Exception)
+        {
+            //ignored
+        }
     }
 
     // ReSharper disable UnusedParameter.Local
@@ -932,8 +1034,15 @@ public partial class MainView : UserControl
     // ReSharper disable once UnusedParameter.Local
     private async void DialogButtonClick(object? sender, RoutedEventArgs e)
     {
-        if (sender is not Button { Tag: Control c }) return;
-        await DialogHost.Show(c);
+        try
+        {
+            if (sender is not Button { Tag: Control c }) return;
+            await DialogHost.Show(c);
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
 
 // ReSharper disable UnusedParameter.Local
@@ -958,56 +1067,70 @@ public partial class MainView : UserControl
 // ReSharper disable UnusedParameter.Local
     private async void OpenFile(object? sender, RoutedEventArgs e)
     {
-        await Dispatcher.UIThread.InvokeAsync(async () =>
+        try
         {
-            if (Parent is not TopLevel topLevel) return;
-            if (!topLevel.StorageProvider.CanOpen) return;
-
-            var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+            await Dispatcher.UIThread.InvokeAsync(async () =>
             {
-                Title = Lang.Lang.Open_Title,
-                AllowMultiple = false,
-                FileTypeFilter = fileTypes
-            });
+                if (Parent is not TopLevel topLevel) return;
+                if (!topLevel.StorageProvider.CanOpen) return;
 
-            if (files.Count <= 0) return;
-            SavingProgressPanel.IsVisible = true;
-            SaveStatusText.Text = Lang.Lang.Status_LoadingFile;
-            ReadFluxionNode(Fluxion.Read(await files[0].OpenReadAsync()), null);
-            loadedFile = files[0];
-            loadedFileCompression = "none";
-            SavingProgressPanel.IsVisible = false;
-        });
+                var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+                {
+                    Title = Lang.Lang.Open_Title,
+                    AllowMultiple = false,
+                    FileTypeFilter = FileTypes
+                });
+
+                if (files.Count <= 0) return;
+                SavingProgressPanel.IsVisible = true;
+                SaveStatusText.Text = Lang.Lang.Status_LoadingFile;
+                ReadFluxionNode(Fluxion.Read(await files[0].OpenReadAsync()), null);
+                _loadedFile = files[0];
+                _loadedFileCompression = "none";
+                SavingProgressPanel.IsVisible = false;
+            });
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
 // ReSharper restore UnusedParameter.Local
 
 // ReSharper disable UnusedParameter.Local
     private async void LoadCompressed(object? sender, RoutedEventArgs e)
     {
-        await Dispatcher.UIThread.InvokeAsync(async () =>
+        try
         {
-            if (Parent is not TopLevel topLevel) return;
-            if (LoadCompression.SelectedItem is not ComboBoxItem { Tag: string compression }) return;
-            if (!topLevel.StorageProvider.CanOpen) return;
-
-            var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+            await Dispatcher.UIThread.InvokeAsync(async () =>
             {
-                Title = Lang.Lang.OpenCompressed_Title,
-                AllowMultiple = false,
-                FileTypeFilter = fileTypes
+                if (Parent is not TopLevel topLevel) return;
+                if (LoadCompression.SelectedItem is not ComboBoxItem { Tag: string compression }) return;
+                if (!topLevel.StorageProvider.CanOpen) return;
+
+                var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+                {
+                    Title = Lang.Lang.OpenCompressed_Title,
+                    AllowMultiple = false,
+                    FileTypeFilter = FileTypes
+                });
+
+                if (files.Count <= 0) return;
+                SavingProgressPanel.IsVisible = true;
+                SaveStatusText.Text = Lang.Lang.Status_LoadingFile;
+                _loadedFile = files[0];
+                _loadedFileCompression = compression.ToLowerInvariant();
+                await using var stream = GetStream(await files[0].OpenReadAsync(), compression.ToLowerInvariant(),
+                    false);
+                ReadFluxionNode(Fluxion.Read(stream), null);
+
+                SavingProgressPanel.IsVisible = false;
             });
-
-            if (files.Count <= 0) return;
-            SavingProgressPanel.IsVisible = true;
-            SaveStatusText.Text = Lang.Lang.Status_LoadingFile;
-            loadedFile = files[0];
-            loadedFileCompression = compression.ToLowerInvariant();
-            await using var stream = GetStream(await files[0].OpenReadAsync(), compression.ToLowerInvariant(),
-                false);
-            ReadFluxionNode(Fluxion.Read(stream), null);
-
-            SavingProgressPanel.IsVisible = false;
-        });
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
     // ReSharper restore UnusedParameter.Local
 
@@ -1026,13 +1149,20 @@ public partial class MainView : UserControl
 
     private async void SaveFile(object? sender, RoutedEventArgs e)
     {
-        await Dispatcher.UIThread.InvokeAsync(() =>
+        try
         {
-            if (loadedFile is null)
-                SaveAsFile(new SenderCombo { Encoding = SaveFileEncoding, Version = SaveVersionSelect }, e);
-            if (SaveFileEncoding?.SelectedItem is not ComboBox { Tag: string encoding }) return;
-            Save(encoding, (byte)(SaveVersionSelect.SelectedIndex + 1));
-        });
+            await Dispatcher.UIThread.InvokeAsync(() =>
+            {
+                if (_loadedFile is null)
+                    SaveAsFile(new SenderCombo { Encoding = SaveFileEncoding, Version = SaveVersionSelect }, e);
+                if (SaveFileEncoding?.SelectedItem is not ComboBox { Tag: string encoding }) return;
+                Save(encoding, (byte)(SaveVersionSelect.SelectedIndex + 1));
+            });
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
 
     private void SaveAsFileClicked(object? sender, RoutedEventArgs e)
@@ -1043,35 +1173,42 @@ public partial class MainView : UserControl
     // ReSharper disable UnusedParameter.Local
     private async void SaveAsFile(object? sender, RoutedEventArgs e)
     {
-        await Dispatcher.UIThread.InvokeAsync(async () =>
+        try
         {
-            if (Parent is not TopLevel topLevel) return;
-            if (SaveCompression.SelectedItem is not ComboBoxItem { Tag: string compression } ||
-                Nodes.Items[0] is not TreeViewItem { Tag: FluxionNode root } || sender is not SenderCombo sc ||
-                sc.Encoding is not { } encodingCB || sc.Version is not { } versionCB ||
-                encodingCB.SelectedItem is not ComboBox { Tag: string encoding }) return;
-            if (!topLevel.StorageProvider.CanSave) return;
-
-            var file = await topLevel.StorageProvider.SaveFilePickerAsync(new FilePickerSaveOptions
+            await Dispatcher.UIThread.InvokeAsync(async () =>
             {
-                Title = Lang.Lang.SaveAs_Title,
-                DefaultExtension = "*.flx",
-                FileTypeChoices = fileTypes,
-                ShowOverwritePrompt = true
-            });
+                if (Parent is not TopLevel topLevel) return;
+                if (SaveCompression.SelectedItem is not ComboBoxItem { Tag: string compression } ||
+                    Nodes.Items[0] is not TreeViewItem { Tag: FluxionNode root } || sender is not SenderCombo sc ||
+                    sc.Encoding is not { } encodingCb || sc.Version is not { } versionCb ||
+                    encodingCb.SelectedItem is not ComboBox { Tag: string encoding }) return;
+                if (!topLevel.StorageProvider.CanSave) return;
 
-            if (file is null) return;
-            loadedFile = file;
-            var file_encoding = GetEncoding(encoding);
-            await using var stream = GetStream(await file.OpenReadAsync(), compression.ToLowerInvariant(),
-                true);
-            IsSaving = true;
-            await Dispatcher.UIThread.InvokeAsync(() => SavingProgressPanel.IsVisible = true);
-            root.Write(stream, file_encoding, (byte)(versionCB.SelectedIndex + 1));
-            Saved = true;
-            IsSaving = false;
-            await Dispatcher.UIThread.InvokeAsync(() => SavingProgressPanel.IsVisible = false);
-        });
+                var file = await topLevel.StorageProvider.SaveFilePickerAsync(new FilePickerSaveOptions
+                {
+                    Title = Lang.Lang.SaveAs_Title,
+                    DefaultExtension = "*.flx",
+                    FileTypeChoices = FileTypes,
+                    ShowOverwritePrompt = true
+                });
+
+                if (file is null) return;
+                _loadedFile = file;
+                var fileEncoding = GetEncoding(encoding);
+                await using var stream = GetStream(await file.OpenReadAsync(), compression.ToLowerInvariant(),
+                    true);
+                _isSaving = true;
+                await Dispatcher.UIThread.InvokeAsync(() => SavingProgressPanel.IsVisible = true);
+                root.Write(stream, fileEncoding, (byte)(versionCb.SelectedIndex + 1));
+                _saved = true;
+                _isSaving = false;
+                await Dispatcher.UIThread.InvokeAsync(() => SavingProgressPanel.IsVisible = false);
+            });
+        }
+        catch (Exception)
+        {
+            // ignored
+        }
     }
     // ReSharper restore UnusedParameter.Local
 
@@ -1101,7 +1238,7 @@ public partial class MainView : UserControl
     {
         var cloned = CloneNode(node);
         var clone = new TreeViewItem { Header = item.Header, Tag = cloned };
-        foreach (var sub_node in cloned.Children) ReadFluxionNode(sub_node, item);
+        foreach (var subNode in cloned.Children) ReadFluxionNode(subNode, item);
 
         return clone;
     }
@@ -1111,7 +1248,7 @@ public partial class MainView : UserControl
         var clone = new FluxionNode { Name = node.Name, Value = node.Value };
         foreach (FluxionAttribute attr in node.Attributes)
             clone.Attributes.Add(new FluxionAttribute { Name = attr.Name, Value = attr.Value });
-        foreach (var sub_node in node.Children) clone.Add(CloneNode(sub_node));
+        foreach (var subNode in node.Children) clone.Add(CloneNode(subNode));
         return clone;
     }
 
@@ -1131,8 +1268,8 @@ public partial class MainView : UserControl
     {
         TreeViewItem item = new() { Tag = node, Header = node.Name };
         if (node.Count > 0)
-            foreach (var sub_node in node.Children)
-                ReadFluxionNode(sub_node, item);
+            foreach (var subNode in node.Children)
+                ReadFluxionNode(subNode, item);
         if (parent is null)
             Nodes.Items.Add(item);
         else
@@ -1153,6 +1290,27 @@ public partial class MainView : UserControl
         SaveSettings();
     }
     // ReSharper restore UnusedParameter.Local
+
+    private void UpdateApp(object? sender, RoutedEventArgs e)
+    {
+        Process.Start(new ProcessStartInfo("https://haltroy.com/en/fluxion#fluxion-viewer") { UseShellExecute = true });
+    }
+
+    private void UpdateButtonClicked(object? sender, RoutedEventArgs e)
+    {
+        if (UpdateAvailable)
+        {
+            if (sender is not Button { Tag: Control c }) return;
+            DialogHost.Show(c);
+            return;
+        }
+
+        if (!UpToDate) return;
+        CheckingForUpdates = true;
+        UpToDate = false;
+        UpdateAvailable = false;
+        CheckForUpdates();
+    }
 
     private class SenderCombo
     {
