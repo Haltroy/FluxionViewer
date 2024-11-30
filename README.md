@@ -16,12 +16,14 @@ This program is released under GNU GPL v3. [Click here](./LICENSE) to read more.
 - Attributes
 - Auto-save with encoding
 - Cross-platform, available in:
-   - Windows (64-bit)
-   - Linux (other distributions are coming soon)
-   - Arch Linux-based distributions (using PKGINFO)
-   - macOS
+   - Windows (64-bit Intel/AMD/ARM)
+   - Linux (generic, for both GCC and MUSL, 64-bit Intel/AMD/ARM)
+   - Debian-based distributions (64-bit Intel/AMD/ARM)
+   - Red Hat/Fedora based distributions (64-bit Intel/AMD/ARM)
+   - Arch Linux-based distributions (using PKGBUILD, 64-bit Intel/AMD/ARM)
    - Android
-   - iOS
+   - macOS (not officially, need to build the app)
+   - iOS (not officially, need to build the app)
 
 Please refer to the appropiate OS version from the project file for that specific platform (ex. FluxionViewer.Android/FluxionViewer.Android.csproj).
 
@@ -32,7 +34,7 @@ Releases for Windows (Intel, AMD, ARM), Android (as APK) and generic binaries an
 For Arch-based Linux users, download the PKGBUILD files and put them in a folder. Then run `makepkg -i` inside that folder to build & install FluxionViewer.
  - [Normal](https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/arch/main/PKGBUILD) (builds the latest release) [`fluxionviewer`]
  - [Binary](https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/arch/bin/PKGBUILD) (skips building the latest release, downloads and repackages the generic binaries) [`fluxionviewer-bin`]
- - [Development]https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/arch/dev/PKGBUILD() (builds the main branch) [`fluxionviewer-git`]
+ - [Development](https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/arch/dev/PKGBUILD) (builds the main branch) [`fluxionviewer-git`]
 
 ## Build
 
@@ -52,7 +54,7 @@ build -r linux-x64 -c Release). The application should be inside the bin folder 
     - `win-x64`: Windows Intel/AMD 64-bit
     - `win-arm64`: Windows ARM 64-bit
     - `linux-x64`: Linux Intel/AMD 64-bit
-    - `linux-musl-x64`: Linux (distributions that use MUSL instead) Intel/AMD 64-bit
+    - `linux-musl-x64`: Linux (systems that use MUSL instead) Intel/AMD 64-bit
     - `linux-arm64`: Linux ARM 64-bit
     - `android-arm64`: Android phone
     - `iOS-arm64`: iOS device (iPhone, iPad etc.)
