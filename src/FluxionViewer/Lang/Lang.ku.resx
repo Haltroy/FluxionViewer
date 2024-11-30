@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Enkod(ên) piştgirî:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Tevlihevkirina bê destekkirî &quot;$1&quot;.</value>
+        <value>Tevlihevkirina bê destekkirî "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Şîfrekirina &quot;$1&quot; nayê destekkirin.</value>
+        <value>Şîfrekirina "$1" nayê destekkirin.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Pelên Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Guhertoya Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Kontrolkirina nûvekirinan...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Nûvekirin hene.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Biroj.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Ji bo Fluxion Viewer nûvekirinek heye.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Dibe ku ev nûvekirin lêzêdekirinên nû yên wekî taybetmendiyên nûtir an piştgirîya nûtir ji bo formatên Fluxion destnîşan bikin. Dibe ku ev nûvekirin guhertinên krîtîk jî destnîşan bikin da ku serîlêdanê ewledar bikin.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Her gav tê pêşniyar kirin ku hûn guhertoya herî dawî ya gengaz a vê serîlêdanê bimeşînin.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Ma hûn dixwazin nûve bikin?</value>
     </data>
 </root>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>سپورٽ ٿيل انڪوڊنگ(s):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ناڪاري ڪمپريشن &quot;$1&quot;.</value>
+        <value>ناڪاري ڪمپريشن "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>غير معاون انڪوڊنگ &quot;$1&quot;.</value>
+        <value>غير معاون انڪوڊنگ "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion فائلون (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion نسخو:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>تازه ڪاري لاءِ چيڪ ڪيو پيو وڃي...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>تازه ڪاريون دستياب آهن.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>تازه ترين.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>اتي هڪ تازه ڪاري آهي Fluxion Viewer لاءِ.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>اهي تازه ڪاريون نيون اضافو شامل ڪري سگھن ٿيون جهڙوڪ نيون خاصيتون يا نئين سپورٽ Fluxion فارميٽ لاءِ. اهي تازه ڪاريون شايد ايپليڪيشن کي محفوظ بڻائڻ لاءِ نازڪ تبديليون پڻ شامل ڪري سگھن ٿيون.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>اهو هميشه هن اپليڪيشن جي جديد ممڪن ورزن کي هلائڻ جي صلاح ڏني آهي.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>ڇا توھان تازه ڪاري ڪرڻ چاھيو ٿا؟</value>
     </data>
 </root>

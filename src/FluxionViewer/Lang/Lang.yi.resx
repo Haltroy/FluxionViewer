@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>שטיצט קאָדירונג(ס):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ניט-געשטיצט קאַמפּרעשאַן &quot;$1&quot;.</value>
+        <value>ניט-געשטיצט קאַמפּרעשאַן "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>ניט-געשטיצט קאָדירונג &quot;$1&quot;.</value>
+        <value>ניט-געשטיצט קאָדירונג "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>פלוקסיאָן טעקעס (*.פלקס)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>פלוקסיאָן ווערסיע:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>טשעק פֿאַר דערהייַנטיקונגען ...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>דערהייַנטיקונגען בנימצא.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>דערהייַנטיקט.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>עס איז אַ דערהייַנטיקן פֿאַר Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>די דערהייַנטיקונגען קען האָבן נייַע אַדישאַנז אַזאַ ווי נייַער פֿעיִקייטן אָדער נייַער שטיצן פֿאַר פלוקסיאָן פֿאָרמאַטירונגען. די דערהייַנטיקונגען קען אויך האָבן קריטיש ענדערונגען צו מאַכן די אַפּלאַקיישאַן זיכער.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>עס איז שטענדיק רעקאַמענדיד צו לויפן די לעצטע מעגלעך ווערסיע פון ​​דעם אַפּלאַקיישאַן.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>וואָלט איר ווי צו דערהייַנטיקן?</value>
     </data>
 </root>

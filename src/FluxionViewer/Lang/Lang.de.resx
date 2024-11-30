@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion-Version:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Suche nach Updates...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Updates verfügbar.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Auf dem neuesten Stand.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Es gibt ein Update für Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Diese Updates können neue Ergänzungen wie neuere Funktionen oder neuere Unterstützung für Fluxion-Formate enthalten. Diese Updates können auch wichtige Änderungen enthalten, um die Anwendung sicher zu machen.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Es wird immer empfohlen, die neuste mögliche Version dieser Anwendung auszuführen.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Möchten Sie aktualisieren?</value>
     </data>
 </root>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Umbhalo wekhodi osekelwe:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Ukucindezela okungasekelwe &quot;$1&quot;.</value>
+        <value>Ukucindezela okungasekelwe "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Umbhalo wekhodi ongasekelwe &quot;$1&quot;.</value>
+        <value>Umbhalo wekhodi ongasekelwe "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Amafayela e-Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Inguqulo ye-Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Ihlola izibuyekezo...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Izibuyekezo ziyatholakala.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Isikhathi samanje.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Kunesibuyekezo se-Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Lezi zibuyekezo zingase zibe nezingezo ezintsha njengezici ezintsha noma usekelo olusha lwamafomethi e-Fluxion. Lezi zibuyekezo zingase futhi zifake izinguquko ezibalulekile ukwenza uhlelo lokusebenza luvikeleke.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Kuhlala kunconywa ukuthi usebenzise inguqulo yakamuva yalolu hlelo lokusebenza.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Ungathanda ukubuyekeza?</value>
     </data>
 </root>

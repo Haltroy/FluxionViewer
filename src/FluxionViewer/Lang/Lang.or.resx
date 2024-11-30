@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>ସମର୍ଥିତ ଏନକୋଡିଂ (ଗୁଡିକ):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ଅସମର୍ଥିତ ସଙ୍କୋଚନ &quot;$ 1&quot; |</value>
+        <value>ଅସମର୍ଥିତ ସଙ୍କୋଚନ "$ 1" |</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>ଅସମର୍ଥିତ ଏନକୋଡିଂ &quot;$ 1&quot; |</value>
+        <value>ଅସମର୍ଥିତ ଏନକୋଡିଂ "$ 1" |</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>ଫ୍ଲକ୍ସିଅନ୍ ଫାଇଲଗୁଡିକ (* .flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>ଫ୍ଲକ୍ସିଅନ୍ ସଂସ୍କରଣ:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>ଅଦ୍ୟତନ ପାଇଁ ଯାଞ୍ଚ କରୁଛି ...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>ଅଦ୍ୟତନଗୁଡ଼ିକ ଉପଲବ୍ଧ |</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>ଅପ୍ ଟୁ ଡେଟ୍ |</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>ଫ୍ଲକ୍ସିଅନ୍ ଭ୍ୟୁୟର୍ ପାଇଁ ଏକ ଅପଡେଟ୍ ଅଛି |</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>ଏହି ଅଦ୍ୟତନଗୁଡ଼ିକ ନୂତନ ଯୋଗକୁ ବ feature ଶିଷ୍ଟ୍ୟ ଦେଇପାରେ ଯେପରିକି ନୂତନ ବ features ଶିଷ୍ଟ୍ୟ କିମ୍ବା ଫ୍ଲକ୍ସିଅନ୍ ଫର୍ମାଟ୍ ପାଇଁ ନୂତନ ସମର୍ଥନ | ଅନୁପ୍ରୟୋଗକୁ ସୁରକ୍ଷିତ କରିବା ପାଇଁ ଏହି ଅଦ୍ୟତନଗୁଡ଼ିକ ମଧ୍ୟ ଜଟିଳ ପରିବର୍ତ୍ତନଗୁଡିକ ବ feature ଶିଷ୍ଟ୍ୟ କରିପାରେ |</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>ଏହି ପ୍ରୟୋଗର ସର୍ବଶେଷ ସମ୍ଭାବ୍ୟ ସଂସ୍କରଣ ଚଲାଇବା ପାଇଁ ସର୍ବଦା ପରାମର୍ଶ ଦିଆଯାଇଛି |</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>ଆପଣ ଅଦ୍ୟତନ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?</value>
     </data>
 </root>

@@ -1,0 +1,47 @@
+# Maintainer: <haltroy> <thehaltroy@gmail.com>
+pkgname=fluxionviewer
+pkgver=1.2
+pkgrel=1
+pkgdesc="View and Edit Fluxion files."
+url="https://haltroy.com/Fluxion"
+license=(GPL-3.0-or-later)
+provides=(fluxionviewer)
+arch=(x86_64 aarch64)
+makedepends=(dotnet-sdk)
+options=("!strip")
+source=("${pkgname}-src::git+https://github.com/haltroy/FluxionViewer.git#tag=${pkgver}"
+      ${pkgname}.desktop::"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/desktop.desktop"
+      ${pkgname}::"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/linux/shortcut"
+      ${pkgname}.png::"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/src/FluxionViewer/Assets/logo.png")
+
+build() {
+      FV_ARCH="x64"
+      if [ "$arch" = "x86_64" ]; then
+            FV_ARCH="x64"
+      elif [ "$arch" = "aarch64" ]; then
+            FV_ARCH="arm64"
+      fi
+      dotnet publish \
+            -c Release \
+            -r linux-$FV_ARCH \
+            -o "${srcdir}/${FV_ARCH}" \
+            "${srcdir}/${pkgname}-src/src/FluxionViewer.Linux/FluxionViewer.Linux.csproj"
+      rm "${srcdir}/${FV_ARCH}/FluxionViewer.Linux.dbg"
+}
+
+package() {
+      FV_ARCH="x64"
+      if [ "$arch" = "x86_64" ]; then
+            FV_ARCH="x64"
+      elif [ "$arch" = "aarch64" ]; then
+            FV_ARCH="arm64"
+      fi
+      mkdir -p "${pkgdir}/usr/lib/${pkgname}/"
+      cp -r "${srcdir}/${FV_ARCH}/." "${pkgdir}/usr/lib/${pkgname}/"
+      echo "${srcdir}/${FV_ARCH}/."
+      echo "${pkgdir}/usr/lib/${pkgname}/"
+      install -d "${pkgdir}/usr/lib/${pkgname}/"
+      install -Dm644 ${srcdir}/${pkgname}.png "${pkgdir}/usr/share/icons/hicolor/2048x2048/apps/${pkgname}.png"
+      install -Dm644 ${srcdir}/${pkgname}.desktop "${pkgdir}/usr/share/applications/${pkgname}.desktop"
+      install -Dm755 ${srcdir}/${pkgname} "${pkgdir}/usr/bin/${pkgname}"
+}

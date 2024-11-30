@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -58,7 +55,7 @@
         <value>--ਸੇਵ ਕੰਪਰੈਸ਼ਨ ਐਨਕੋਡਿੰਗ ਫਾਈਲ: ਫਾਈਲ ਨੂੰ ਖਾਸ ਕੰਪਰੈਸ਼ਨ (ਵਿਕਲਪਿਕ) ਅਤੇ ਏਨਕੋਡਿੰਗ ਨਾਲ ਬਦਲਦਾ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਰਦਾ ਹੈ।</value>
     </data>
     <data name="help_5" xml:space="preserve">
-        <value>--no-gui: ਸਿਰਫ਼ ਕਮਾਂਡ-ਲਾਈਨ &apos;ਤੇ ਚੱਲਦਾ ਹੈ।</value>
+        <value>--no-gui: ਸਿਰਫ਼ ਕਮਾਂਡ-ਲਾਈਨ 'ਤੇ ਚੱਲਦਾ ਹੈ।</value>
     </data>
     <data name="cli_notenoughargs" xml:space="preserve">
         <value>ਕਾਫ਼ੀ ਦਲੀਲਾਂ ਨਹੀਂ ਹਨ।</value>
@@ -73,10 +70,10 @@
         <value>ਸਮਰਥਿਤ ਏਨਕੋਡਿੰਗ(ਆਂ):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ਅਸਮਰਥਿਤ ਸੰਕੁਚਨ &quot;$1&quot;।</value>
+        <value>ਅਸਮਰਥਿਤ ਸੰਕੁਚਨ "$1"।</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>ਅਸਮਰਥਿਤ ਇੰਕੋਡਿੰਗ &quot;$1&quot;।</value>
+        <value>ਅਸਮਰਥਿਤ ਇੰਕੋਡਿੰਗ "$1"।</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion ਫ਼ਾਈਲਾਂ (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion ਸੰਸਕਰਣ:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>ਅੱਪਡੇਟ ਲਈ ਜਾਂਚ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>ਅੱਪਡੇਟ ਉਪਲਬਧ ਹਨ।</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>ਆਧੁਨਿਕ.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer ਲਈ ਇੱਕ ਅੱਪਡੇਟ ਹੈ।</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>ਇਹਨਾਂ ਅੱਪਡੇਟਾਂ ਵਿੱਚ ਨਵੇਂ ਐਡੀਸ਼ਨ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹਨ ਜਿਵੇਂ ਕਿ ਨਵੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਜਾਂ Fluxion ਫਾਰਮੈਟਾਂ ਲਈ ਨਵਾਂ ਸਮਰਥਨ। ਐਪਲੀਕੇਸ਼ਨ ਨੂੰ ਸੁਰੱਖਿਅਤ ਬਣਾਉਣ ਲਈ ਇਹਨਾਂ ਅੱਪਡੇਟਾਂ ਵਿੱਚ ਮਹੱਤਵਪੂਰਨ ਤਬਦੀਲੀਆਂ ਵੀ ਹੋ ਸਕਦੀਆਂ ਹਨ।</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>ਇਸ ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਨਵੀਨਤਮ ਸੰਭਾਵਿਤ ਸੰਸਕਰਣ ਨੂੰ ਚਲਾਉਣ ਦੀ ਹਮੇਸ਼ਾਂ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>ਕੀ ਤੁਸੀਂ ਅੱਪਡੇਟ ਕਰਨਾ ਚਾਹੋਗੇ?</value>
     </data>
 </root>

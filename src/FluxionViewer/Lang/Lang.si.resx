@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>සහාය දක්වන කේතනය(ය):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>සහාය නොදක්වන සම්පීඩනය &quot;$1&quot;.</value>
+        <value>සහාය නොදක්වන සම්පීඩනය "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>සහය නොදක්වන &quot;$1&quot; කේතනය.</value>
+        <value>සහය නොදක්වන "$1" කේතනය.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion ගොනු (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion අනුවාදය:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>යාවත්කාලීන සඳහා පරීක්ෂා කරමින්...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>යාවත්කාලීන ලබා ගත හැක.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>යාවත්කාලීනව.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer සඳහා යාවත්කාලීනයක් ඇත.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>මෙම යාවත්කාලීනයන් නව විශේෂාංග හෝ Fluxion ආකෘති සඳහා නව සහය වැනි නව එකතු කිරීම් විශේෂාංග විය හැක. මෙම යාවත්කාල කිරීම් යෙදුම සුරක්ෂිත කිරීම සඳහා තීරණාත්මක වෙනස්කම් ද දැක්විය හැක.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>මෙම යෙදුමේ හැකි නවතම අනුවාදය ධාවනය කිරීම සැමවිටම නිර්දේශ කෙරේ.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>ඔබ යාවත්කාලීන කිරීමට කැමතිද?</value>
     </data>
 </root>

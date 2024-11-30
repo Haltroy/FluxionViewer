@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -58,7 +55,7 @@
         <value>--save FITXER DE CODIFICACIÓ DE COMPRESSIÓ: Converteix i desa el fitxer amb compressió i codificació específiques (opcional).</value>
     </data>
     <data name="help_5" xml:space="preserve">
-        <value>--no-gui: només s&apos;executa a la línia d&apos;ordres.</value>
+        <value>--no-gui: només s'executa a la línia d'ordres.</value>
     </data>
     <data name="cli_notenoughargs" xml:space="preserve">
         <value>No hi ha prou arguments.</value>
@@ -73,19 +70,19 @@
         <value>Codificacions admeses:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>La compressió &quot;$1&quot; no és compatible.</value>
+        <value>La compressió "$1" no és compatible.</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>La codificació &quot;$1&quot; no és compatible.</value>
+        <value>La codificació "$1" no és compatible.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fitxers Fluxion (*.flx)</value>
     </data>
     <data name="Status_LoadingFile" xml:space="preserve">
-        <value>S&apos;està carregant el fitxer...</value>
+        <value>S'està carregant el fitxer...</value>
     </data>
     <data name="Status_SavingFile" xml:space="preserve">
-        <value>S&apos;està desant el fitxer...</value>
+        <value>S'està desant el fitxer...</value>
     </data>
     <data name="Attribute_Remove" xml:space="preserve">
         <value>Elimina aquest atribut del node.</value>
@@ -184,10 +181,10 @@
         <value>Propietats del node</value>
     </data>
     <data name="Splitter_Tooltip" xml:space="preserve">
-        <value>Arrossegueu-lo per canviar la mida d&apos;aquest tauler.</value>
+        <value>Arrossegueu-lo per canviar la mida d'aquest tauler.</value>
     </data>
     <data name="OK" xml:space="preserve">
-        <value>D&apos;acord</value>
+        <value>D'acord</value>
     </data>
     <data name="Setting_AutoSave" xml:space="preserve">
         <value>Desa automàticament</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Versió Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>S'estan buscant actualitzacions...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Actualitzacions disponibles.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Actualitzat.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Hi ha una actualització per a Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Aquestes actualitzacions poden incloure noves incorporacions, com ara funcions més noves o suport més recent per als formats Fluxion. Aquestes actualitzacions també poden incloure canvis crítics per fer que l'aplicació sigui segura.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Sempre es recomana executar la darrera versió possible d'aquesta aplicació.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Vols actualitzar?</value>
     </data>
 </root>

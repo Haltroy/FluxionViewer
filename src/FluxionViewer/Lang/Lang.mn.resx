@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Дэмжигдсэн кодчилол(ууд):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>&quot;$1&quot; шахалтыг дэмждэггүй.</value>
+        <value>"$1" шахалтыг дэмждэггүй.</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Дэмжигдээгүй &quot;$1&quot; кодчилол.</value>
+        <value>Дэмжигдээгүй "$1" кодчилол.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion файлууд (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion хувилбар:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Шинэчлэлтүүдийг шалгаж байна...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Шинэчлэлтүүд боломжтой.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Хамгийн сүүлийн үеийн.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer-д зориулсан шинэчлэлт байна.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Эдгээр шинэчлэлтүүд нь шинэ функцууд эсвэл Fluxion форматын шинэ дэмжлэг зэрэг шинэ нэмэлтүүдийг агуулж болно. Эдгээр шинэчлэлтүүд нь програмыг аюулгүй болгох чухал өөрчлөлтүүдийг агуулж болно.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Энэ програмын хамгийн сүүлийн хувилбарыг ажиллуулахыг үргэлж зөвлөж байна.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Та шинэчлэхийг хүсч байна уу?</value>
     </data>
 </root>

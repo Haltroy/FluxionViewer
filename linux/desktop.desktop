@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Fluxion Viewer
+Comment=View and edit Fluxion files easily.
+GenericName=Text Editor
+Exec=/usr/lib/fluxionviewer/FluxionViewer.Linux %F
+Icon=/usr/share/icons/hicolor/2048x2048/apps/fluxionviewer.png
+Type=Application
+StartupNotify=false
+StartupWMClass=fluxionviewer
+Categories=TextEditor;
+MimeType=application/fluxion;
+Keywords=flx;fluxion;fluxion-viewer;

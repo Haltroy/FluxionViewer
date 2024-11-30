@@ -1,0 +1,30 @@
+# Maintainer: <haltroy> <thehaltroy@gmail.com>
+pkgname=fluxionviewer-bin
+pkgver=1.2
+pkgrel=1
+pkgdesc="Edit and view Fluxion files easily."
+url="https://haltroy.com/FluxionViewer"
+license=(GPL-3.0-or-later)
+provides=(fluxionviewer)
+arch=(x86_64 aarch64)
+options=("!strip")
+source=(fluxionviewer.desktop.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/src/linux/desktop.desktop"
+      fluxionviewer.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/src/linux/shortcut"
+      fluxionviewer.png.in:"https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/src/FluxionViewer/Assets/logo.png")
+source_x86_64=("https://github.com/Haltroy/FluxionViewer/releases/download/${pkgver}/${pkgname//-bin/""}-linux-x64.tar.gz")
+source_aarch64=("https://github.com/Haltroy/FluxionViewer/releases/download/${pkgver}/${pkgname//-bin/""}-linux-arm64.tar.gz")
+
+package() {
+      FV_ARCH="x64"
+      if [ "$arch" = "x86_64" ]; then
+            FV_ARCH="x64"
+      elif [ "$arch" = "aarch64" ]; then
+            FV_ARCH="arm64"
+      fi
+      mkdir -p "${pkgdir}/usr/lib/${pkgname//-bin/""}/"
+      cp -r "${srcdir}/publish/linux-${FV_ARCH}/." "${pkgdir}/usr/lib/${pkgname//-bin/""}/"
+      install -d "${pkgdir}/usr/lib/${pkgname//-bin/""}/"
+      install -Dm644 ${srcdir}/${pkgname//-bin/""}.png "${pkgdir}/usr/share/icons/hicolor/2048x2048/apps/${pkgname//-bin/""}.png"
+      install -Dm644 ${srcdir}/${pkgname//-bin/""}.desktop "${pkgdir}/usr/share/applications/${pkgname//-bin/""}.desktop"
+      install -Dm755 ${srcdir}/${pkgname//-bin/""} "${pkgdir}/usr/bin/${pkgname//-bin/""}"
+}

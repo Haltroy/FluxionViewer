@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>ಬೆಂಬಲಿತ ಎನ್ಕೋಡಿಂಗ್(ಗಳು):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ಬೆಂಬಲಿತವಲ್ಲದ ಸಂಕುಚಿತ &quot;$1&quot;.</value>
+        <value>ಬೆಂಬಲಿತವಲ್ಲದ ಸಂಕುಚಿತ "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>ಬೆಂಬಲಿತವಲ್ಲದ ಎನ್‌ಕೋಡಿಂಗ್ &quot;$1&quot;.</value>
+        <value>ಬೆಂಬಲಿತವಲ್ಲದ ಎನ್‌ಕೋಡಿಂಗ್ "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>ಫ್ಲಕ್ಶನ್ ಫೈಲ್‌ಗಳು (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>ಫ್ಲಕ್ಶನ್ ಆವೃತ್ತಿ:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>ನವೀಕರಣಗಳು ಲಭ್ಯವಿದೆ.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>ಅಪ್-ಟು-ಡೇಟ್.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer ಗಾಗಿ ಒಂದು ಅಪ್‌ಡೇಟ್ ಇದೆ.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>ಈ ನವೀಕರಣಗಳು ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳಂತಹ ಹೊಸ ಸೇರ್ಪಡೆಗಳನ್ನು ಅಥವಾ ಫ್ಲಕ್ಶನ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಿಗೆ ಹೊಸ ಬೆಂಬಲವನ್ನು ಒಳಗೊಂಡಿರಬಹುದು. ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸುರಕ್ಷಿತವಾಗಿಸಲು ಈ ನವೀಕರಣಗಳು ನಿರ್ಣಾಯಕ ಬದಲಾವಣೆಗಳನ್ನು ಸಹ ಒಳಗೊಂಡಿರುತ್ತವೆ.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>ಈ ಅಪ್ಲಿಕೇಶನ್‌ನ ಇತ್ತೀಚಿನ ಸಂಭವನೀಯ ಆವೃತ್ತಿಯನ್ನು ಚಲಾಯಿಸಲು ಯಾವಾಗಲೂ ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>ನೀವು ನವೀಕರಿಸಲು ಬಯಸುವಿರಾ?</value>
     </data>
 </root>

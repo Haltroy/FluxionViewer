@@ -1,47 +1,110 @@
-name: FluxionViewer Linux x64
-
+name: FluxionViewer Linux
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
-
+    branches: ["main"]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set-up some packages for packaging
+        run: |
+          sudo apt update
+          sudo apt install alien -y
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-      - name: Setup workloads
-        run: dotnet workload restore ./src/FluxionViewer.sln
       - name: Restore dependencies
         run: dotnet restore ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
       - name: Build
         run: dotnet build --no-restore ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
-      
       # Linux x64
       - name: Publish (Linux x64)
         run: |
           dotnet publish -c Release -r linux-x64 -o ./publish/linux-x64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
           rm ./publish/linux-x64/*.dbg
           tar czf ./publish/fluxionviewer-linux-x64.tar.gz ./publish/linux-x64/
-      - name: Upload Artifact (Linux x64)
-        uses: actions/upload-artifact@v4
-        with:
-          name: FluxionViewer-Linux-x64
-          path: ./publish/fluxionviewer-linux-x64.tar.gz
-      
       # Linux MUSL x64
       - name: Publish (Linux MUSL x64)
         run: |
           dotnet publish -c Release -r linux-musl-x64 -o ./publish/linux-musl-x64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
           rm ./publish/linux-musl-x64/*.dbg
           tar czf ./publish/fluxionviewer-linux-musl-x64.tar.gz ./publish/linux-musl-x64/
+      - name: Set-up cross-compiling AArch64
+        run: |
+          sudo dpkg --add-architecture arm64
+          sudo bash -c 'cat > /etc/apt/sources.list.d/arm64.list <<EOF
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy main restricted
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-updates main restricted
+          deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports/ jammy-backports main restricted universe multiverse
+          EOF'
+          sudo sed -i -e 's/deb http/deb [arch=amd64] http/g' /etc/apt/sources.list
+          sudo sed -i -e 's/deb mirror/deb [arch=amd64] mirror/g' /etc/apt/sources.list
+          sudo apt update
+          sudo apt install clang llvm zlib1g-dev:arm64 zlib1g-dev gcc-aarch64-linux-gnu g++-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
+      # Linux ARM64
+      - name: Publish (Linux ARM64)
+        run: |
+          export OBJCOPY=aarch64-linux-gnu-objcopy
+          dotnet publish -c Release -r linux-arm64 -p:LinkerFlavor=lld -p:ObjCopyName=$OBJCOPY -o ./publish/linux-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+          rm ./publish/linux-arm64/*.dbg
+          tar czf ./publish/fluxionviewer-linux-arm64.tar.gz ./publish/linux-arm64/
+      # Linux MUSL ARM64
+      - name: Publish (Linux MUSL ARM64)
+        run: |
+          export OBJCOPY=aarch64-linux-gnu-objcopy
+          dotnet publish -c Release -r linux-musl-arm64 -p:LinkerFlavor=lld -p:ObjCopyName=$OBJCOPY -o ./publish/linux-musl-arm64/ ./src/FluxionViewer.Linux/FluxionViewer.Linux.csproj
+          rm ./publish/linux-musl-arm64/*.dbg
+          tar czf ./publish/fluxionviewer-linux-musl-arm64.tar.gz ./publish/linux-musl-arm64/
+      - name: Upload Artifact (Linux x64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-Linux-x64
+          path: ./publish/fluxionviewer-linux-x64.tar.gz
       - name: Upload Artifact (Linux MUSL x64)
         uses: actions/upload-artifact@v4
         with:
           name: FluxionViewer-Linux-MUSL-x64
           path: ./publish/fluxionviewer-linux-musl-x64.tar.gz
+      - name: Upload Artifact (Linux ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-Linux-ARM64
+          path: ./publish/fluxionviewer-linux-arm64.tar.gz
+      - name: Upload Artifact (Linux MUSL ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-Linux-MUSL-ARM64
+          path: ./publish/fluxionviewer-linux-musl-arm64.tar.gz
+      # Debian x64
+      - name: Debian Package x64
+        run: ./linux/debian.sh ./publish/linux-x64/ x64
+      - name: Upload Artifact (Debian x64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-amd64-Debian
+          path: ./linux/*.amd64.deb
+      # Debian ARM64
+      - name: Debian Package ARM64
+        run: ./linux/debian.sh ./publish/linux-arm64/ arm64
+      - name: Upload Artifact (Debian ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-aarch64-Debian
+          path: ./linux/*.aarch64.deb
+      # DEB -> RPM (convert with Alien)
+      - name: DEB -> RPM conversion
+        run: sudo $(which alien) -rv ./linux/*.deb
+      - name: Upload Artifact (RPM x64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-amd64-RPM
+          path: ./*x86_64.rpm
+      - name: Upload Artifact (RPM ARM64)
+        uses: actions/upload-artifact@v4
+        with:
+          name: FluxionViewer-aarch64-RPM
+          path: ./*aarch64.rpm

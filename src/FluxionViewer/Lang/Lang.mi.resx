@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Whakawaehere e tautokona ana:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Kōpeketanga kore tautoko &quot;$1&quot;.</value>
+        <value>Kōpeketanga kore tautoko "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Whakawaehere kore tautoko &quot;$1&quot;.</value>
+        <value>Whakawaehere kore tautoko "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Ngā Kōnae Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Putanga Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>E taki ana mo nga whakahōutanga...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Kei te waatea nga whakahou.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Nga mea hou.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>He whakahou mo Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Kei roto pea i enei whakahoutanga nga taapiri hou penei i nga ahuatanga hou ake, i te tautoko hou ake ranei mo nga whakatakotoranga Fluxion. Ka taea hoki e enei whakahōu nga huringa tino nui kia noho haumaru te tono.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>I nga wa katoa ka tūtohu kia whakahaeretia te putanga hou o tenei tono.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Kei te pirangi koe ki te whakahou?</value>
     </data>
 </root>

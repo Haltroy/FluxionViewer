@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Ionchódú(í) tacaithe:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Comhbhrú &quot;$1&quot; nach dtacaítear leis.</value>
+        <value>Comhbhrú "$1" nach dtacaítear leis.</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Ionchódú &quot;$1&quot; nach dtacaítear leis.</value>
+        <value>Ionchódú "$1" nach dtacaítear leis.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Comhaid Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Leagan Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Ag seiceáil le haghaidh nuashonruithe...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Nuashonruithe ar fáil.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Suas chun dáta.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Tá nuashonrú ann don Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>D’fhéadfadh breisithe nua a bheith sna nuashonruithe seo amhail gnéithe níos nuaí nó tacaíocht níos nuaí d’fhormáidí Fluxion. Féadfaidh athruithe ríthábhachtacha a bheith sna nuashonruithe seo freisin chun an feidhmchlár a dhéanamh slán.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Moltar i gcónaí an leagan is déanaí den fheidhmchlár seo a rith.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Ar mhaith leat nuashonrú?</value>
     </data>
 </root>

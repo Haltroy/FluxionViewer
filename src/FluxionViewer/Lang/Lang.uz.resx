@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -55,7 +52,7 @@
         <value>--siqish SIQMA: faylni maxsus siqish bilan yuklaydi.</value>
     </data>
     <data name="help_4" xml:space="preserve">
-        <value>--SAVE KOMPRESSION KODLASHTIRISH FAYL: Faylni maxsus siqish (ixtiyoriy) va kodlash bilan o&apos;zgartiradi va saqlaydi.</value>
+        <value>--SAVE KOMPRESSION KODLASHTIRISH FAYL: Faylni maxsus siqish (ixtiyoriy) va kodlash bilan o'zgartiradi va saqlaydi.</value>
     </data>
     <data name="help_5" xml:space="preserve">
         <value>--no-gui: faqat buyruq satrida ishlaydi.</value>
@@ -64,16 +61,16 @@
         <value>Argumentlar yetarli emas.</value>
     </data>
     <data name="help_6" xml:space="preserve">
-        <value>--help: Ushbu ekranni ko&apos;rsatadi.</value>
+        <value>--help: Ushbu ekranni ko'rsatadi.</value>
     </data>
     <data name="help_7" xml:space="preserve">
-        <value>Qo&apos;llab-quvvatlanadigan siqishni algoritm(lari):</value>
+        <value>Qo'llab-quvvatlanadigan siqishni algoritm(lari):</value>
     </data>
     <data name="help_8" xml:space="preserve">
-        <value>Qo&apos;llab-quvvatlanadigan kodlash(lar):</value>
+        <value>Qo'llab-quvvatlanadigan kodlash(lar):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Qo&apos;llab-quvvatlanmaydigan siqishni &quot;$1&quot;.</value>
+        <value>Qo'llab-quvvatlanmaydigan siqishni "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
         <value>“$1” kodlash qo‘llab-quvvatlanmaydi.</value>
@@ -94,10 +91,10 @@
         <value>Null</value>
     </data>
     <data name="ValueType_True" xml:space="preserve">
-        <value>To&apos;g&apos;ri</value>
+        <value>To'g'ri</value>
     </data>
     <data name="ValueType_False" xml:space="preserve">
-        <value>Mantiqiy noto&apos;g&apos;ri</value>
+        <value>Mantiqiy noto'g'ri</value>
     </data>
     <data name="ValueType_Char" xml:space="preserve">
         <value>Xarakter</value>
@@ -169,7 +166,7 @@
         <value>Ha</value>
     </data>
     <data name="SaveConfirmNo" xml:space="preserve">
-        <value>Yo&apos;q</value>
+        <value>Yo'q</value>
     </data>
     <data name="Cancel" xml:space="preserve">
         <value>Bekor qilish</value>
@@ -205,7 +202,7 @@
         <value>Ushbu tugunni nusxalash...</value>
     </data>
     <data name="ToolTip_Add" xml:space="preserve">
-        <value>Yangi tugun qo&apos;shing...</value>
+        <value>Yangi tugun qo'shing...</value>
     </data>
     <data name="ToolTip_Delete" xml:space="preserve">
         <value>Tanlangan tugunni oʻchirish...</value>
@@ -235,7 +232,7 @@
         <value>Ushbu faylni saqlash...</value>
     </data>
     <data name="Compression_None" xml:space="preserve">
-        <value>Siqish yo&apos;q</value>
+        <value>Siqish yo'q</value>
     </data>
     <data name="ToolTip_Settings" xml:space="preserve">
         <value>Sozlamalar panelini oching...</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion versiyasi:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Yangilanishlar tekshirilmoqda...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Yangilanishlar mavjud.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Hozirgi kungacha.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer uchun yangilanish mavjud.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Ushbu yangilanishlar Fluxion formatlari uchun yangi xususiyatlar yoki yangi qo'llab-quvvatlash kabi yangi qo'shimchalarni o'z ichiga olishi mumkin. Ushbu yangilanishlar ilovani xavfsiz qilish uchun muhim o'zgarishlarni ham o'z ichiga olishi mumkin.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Har doim ushbu ilovaning eng so'nggi versiyasini ishga tushirish tavsiya etiladi.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Yangilashni xohlaysizmi?</value>
     </data>
 </root>

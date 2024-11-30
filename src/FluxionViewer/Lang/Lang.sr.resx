@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Флукион верзија:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Проверавам ажурирања...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Доступна су ажурирања.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Ажурно.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Постоји ажурирање за Флукион Виевер.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Ова ажурирања могу садржати нове додатке као што су новије функције или новија подршка за Флукион формате. Ова ажурирања такође могу садржати критичне промене да би апликација била безбедна.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Увек се препоручује да покренете најновију могућу верзију ове апликације.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Да ли желите да ажурирате?</value>
     </data>
 </root>

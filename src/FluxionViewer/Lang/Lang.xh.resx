@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Ukufakwa kweekhowudi ezixhaswayo:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Uxinzelelo olungaxhaswanga &quot;$1&quot;.</value>
+        <value>Uxinzelelo olungaxhaswanga "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Ufakelo lwekhowudi olungaxhaswanga &quot;$1&quot;.</value>
+        <value>Ufakelo lwekhowudi olungaxhaswanga "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Iifayile zeFluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Inguqulelo yeFluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Kujongwa uhlaziyo...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Uhlaziyo luyafumaneka.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Isemgangathweno.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Kukho uhlaziyo lweFluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Olu hlaziyo lunokufaka izongezo ezitsha ezifana neempawu ezintsha okanye inkxaso entsha yeefomathi zeFluxion. Olu hlaziyo lusenokubonisa utshintsho olubalulekileyo ukwenza usetyenziso lukhuseleke.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Kuhlala kucetyiswa ukuba usebenzise uguqulelo olunokwenzeka lwesi sicelo.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Ngaba ungathanda ukuhlaziya?</value>
     </data>
 </root>

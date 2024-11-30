@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -40,7 +37,7 @@
         <value>Fluxion Viewer</value>
     </data>
     <data name="About_AboutDesc" xml:space="preserve">
-        <value>Fluxion Dateien einfach z&apos;änneren.</value>
+        <value>Fluxion Dateien einfach z'änneren.</value>
     </data>
     <data name="help_0" xml:space="preserve">
         <value>GEBRAUCH: &lt;Datei&gt; [--Kompressioun &lt;Kompressioun&gt;] [--späicheren [Kompressioun] &lt;Kodéierung&gt; &lt;Datei&gt;] [--no-gui] [--Hëllef]</value>
@@ -52,10 +49,10 @@
         <value>&lt;Datei&gt;: Lued de Fichier</value>
     </data>
     <data name="help_3" xml:space="preserve">
-        <value>--Compression COMPRESSION: Luet d&apos;Datei mat spezifescher Kompressioun.</value>
+        <value>--Compression COMPRESSION: Luet d'Datei mat spezifescher Kompressioun.</value>
     </data>
     <data name="help_4" xml:space="preserve">
-        <value>--save COMPRESSION ENCODING FILE: Konvertéiert a späichert d&apos;Datei mat spezifescher Kompressioun (optional) a Kodéierung.</value>
+        <value>--save COMPRESSION ENCODING FILE: Konvertéiert a späichert d'Datei mat spezifescher Kompressioun (optional) a Kodéierung.</value>
     </data>
     <data name="help_5" xml:space="preserve">
         <value>--no-gui: Leeft nëmmen op Kommandozeil.</value>
@@ -73,10 +70,10 @@
         <value>Ënnerstëtzt Kodéierung(en):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Net ënnerstëtzt Kompressioun &quot;$1&quot;.</value>
+        <value>Net ënnerstëtzt Kompressioun "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Net ënnerstëtzt Kodéierung &quot;$1&quot;.</value>
+        <value>Net ënnerstëtzt Kodéierung "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxiounsdateien (*.flx)</value>
@@ -184,7 +181,7 @@
         <value>Node Properties</value>
     </data>
     <data name="Splitter_Tooltip" xml:space="preserve">
-        <value>Drag dëst fir d&apos;Gréisst vun dësem Panel ze änneren.</value>
+        <value>Drag dëst fir d'Gréisst vun dësem Panel ze änneren.</value>
     </data>
     <data name="OK" xml:space="preserve">
         <value>ok</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Flux Versioun:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Sicht no Updates ...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Updates verfügbar.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Aktuell.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Et gëtt en Update fir Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Dës Aktualiséierunge kënnen nei Ergänzunge wéi méi nei Features oder méi nei Ënnerstëtzung fir Fluxion Formater hunn. Dës Updates kënnen och kritesch Ännerungen enthalen fir d'Applikatioun sécher ze maachen.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Et ass ëmmer recommandéiert déi lescht méiglech Versioun vun dëser Applikatioun auszeféieren.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Wëllt Dir update?</value>
     </data>
 </root>

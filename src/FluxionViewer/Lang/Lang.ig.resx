@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -58,7 +55,7 @@
         <value>--chekwa COMPRESSION ENCODING FILE: Tụgharịa ma chekwaa faịlụ ahụ site na iji mkpakọ akọwapụtara (nhọrọ) yana itinye koodu.</value>
     </data>
     <data name="help_5" xml:space="preserve">
-        <value>--no-gui: Na-agba naanị n&apos;ahịrị iwu.</value>
+        <value>--no-gui: Na-agba naanị n'ahịrị iwu.</value>
     </data>
     <data name="cli_notenoughargs" xml:space="preserve">
         <value>Esemokwu ezughi oke.</value>
@@ -73,10 +70,10 @@
         <value>Ntinye koodu akwadoro:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Mkpakọ na-akwadoghị &quot;$1&quot;.</value>
+        <value>Mkpakọ na-akwadoghị "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Ndokwa na-akwadoghị &quot;$1&quot;.</value>
+        <value>Ndokwa na-akwadoghị "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Faịlụ Fluxion (*.flx)</value>
@@ -127,7 +124,7 @@
         <value>64-bit Integer na-edebanyeghị aha</value>
     </data>
     <data name="ValueType_Float" xml:space="preserve">
-        <value>Fee n&apos;elu</value>
+        <value>Fee n'elu</value>
     </data>
     <data name="ValueType_Double" xml:space="preserve">
         <value>Ugboro abụọ</value>
@@ -196,7 +193,7 @@
         <value>Banyere mmemme a...</value>
     </data>
     <data name="ToolTip_Paste" xml:space="preserve">
-        <value>Tapawa ọnụ ọnụ ebibiri/ depụtaghachiri n&apos;ọnụ a...</value>
+        <value>Tapawa ọnụ ọnụ ebibiri/ depụtaghachiri n'ọnụ a...</value>
     </data>
     <data name="ToolTip_Cut" xml:space="preserve">
         <value>Bee ọnụ ọnụ a...</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Ụdị Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Na-elele maka mmelite...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Mmelite dị.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Kwalitere ruo ugbu a.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Enwere mmelite maka Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Mmelite ndị a nwere ike igosipụta mgbakwunye ọhụrụ dị ka atụmatụ ọhụrụ ma ọ bụ nkwado ọhụrụ maka ụdị Fluxion. Mmelite ndị a nwekwara ike ịnwe mgbanwe dị egwu iji mee ka ngwa ahụ nwee nchebe.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>A na-atụ aro ka ịme ụdị ngwa a kachasị ọhụrụ.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Ọ ga-amasị gị imelite?</value>
     </data>
 </root>

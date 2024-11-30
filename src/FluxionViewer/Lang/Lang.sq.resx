@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Kodimi i mbështetur:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Kompresimi i pambështetur &quot;$1&quot;.</value>
+        <value>Kompresimi i pambështetur "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Kodimi i pambështetur &quot;$1&quot;.</value>
+        <value>Kodimi i pambështetur "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Skedarët Fluxion (*.flx)</value>
@@ -163,7 +160,7 @@
         <value>Ruaje skedarin Fluxion si...</value>
     </data>
     <data name="SaveConfirmDialog" xml:space="preserve">
-        <value>Ju keni ndryshime të paruajtura. Dëshironi t&apos;i shpëtoni ata?</value>
+        <value>Ju keni ndryshime të paruajtura. Dëshironi t'i shpëtoni ata?</value>
     </data>
     <data name="SaveConfirmYes" xml:space="preserve">
         <value>po</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Versioni Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Po kontrollon për përditësime...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Ofrohen përditësime.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Të përditësuar.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Ka një përditësim për Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Këto përditësime mund të paraqesin shtesa të reja si funksione më të reja ose mbështetje më të re për formatet Fluxion. Këto përditësime mund të shfaqin gjithashtu ndryshime kritike për ta bërë aplikacionin të sigurt.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Rekomandohet gjithmonë të ekzekutoni versionin më të fundit të mundshëm të këtij aplikacioni.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Dëshironi të përditësoni?</value>
     </data>
 </root>

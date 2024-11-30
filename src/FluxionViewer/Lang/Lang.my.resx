@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>ပံ့ပိုးထားသော ကုဒ်နံပါတ်(များ)-</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ပံ့ပိုးမထားသော ချုံ့မှု &quot;$1&quot;</value>
+        <value>ပံ့ပိုးမထားသော ချုံ့မှု "$1"</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>&quot;$1&quot; ကုဒ်ကို မပံ့ပိုးပါ။</value>
+        <value>"$1" ကုဒ်ကို မပံ့ပိုးပါ။</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion ဖိုင်များ (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion ဗားရှင်း-</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>အပ်ဒိတ်များအတွက် စစ်ဆေးနေသည်...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>အပ်ဒိတ်များ ရနိုင်ပါသည်။</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>နောက်ဆုံးပေါ်။</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer အတွက် အပ်ဒိတ်တစ်ခု ရှိပါသည်။</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>ဤအပ်ဒိတ်များတွင် အသစ်သော အင်္ဂါရပ်များ သို့မဟုတ် Fluxion ဖော်မတ်များအတွက် ပံ့ပိုးမှုအသစ်များကဲ့သို့သော ထပ်လောင်းအသစ်များပါရှိသည်။ ဤအပ်ဒိတ်များသည် အပလီကေးရှင်းကို လုံခြုံစေရန်အတွက် အရေးကြီးသောပြောင်းလဲမှုများကိုလည်း လုပ်ဆောင်နိုင်မည်ဖြစ်သည်။</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>ဤအပလီကေးရှင်း၏ နောက်ဆုံးထွက်ဖြစ်နိုင်သောဗားရှင်းကို အသုံးပြုရန် အမြဲတမ်းအကြံပြုထားသည်။</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>အပ်ဒိတ်လုပ်လိုပါသလား။</value>
     </data>
 </root>

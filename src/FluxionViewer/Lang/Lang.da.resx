@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Understøttede kodning(er):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Ikke-understøttet komprimering &quot;$1&quot;.</value>
+        <value>Ikke-understøttet komprimering "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Ikke-understøttet kodning &quot;$1&quot;.</value>
+        <value>Ikke-understøttet kodning "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion-filer (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion version:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Søger efter opdateringer...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Opdateringer tilgængelige.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Opdateret.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Der er en opdatering til Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Disse opdateringer kan indeholde nye tilføjelser såsom nyere funktioner eller nyere understøttelse af Fluxion-formater. Disse opdateringer kan også indeholde kritiske ændringer for at gøre applikationen sikker.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Det anbefales altid at køre den seneste mulige version af denne applikation.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Vil du opdatere?</value>
     </data>
 </root>

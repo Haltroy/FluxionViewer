@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>ملاتړ شوي کوډونه:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>نه ملاتړی کمپریشن &quot;$1&quot;.</value>
+        <value>نه ملاتړی کمپریشن "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>نه ملاتړی کوډ کول &quot;$1&quot;.</value>
+        <value>نه ملاتړی کوډ کول "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>د فلکسیون فایلونه (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>د فلوکسیون نسخه:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>د تازه معلوماتو لپاره چک کول ...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>تازه معلومات شتون لري.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>تر دې نیټې.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>د Fluxion Viewer لپاره تازه معلومات شتون لري.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>دا تازه معلومات ممکن نوي اضافې وړاندې کړي لکه نوي ځانګړتیاوې یا د Fluxion فارمیټونو لپاره نوي ملاتړ. دا تازه معلومات ممکن د غوښتنلیک خوندي کولو لپاره مهم بدلونونه هم وړاندې کړي.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>دا تل سپارښتنه کیږي چې د دې غوښتنلیک وروستۍ ممکنه نسخه پرمخ بوځي.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>ایا تاسو تازه کول غواړئ؟</value>
     </data>
 </root>

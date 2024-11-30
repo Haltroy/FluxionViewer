@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Stipe kodearring(s):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Net-stipe kompresje &quot;$1&quot;.</value>
+        <value>Net-stipe kompresje "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Net-stipe kodearring &quot;$1&quot;.</value>
+        <value>Net-stipe kodearring "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion-bestannen (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion ferzje:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Kontrolearje op updates...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Updates beskikber.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Aktueel.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>D'r is in update foar Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Dizze updates kinne nije tafoegings hawwe, lykas nijere funksjes of nijere stipe foar Fluxion-formaten. Dizze fernijings kinne ek krityske feroarings hawwe om de applikaasje feilich te meitsjen.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>It is altyd oan te rieden om de lêste mooglike ferzje fan dizze applikaasje út te fieren.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Wolle jo bywurkje?</value>
     </data>
 </root>

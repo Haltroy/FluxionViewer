@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>మద్దతు ఉన్న ఎన్‌కోడింగ్(లు):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>మద్దతు లేని కంప్రెషన్ &quot;$1&quot;.</value>
+        <value>మద్దతు లేని కంప్రెషన్ "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>&quot;$1&quot; ఎన్‌కోడింగ్‌కు మద్దతు లేదు.</value>
+        <value>"$1" ఎన్‌కోడింగ్‌కు మద్దతు లేదు.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>ఫ్లక్షన్ ఫైల్స్ (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>ఫ్లక్షన్ వెర్షన్:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>నవీకరణల కోసం తనిఖీ చేస్తోంది...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>అప్‌డేట్‌లు అందుబాటులో ఉన్నాయి.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>తాజాది.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer కోసం ఒక నవీకరణ ఉంది.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>ఈ అప్‌డేట్‌లు కొత్త ఫీచర్‌లు లేదా ఫ్లక్షన్ ఫార్మాట్‌లకు కొత్త సపోర్ట్ వంటి కొత్త జోడింపులను కలిగి ఉండవచ్చు. ఈ అప్‌డేట్‌లు అప్లికేషన్‌ను సురక్షితంగా చేయడానికి క్లిష్టమైన మార్పులను కూడా కలిగి ఉండవచ్చు.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>ఈ అప్లికేషన్ యొక్క తాజా సాధ్యమైన సంస్కరణను అమలు చేయడానికి ఎల్లప్పుడూ సిఫార్సు చేయబడింది.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>మీరు అప్‌డేట్ చేయాలనుకుంటున్నారా?</value>
     </data>
 </root>

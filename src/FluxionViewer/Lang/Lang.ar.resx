@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>الترميز (الترميزات) المدعومة:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ضغط غير مدعوم &quot;$1&quot;.</value>
+        <value>ضغط غير مدعوم "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>ترميز غير مدعوم &quot;$1&quot;.</value>
+        <value>ترميز غير مدعوم "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>ملفات التدفق (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>نسخة Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>جاري التحقق من وجود تحديثات...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>التحديثات متوفرة.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>محدثة.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>يوجد تحديث لبرنامج Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>قد تتضمن هذه التحديثات إضافات جديدة مثل ميزات أحدث أو دعم أحدث لتنسيقات Fluxion. وقد تتضمن هذه التحديثات أيضًا تغييرات مهمة لجعل التطبيق آمنًا.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>من المستحسن دائمًا تشغيل أحدث إصدار ممكن من هذا التطبيق.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>هل ترغب في التحديث؟</value>
     </data>
 </root>

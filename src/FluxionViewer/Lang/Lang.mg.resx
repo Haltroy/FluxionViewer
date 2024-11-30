@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -52,13 +49,13 @@
         <value>&lt;rakitra&gt;: Mametraka ny rakitra</value>
     </data>
     <data name="help_3" xml:space="preserve">
-        <value>--compression COMPRESSION: Mametaka ny rakitra miaraka amin&apos;ny famoretana manokana.</value>
+        <value>--compression COMPRESSION: Mametaka ny rakitra miaraka amin'ny famoretana manokana.</value>
     </data>
     <data name="help_4" xml:space="preserve">
-        <value>--save COMPRESSION ENCODING FILE: Mamadika sy mitahiry ny rakitra miaraka amin&apos;ny famatrarana manokana (tsy voatery) sy famandrihana.</value>
+        <value>--save COMPRESSION ENCODING FILE: Mamadika sy mitahiry ny rakitra miaraka amin'ny famatrarana manokana (tsy voatery) sy famandrihana.</value>
     </data>
     <data name="help_5" xml:space="preserve">
-        <value>--no-gui: Mizotra amin&apos;ny tsipika baiko ihany.</value>
+        <value>--no-gui: Mizotra amin'ny tsipika baiko ihany.</value>
     </data>
     <data name="cli_notenoughargs" xml:space="preserve">
         <value>Tsy ampy ny arguments.</value>
@@ -73,10 +70,10 @@
         <value>Encoding(s):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Famoretana tsy tohanana &quot;$1&quot;.</value>
+        <value>Famoretana tsy tohanana "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Fanodinana tsy tohana &quot;$1&quot;.</value>
+        <value>Fanodinana tsy tohana "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion Files (*.flx)</value>
@@ -88,7 +85,7 @@
         <value>Mitahiry ny rakitra...</value>
     </data>
     <data name="Attribute_Remove" xml:space="preserve">
-        <value>Esory ity toetra ity amin&apos;ny node.</value>
+        <value>Esory ity toetra ity amin'ny node.</value>
     </data>
     <data name="ValueType_Null" xml:space="preserve">
         <value>tohivakana foana</value>
@@ -184,7 +181,7 @@
         <value>Node Properties</value>
     </data>
     <data name="Splitter_Tooltip" xml:space="preserve">
-        <value>Tariho ity mba hanova ny haben&apos;ity tontonana ity.</value>
+        <value>Tariho ity mba hanova ny haben'ity tontonana ity.</value>
     </data>
     <data name="OK" xml:space="preserve">
         <value>OK</value>
@@ -196,7 +193,7 @@
         <value>Momba ity programa ity...</value>
     </data>
     <data name="ToolTip_Paste" xml:space="preserve">
-        <value>Apetaho ny node tapaka/nadika amin&apos;ity node ity...</value>
+        <value>Apetaho ny node tapaka/nadika amin'ity node ity...</value>
     </data>
     <data name="ToolTip_Cut" xml:space="preserve">
         <value>Tapaho ity node ity...</value>
@@ -238,12 +235,33 @@
         <value>Tsy misy famoretana</value>
     </data>
     <data name="ToolTip_Settings" xml:space="preserve">
-        <value>Sokafy ny tontolon&apos;ny fanovana...</value>
+        <value>Sokafy ny tontolon'ny fanovana...</value>
     </data>
     <data name="Attr_Add" xml:space="preserve">
         <value>Manampia toetra vaovao...</value>
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Version Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Mijery ny fanavaozana...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Misy ny fanavaozana.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Manaraka toetr'andro.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Misy fanavaozana ho an'ny Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Ireo fanavaozana ireo dia mety ahitana fanampim-baovao toy ny endri-javatra vaovao na fanohanana vaovao kokoa ho an'ny endrika Fluxion. Ireo fanavaozam-baovao ireo dia mety ahitana fiovana lehibe ihany koa mba ho azo antoka ny fampiharana.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Amporisihina foana ny hampiasa ny kinova farany indrindra amin'ity fampiharana ity.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Te hanavao ve ianao?</value>
     </data>
 </root>

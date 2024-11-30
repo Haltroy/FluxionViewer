@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Awọn ifaminsi atilẹyin:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Ti ko ni atilẹyin funmorawon &quot;$1&quot;.</value>
+        <value>Ti ko ni atilẹyin funmorawon "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Ti ko ni atilẹyin koodu &quot;$1&quot;.</value>
+        <value>Ti ko ni atilẹyin koodu "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Awọn faili Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Ẹya Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Ṣayẹwo fun awọn imudojuiwọn...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Awọn imudojuiwọn wa.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Imudojuiwọn.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Imudojuiwọn wa fun Oluwo Fluxion.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Awọn imudojuiwọn wọnyi le ṣe ẹya awọn afikun titun gẹgẹbi awọn ẹya tuntun tabi atilẹyin titun fun awọn ọna kika Fluxion. Awọn imudojuiwọn wọnyi le tun ṣe ẹya awọn ayipada to ṣe pataki lati jẹ ki ohun elo naa ni aabo.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>O jẹ iṣeduro nigbagbogbo lati ṣiṣẹ ẹya tuntun ti ohun elo yii.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Ṣe o fẹ lati ṣe imudojuiwọn?</value>
     </data>
 </root>

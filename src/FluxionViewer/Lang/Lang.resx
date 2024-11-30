@@ -246,4 +246,25 @@
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion Version:</value>
     </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Checking for updates...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Updates available.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Up-to-date.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>There's an update for Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>These updates may feature new additions such as newer features or newer support for Fluxion formats. These updates may also feature critical changes to make the application secure.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>It is always recommended to run the latest possible version of this application.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Would you like to update?</value>
+    </data>
 </root>

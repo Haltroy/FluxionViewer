@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion 版本：</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>正在检查更新...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>有可用更新。</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>最新。</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer 有更新。</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>这些更新可能包含新增内容，例如新功能或对 Fluxion 格式的更新支持。这些更新还可能包含关键更改，以确保应用程序安全。</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>始终建议运行此应用程序的最新版本。</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>您想要更新吗？</value>
     </data>
 </root>
