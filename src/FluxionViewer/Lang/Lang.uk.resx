@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -46,7 +43,7 @@
         <value>ВИКОРИСТАННЯ: &lt;файл&gt; [--стиснення &lt;стиснення&gt;] [--зберегти [стиснення] &lt;кодування&gt; &lt;файл&gt;] [--no-gui] [--допомога]</value>
     </data>
     <data name="help_1" xml:space="preserve">
-        <value>&lt;&gt;: обов&apos;язково. []: необов’язковий</value>
+        <value>&lt;&gt;: обов'язково. []: необов’язковий</value>
     </data>
     <data name="help_2" xml:space="preserve">
         <value>&lt;файл&gt;: завантажує файл</value>
@@ -73,10 +70,10 @@
         <value>Підтримувані кодування:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Непідтримуване стиснення &quot;$1&quot;.</value>
+        <value>Непідтримуване стиснення "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Непідтримуване кодування &quot;$1&quot;.</value>
+        <value>Непідтримуване кодування "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Файли Fluxion (*.flx)</value>
@@ -148,7 +145,7 @@
         <value>Новий атрибут</value>
     </data>
     <data name="Attr_Name" xml:space="preserve">
-        <value>Ім&apos;я:</value>
+        <value>Ім'я:</value>
     </data>
     <data name="Attr_Value" xml:space="preserve">
         <value>Значення:</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Версія Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Перевірка оновлень...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Доступні оновлення.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Актуальний.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Є оновлення для Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Ці оновлення можуть містити нові доповнення, такі як новіші функції або новіша підтримка форматів Fluxion. Ці оновлення також можуть містити критичні зміни для забезпечення безпеки програми.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Завжди рекомендується запускати останню можливу версію цієї програми.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Хочете оновити?</value>
     </data>
 </root>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Ondersteunde codering(en):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Niet-ondersteunde compressie &quot;$1&quot;.</value>
+        <value>Niet-ondersteunde compressie "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Niet-ondersteunde codering &quot;$1&quot;.</value>
+        <value>Niet-ondersteunde codering "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion-bestanden (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion-versie:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Controleren op updates...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Updates beschikbaar.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Up-to-date.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Er is een update voor Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Deze updates kunnen nieuwe toevoegingen bevatten, zoals nieuwere functies of nieuwere ondersteuning voor Fluxion-formaten. Deze updates kunnen ook belangrijke wijzigingen bevatten om de applicatie veilig te maken.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Het wordt altijd aanbevolen om de nieuwste versie van deze applicatie te gebruiken.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Wilt u updaten?</value>
     </data>
 </root>

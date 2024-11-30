@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Fluxion Viewer"
-#define MyAppVersion "1.1"
+#define MyAppVersion "1.2"
 #define MyAppPublisher "haltroy"
 #define MyAppURL "https://haltroy.com/"
 #define MyAppExeName "FluxionViewer.Windows.exe"

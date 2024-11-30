@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>ஆதரிக்கப்படும் குறியாக்கம்(கள்):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ஆதரிக்கப்படாத சுருக்க &quot;$1&quot;.</value>
+        <value>ஆதரிக்கப்படாத சுருக்க "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>ஆதரிக்கப்படாத என்கோடிங் &quot;$1&quot;.</value>
+        <value>ஆதரிக்கப்படாத என்கோடிங் "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>ஃப்ளக்ஷன் கோப்புகள் (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>ஃப்ளக்ஷன் பதிப்பு:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>புதுப்பிப்புகளைச் சரிபார்க்கிறது...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>புதுப்பிப்புகள் கிடைக்கின்றன.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>அப்-டு-டேட்.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewerக்கான புதுப்பிப்பு உள்ளது.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>இந்த புதுப்பிப்புகள் புதிய அம்சங்கள் அல்லது Fluxion வடிவங்களுக்கான புதிய ஆதரவு போன்ற புதிய சேர்த்தல்களைக் கொண்டிருக்கலாம். இந்தப் புதுப்பிப்புகள் பயன்பாட்டைப் பாதுகாப்பானதாக்க முக்கியமான மாற்றங்களைக் கொண்டிருக்கலாம்.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>இந்தப் பயன்பாட்டின் சமீபத்திய சாத்தியமான பதிப்பை இயக்க எப்போதும் பரிந்துரைக்கப்படுகிறது.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>புதுப்பிக்க விரும்புகிறீர்களா?</value>
     </data>
 </root>

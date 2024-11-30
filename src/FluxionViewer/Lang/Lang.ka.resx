@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,7 +70,7 @@
         <value>მხარდაჭერილი კოდირება(ები):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>მხარდაუჭერელი შეკუმშვა &quot;$1&quot;.</value>
+        <value>მხარდაუჭერელი შეკუმშვა "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
         <value>მხარდაუჭერელი კოდირება „$1“.</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion ვერსია:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>მიმდინარეობს განახლებების შემოწმება...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>განახლებები ხელმისაწვდომია.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>განახლებული.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>არის განახლება Fluxion Viewer-ისთვის.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>ეს განახლებები შეიძლება შეიცავდეს ახალ დამატებებს, როგორიცაა ახალი ფუნქციები ან უფრო ახალი მხარდაჭერა Fluxion ფორმატებისთვის. ეს განახლებები შეიძლება ასევე შეიცავდეს კრიტიკულ ცვლილებებს აპლიკაციის უსაფრთხოების გასაუმჯობესებლად.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>ყოველთვის რეკომენდებულია ამ აპლიკაციის უახლესი შესაძლო ვერსიის გაშვება.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>გსურთ განახლება?</value>
     </data>
 </root>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Sipòte kodaj (yo):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Konpresyon ki pa sipòte &quot;$1&quot;.</value>
+        <value>Konpresyon ki pa sipòte "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Kodaj &quot;$1&quot; pa sipòte.</value>
+        <value>Kodaj "$1" pa sipòte.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fichye Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion vèsyon:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Tcheke pou mizajou...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Mizajou ki disponib.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Ajou.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Gen yon aktyalizasyon pou Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Mizajou sa yo ka prezante nouvo adisyon tankou nouvo karakteristik oswa nouvo sipò pou fòma Fluxion. Mizajou sa yo ka prezante tou chanjman enpòtan pou rann aplikasyon an an sekirite.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Li toujou rekòmande pou kouri dènye vèsyon posib aplikasyon sa a.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Èske ou ta renmen mete ajou?</value>
     </data>
 </root>

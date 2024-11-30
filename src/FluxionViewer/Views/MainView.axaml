@@ -64,14 +64,14 @@
                     </Button.Styles>
                     <Button.Tag>
                         <StackPanel Spacing="5">
-                            <TextBlock TextWrapping="Wrap" Text="There's an update for Fluxion Viewer."
+                            <TextBlock TextWrapping="Wrap" Text="{x:Static lang:Lang.Update_1}"
                                        FontWeight="Bold" FontSize="20" />
                             <TextBlock TextWrapping="Wrap"
-                                       Text="These updates may feature new additions such as newer features or newer support for Fluxion formats. These updates may also feature critical changes to make the application secure." />
+                                       Text="{x:Static lang:Lang.Update_2}" />
                             <TextBlock TextWrapping="Wrap"
-                                       Text="It is always recommended to run the latest possible version of this application."
+                                       Text="{x:Static lang:Lang.Update_3}"
                                        FontWeight="Bold" />
-                            <TextBlock TextWrapping="Wrap" Text="Would you like to update?" FontWeight="Bold"
+                            <TextBlock TextWrapping="Wrap" Text="{x:Static lang:Lang.Update_4}" FontWeight="Bold"
                                        FontSize="17.5" />
                             <Grid ColumnDefinitions="*,5,*">
                                 <Button Grid.Column="0" HorizontalAlignment="Stretch"
@@ -165,14 +165,17 @@
                         <Panel>
                             <TextBlock VerticalAlignment="Center"
                                        IsVisible="{CompiledBinding #UpdateCheckingIcon.IsVisible}"
-                                       IsEnabled="{CompiledBinding $self.IsVisible}" Text="Checking for updates..."
+                                       IsEnabled="{CompiledBinding $self.IsVisible}"
+                                       Text="{x:Static lang:Lang.Update_CheckForUpdates}"
                                        Foreground="LightSeaGreen" />
                             <TextBlock VerticalAlignment="Center"
                                        IsVisible="{CompiledBinding #UpdateAvailableIcon.IsVisible}"
-                                       IsEnabled="{CompiledBinding $self.IsVisible}" Text="Updates available"
+                                       IsEnabled="{CompiledBinding $self.IsVisible}"
+                                       Text="{x:Static lang:Lang.Update_UpdateAvailable}"
                                        Foreground="Yellow" />
                             <TextBlock VerticalAlignment="Center" IsVisible="{CompiledBinding #UpToDateIcon.IsVisible}"
-                                       IsEnabled="{CompiledBinding $self.IsVisible}" Text="Up-to-date"
+                                       IsEnabled="{CompiledBinding $self.IsVisible}"
+                                       Text="{x:Static lang:Lang.Update_UpToDate}"
                                        Foreground="Lime" />
                         </Panel>
                     </StackPanel>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>ການເຂົ້າລະຫັດທີ່ຮອງຮັບ:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ບໍ່ຮອງຮັບການບີບອັດ &quot;$1&quot;.</value>
+        <value>ບໍ່ຮອງຮັບການບີບອັດ "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>ບໍ່ຮອງຮັບການເຂົ້າລະຫັດ &quot;$1&quot;.</value>
+        <value>ບໍ່ຮອງຮັບການເຂົ້າລະຫັດ "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>ໄຟລ໌ Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>ລຸ້ນ Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Anono weche manyien...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Gik ma osetimre nitie.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Owinjore gi kindegi.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Nitie gik ma oseket e wi gik ma neno gik ma nyalo timore.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Gik ma ilosogo nyalo bedo gi gik manyien ma omedore kaka gik manyien kata konyo manyien mar fomat mag Fluxion. Gik ma ilosogo bende nyalo bedo gi lokruok madongo mondo oket programno obed maber.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Kinde duto, ipuonjo ni iti kod program ma manyien ma nyalore.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Be idwaro ng’eyo wachno?</value>
     </data>
 </root>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>کد(های) پشتیبانی شده:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>فشرده سازی پشتیبانی نشده &quot;$1&quot;.</value>
+        <value>فشرده سازی پشتیبانی نشده "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>رمزگذاری پشتیبانی نشده &quot;$1&quot;.</value>
+        <value>رمزگذاری پشتیبانی نشده "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>فایل‌های Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>نسخه Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>در حال بررسی به‌روزرسانی‌ها...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>به روز رسانی در دسترس است.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>به روز.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>یک به‌روزرسانی برای Fluxion Viewer وجود دارد.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>این به‌روزرسانی‌ها ممکن است دارای افزودنی‌های جدیدی مانند ویژگی‌های جدیدتر یا پشتیبانی جدیدتر از فرمت‌های Fluxion باشند. این به‌روزرسانی‌ها همچنین ممکن است دارای تغییرات مهمی برای ایمن کردن برنامه باشند.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>همیشه توصیه می شود آخرین نسخه ممکن این برنامه را اجرا کنید. </value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>آیا می خواهید به روز رسانی کنید؟</value>
     </data>
 </root>

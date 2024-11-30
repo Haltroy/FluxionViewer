@@ -125,7 +125,7 @@ public partial class MainView : UserControl
                 }
 
                 const string updateCheckLocation =
-                    "https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/distribution/version";
+                    "https://raw.githubusercontent.com/Haltroy/FluxionViewer/refs/heads/main/version";
                 using var httpClient = new HttpClient();
                 var responseTask = Task.Run(() => httpClient.GetAsync(updateCheckLocation));
                 var response = await responseTask;
@@ -147,7 +147,12 @@ public partial class MainView : UserControl
         }
         catch (Exception)
         {
-            // ignored
+            await Dispatcher.UIThread.InvokeAsync(() =>
+            {
+                CheckingForUpdates = false;
+                UpToDate = true;
+                UpdateAvailable = false;
+            });
         }
     }
 

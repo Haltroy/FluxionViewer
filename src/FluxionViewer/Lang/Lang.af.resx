@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Ondersteunde enkodering(e):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Ongesteunde kompressie &quot;$1&quot;.</value>
+        <value>Ongesteunde kompressie "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Ongesteunde enkodering &quot;$1&quot;.</value>
+        <value>Ongesteunde enkodering "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion-lêers (*.flx)</value>
@@ -154,10 +151,10 @@
         <value>Waarde:</value>
     </data>
     <data name="Open_Title" xml:space="preserve">
-        <value>Maak &apos;n Fluxion-lêer oop...</value>
+        <value>Maak 'n Fluxion-lêer oop...</value>
     </data>
     <data name="OpenCompressed_Title" xml:space="preserve">
-        <value>Maak &apos;n saamgeperste Fluxion-lêer oop...</value>
+        <value>Maak 'n saamgeperste Fluxion-lêer oop...</value>
     </data>
     <data name="SaveAs_Title" xml:space="preserve">
         <value>Stoor Fluxion-lêer as...</value>
@@ -196,7 +193,7 @@
         <value>Oor hierdie program...</value>
     </data>
     <data name="ToolTip_Paste" xml:space="preserve">
-        <value>Plak &apos;n gesnyde/gekopieerde nodus na hierdie nodus...</value>
+        <value>Plak 'n gesnyde/gekopieerde nodus na hierdie nodus...</value>
     </data>
     <data name="ToolTip_Cut" xml:space="preserve">
         <value>Sny hierdie nodus...</value>
@@ -205,16 +202,16 @@
         <value>Kopieer hierdie nodus...</value>
     </data>
     <data name="ToolTip_Add" xml:space="preserve">
-        <value>Voeg &apos;n nuwe nodus by...</value>
+        <value>Voeg 'n nuwe nodus by...</value>
     </data>
     <data name="ToolTip_Delete" xml:space="preserve">
         <value>Vee die geselekteerde nodus uit...</value>
     </data>
     <data name="ToolTip_Open" xml:space="preserve">
-        <value>Maak &apos;n lêer oop...</value>
+        <value>Maak 'n lêer oop...</value>
     </data>
     <data name="ToolTip_OpenCompressed" xml:space="preserve">
-        <value>Maak &apos;n saamgeperste lêer oop...</value>
+        <value>Maak 'n saamgeperste lêer oop...</value>
     </data>
     <data name="ToolTip_Compression" xml:space="preserve">
         <value>Kompressie:</value>
@@ -241,9 +238,30 @@
         <value>Maak instellingspaneel oop...</value>
     </data>
     <data name="Attr_Add" xml:space="preserve">
-        <value>Voeg &apos;n nuwe kenmerk by...</value>
+        <value>Voeg 'n nuwe kenmerk by...</value>
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion weergawe:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Kyk tans vir opdaterings...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Opdaterings beskikbaar.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Op datum.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Daar is 'n opdatering vir Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Hierdie opdaterings kan nuwe toevoegings bevat, soos nuwer kenmerke of nuwer ondersteuning vir Fluxion-formate. Hierdie opdaterings kan ook kritieke veranderinge bevat om die toepassing veilig te maak.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Dit word altyd aanbeveel om die nuutste moontlike weergawe van hierdie toepassing te laat loop.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Wil jy graag opdateer?</value>
     </data>
 </root>

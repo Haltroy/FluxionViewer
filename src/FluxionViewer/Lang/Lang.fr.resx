@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -55,13 +52,13 @@
         <value>--compression COMPRESSION : Charge le fichier avec une compression spécifique.</value>
     </data>
     <data name="help_4" xml:space="preserve">
-        <value>--save FICHIER D&apos;ENCODAGE DE COMPRESSION : convertit et enregistre le fichier avec une compression et un encodage spécifiques (facultatif).</value>
+        <value>--save FICHIER D'ENCODAGE DE COMPRESSION : convertit et enregistre le fichier avec une compression et un encodage spécifiques (facultatif).</value>
     </data>
     <data name="help_5" xml:space="preserve">
-        <value>--no-gui : s&apos;exécute uniquement en ligne de commande.</value>
+        <value>--no-gui : s'exécute uniquement en ligne de commande.</value>
     </data>
     <data name="cli_notenoughargs" xml:space="preserve">
-        <value>Pas assez d&apos;arguments.</value>
+        <value>Pas assez d'arguments.</value>
     </data>
     <data name="help_6" xml:space="preserve">
         <value>--help : affiche cet écran.</value>
@@ -73,10 +70,10 @@
         <value>Encodages pris en charge :</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Compression &quot;$1&quot; non prise en charge.</value>
+        <value>Compression "$1" non prise en charge.</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Encodage &quot;$1&quot; non pris en charge.</value>
+        <value>Encodage "$1" non pris en charge.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fichiers Fluxion (*.flx)</value>
@@ -136,7 +133,7 @@
         <value>Chaîne</value>
     </data>
     <data name="ValueType_ByteArray" xml:space="preserve">
-        <value>Tableau d&apos;octets</value>
+        <value>Tableau d'octets</value>
     </data>
     <data name="Node_NewItem" xml:space="preserve">
         <value>Nouveau nœud</value>
@@ -187,7 +184,7 @@
         <value>Faites glisser ceci pour redimensionner ce panneau.</value>
     </data>
     <data name="OK" xml:space="preserve">
-        <value>D&apos;ACCORD</value>
+        <value>D'ACCORD</value>
     </data>
     <data name="Setting_AutoSave" xml:space="preserve">
         <value>Sauvegarde automatique</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Version Fluxion :</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Vérification des mises à jour...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Mises à jour disponibles.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>À jour.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Il existe une mise à jour pour Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Ces mises à jour peuvent inclure de nouveaux ajouts tels que de nouvelles fonctionnalités ou une nouvelle prise en charge des formats Fluxion. Ces mises à jour peuvent également inclure des modifications critiques pour sécuriser l'application.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Il est toujours recommandé d'exécuter la dernière version possible de cette application.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Souhaitez-vous effectuer une mise à jour ?</value>
     </data>
 </root>

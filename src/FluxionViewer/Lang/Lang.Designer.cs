@@ -488,5 +488,47 @@ namespace FluxionViewer.Lang {
                 return ResourceManager.GetString("FluxionVersionSelect", resourceCulture);
             }
         }
+        
+        public static string Update_CheckForUpdates {
+            get {
+                return ResourceManager.GetString("Update_CheckForUpdates", resourceCulture);
+            }
+        }
+        
+        public static string Update_UpdateAvailable {
+            get {
+                return ResourceManager.GetString("Update_UpdateAvailable", resourceCulture);
+            }
+        }
+        
+        public static string Update_UpToDate {
+            get {
+                return ResourceManager.GetString("Update_UpToDate", resourceCulture);
+            }
+        }
+        
+        public static string Update_1 {
+            get {
+                return ResourceManager.GetString("Update_1", resourceCulture);
+            }
+        }
+        
+        public static string Update_2 {
+            get {
+                return ResourceManager.GetString("Update_2", resourceCulture);
+            }
+        }
+        
+        public static string Update_3 {
+            get {
+                return ResourceManager.GetString("Update_3", resourceCulture);
+            }
+        }
+        
+        public static string Update_4 {
+            get {
+                return ResourceManager.GetString("Update_4", resourceCulture);
+            }
+        }
     }
 }

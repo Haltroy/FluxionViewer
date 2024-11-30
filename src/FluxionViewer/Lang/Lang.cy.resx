@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -49,10 +46,10 @@
         <value>&lt;&gt;: Angenrheidiol. []: Dewisol</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&gt;: Yn llwytho&apos;r ffeil</value>
+        <value>&lt;file&gt;: Yn llwytho'r ffeil</value>
     </data>
     <data name="help_3" xml:space="preserve">
-        <value>--cywasgu Cywasgu: Llwytho&apos;r ffeil gyda cywasgu penodol.</value>
+        <value>--cywasgu Cywasgu: Llwytho'r ffeil gyda cywasgu penodol.</value>
     </data>
     <data name="help_4" xml:space="preserve">
         <value>--save FFEIL ENCODING CYMHWYSO: Trosi ac yn arbed y ffeil gyda cywasgu penodol (dewisol) ac amgodio.</value>
@@ -73,22 +70,22 @@
         <value>Amgodio(au) a gefnogir:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Cywasgiad heb ei gefnogi &quot;$1&quot;.</value>
+        <value>Cywasgiad heb ei gefnogi "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Amgodio &quot;$1&quot; heb ei gefnogi.</value>
+        <value>Amgodio "$1" heb ei gefnogi.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Ffeiliau Fluxion (*.flx)</value>
     </data>
     <data name="Status_LoadingFile" xml:space="preserve">
-        <value>Wrthi&apos;n llwytho&apos;r ffeil...</value>
+        <value>Wrthi'n llwytho'r ffeil...</value>
     </data>
     <data name="Status_SavingFile" xml:space="preserve">
-        <value>Wrthi&apos;n cadw&apos;r ffeil...</value>
+        <value>Wrthi'n cadw'r ffeil...</value>
     </data>
     <data name="Attribute_Remove" xml:space="preserve">
-        <value>Yn tynnu&apos;r briodwedd hon o&apos;r nod.</value>
+        <value>Yn tynnu'r briodwedd hon o'r nod.</value>
     </data>
     <data name="ValueType_Null" xml:space="preserve">
         <value>Nwl</value>
@@ -112,7 +109,7 @@
         <value>Beit</value>
     </data>
     <data name="ValueType_SByte" xml:space="preserve">
-        <value>Wedi&apos;i lofnodi Beit</value>
+        <value>Wedi'i lofnodi Beit</value>
     </data>
     <data name="ValueType_Int" xml:space="preserve">
         <value>Cyfanrif 32-did</value>
@@ -196,7 +193,7 @@
         <value>Am y rhaglen hon...</value>
     </data>
     <data name="ToolTip_Paste" xml:space="preserve">
-        <value>Gludwch nod wedi&apos;i dorri/copïo i&apos;r nod hwn...</value>
+        <value>Gludwch nod wedi'i dorri/copïo i'r nod hwn...</value>
     </data>
     <data name="ToolTip_Cut" xml:space="preserve">
         <value>Torrwch y nod hwn ...</value>
@@ -208,7 +205,7 @@
         <value>Ychwanegu nod newydd...</value>
     </data>
     <data name="ToolTip_Delete" xml:space="preserve">
-        <value>Dileu&apos;r nod a ddewiswyd...</value>
+        <value>Dileu'r nod a ddewiswyd...</value>
     </data>
     <data name="ToolTip_Open" xml:space="preserve">
         <value>Agor ffeil...</value>
@@ -229,10 +226,10 @@
         <value>Arbed</value>
     </data>
     <data name="ToolTip_SaveFile" xml:space="preserve">
-        <value>Cadw&apos;r ffeil hon...</value>
+        <value>Cadw'r ffeil hon...</value>
     </data>
     <data name="ToolTip_SaveFileAs" xml:space="preserve">
-        <value>Cadw&apos;r ffeil hon fel...</value>
+        <value>Cadw'r ffeil hon fel...</value>
     </data>
     <data name="Compression_None" xml:space="preserve">
         <value>Dim cywasgu</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fersiwn Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Wrthi'n gwirio am ddiweddariadau...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Diweddariadau ar gael.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Yn gyfoes.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Mae yna ddiweddariad ar gyfer Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Gall y diweddariadau hyn gynnwys ychwanegiadau newydd fel nodweddion mwy newydd neu gefnogaeth mwy newydd ar gyfer fformatau Fluxion. Gall y diweddariadau hyn hefyd gynnwys newidiadau hanfodol i wneud y rhaglen yn ddiogel.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Argymhellir bob amser i redeg y fersiwn diweddaraf posibl o'r cais hwn.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Hoffech chi ddiweddaru?</value>
     </data>
 </root>

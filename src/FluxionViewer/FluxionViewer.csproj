@@ -5,10 +5,10 @@
         <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
         <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
         <DebugType>embedded</DebugType>
-        <Version>1.1.0.0</Version>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <ApplicationVersion>1.1.0.0</ApplicationVersion>
-        <FileVersion>1.1.0.0</FileVersion>
+        <Version>1.2.0.0</Version>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <ApplicationVersion>1.2.0.0</ApplicationVersion>
+        <FileVersion>1.2.0.0</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>

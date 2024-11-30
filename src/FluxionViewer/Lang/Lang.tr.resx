@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
     <resheader name="resmimetype">
         <value>text/microsoft-resx</value>
@@ -238,5 +237,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion Sürümü:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Güncellemeler denetleniyor...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Güncelleme bulundu.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Güncel.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Görüntüleyicisi için bir güncelleme var.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Bu güncelleme içeriği yeni özellikler veya yeni formatlar için destekler getiriyor olabilir. Aynı zamanda  bu güncelleme, uygulamanın güvenliğini de attıran yenilikler de içerebilir.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Bu uygulamayı her zaman en son sürümüünde kullanmanız önerilir.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Güncellemek istiyor musunuz?</value>
     </data>
 </root>

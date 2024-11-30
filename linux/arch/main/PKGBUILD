@@ -1,6 +1,6 @@
 # Maintainer: <haltroy> <thehaltroy@gmail.com>
 pkgname=fluxionviewer
-pkgver=1.1
+pkgver=1.2
 pkgrel=1
 pkgdesc="View and Edit Fluxion files."
 url="https://haltroy.com/Fluxion"

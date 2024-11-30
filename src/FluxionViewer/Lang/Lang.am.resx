@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>የሚደገፉ ኢንኮዲንግ(ዎች)፦</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>የማይደገፍ &quot;$1&quot; መጭመቅ።</value>
+        <value>የማይደገፍ "$1" መጭመቅ።</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>የማይደገፍ &quot;$1&quot; ኮድ ማድረግ።</value>
+        <value>የማይደገፍ "$1" ኮድ ማድረግ።</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion Files (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion ሥሪት፡-</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>ዝማኔዎችን በመፈተሽ ላይ...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>ዝማኔዎች ይገኛሉ።</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>የተዘመነ።</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>ለFluxion Viewer ዝማኔ አለ።</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>እነዚህ ዝማኔዎች እንደ አዲስ ባህሪያት ወይም ለFluxion ቅርጸቶች አዲስ ድጋፍ ያሉ አዲስ ተጨማሪዎችን ሊያቀርቡ ይችላሉ። እነዚህ ዝመናዎች መተግበሪያውን ደህንነቱ የተጠበቀ ለማድረግ ወሳኝ ለውጦችን ሊያቀርቡ ይችላሉ።</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>የዚህን መተግበሪያ የቅርብ ጊዜ ስሪት ለማስኬድ ሁልጊዜ ይመከራል።</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>ማዘመን ይፈልጋሉ?</value>
     </data>
 </root>

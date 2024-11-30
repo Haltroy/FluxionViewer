@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Υποστηριζόμενες κωδικοποιήσεις:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Μη υποστηριζόμενη συμπίεση &quot;$1&quot;.</value>
+        <value>Μη υποστηριζόμενη συμπίεση "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Μη υποστηριζόμενη κωδικοποίηση &quot;$1&quot;.</value>
+        <value>Μη υποστηριζόμενη κωδικοποίηση "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Αρχεία Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Έκδοση Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Έλεγχος για ενημερώσεις...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Διαθέσιμες ενημερώσεις.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Επίκαιρο.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Υπάρχει μια ενημέρωση για το Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Αυτές οι ενημερώσεις ενδέχεται να διαθέτουν νέες προσθήκες, όπως νεότερες δυνατότητες ή νεότερη υποστήριξη για μορφές Fluxion. Αυτές οι ενημερώσεις ενδέχεται επίσης να περιλαμβάνουν σημαντικές αλλαγές για να κάνουν την εφαρμογή ασφαλή.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Συνιστάται πάντα η εκτέλεση της πιο πρόσφατης δυνατής έκδοσης αυτής της εφαρμογής.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Θέλετε να ενημερώσετε;</value>
     </data>
 </root>

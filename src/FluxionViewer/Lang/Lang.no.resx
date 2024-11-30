@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,7 +70,7 @@
         <value>Støttet koding(er):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Ikke støttet komprimering &quot;$1&quot;.</value>
+        <value>Ikke støttet komprimering "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
         <value>Ikke støttet koding «$1».</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion versjon:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Ser etter oppdateringer...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Oppdateringer tilgjengelig.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Oppdatert.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Det er en oppdatering for Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Disse oppdateringene kan inneholde nye tillegg som nyere funksjoner eller nyere støtte for Fluxion-formater. Disse oppdateringene kan også inneholde kritiske endringer for å gjøre applikasjonen sikker.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Det anbefales alltid å kjøre den siste mulige versjonen av denne applikasjonen.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Vil du oppdatere?</value>
     </data>
 </root>

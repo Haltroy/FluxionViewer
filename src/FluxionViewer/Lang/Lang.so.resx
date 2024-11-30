@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Codaynta la taageeray:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Cadaadis aan la taageerin &quot;$1&quot;.</value>
+        <value>Cadaadis aan la taageerin "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Codaynta aan la taageerin &quot;$1&quot;.</value>
+        <value>Codaynta aan la taageerin "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Faylasha Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion Version:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Hubinta wixii ku soo kordha...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Cusbooneysiin la heli karo</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Cusbooneysii</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Waxaa jira cusbooneysiin loogu talagalay Daawade Fluxion</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Cusboonaysiintan ayaa laga yaabaa inay ka kooban tahay waxyaabo cusub oo lagu daray sida astaamo cusub ama taageero cusub oo ah qaababka Fluxion. Cusboonaysiintan ayaa sidoo kale laga yaabaa inay muujiso isbeddello muhiim ah si codsiga looga dhigo mid sugan.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Had iyo jeer waxa lagu talinayaa in la socodsiiyo nooca ugu dambeeyay ee suurtogalka ah ee codsigan.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Ma jeclaan lahayd inaad cusbooneysiiso?</value>
     </data>
 </root>

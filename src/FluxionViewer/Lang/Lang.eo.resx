@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Subtena(j)n kodigado(j):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Nesubtenata kunpremo &quot;$1&quot;.</value>
+        <value>Nesubtenata kunpremo "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Nesubtenata kodado &quot;$1&quot;.</value>
+        <value>Nesubtenata kodado "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion-dosieroj (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion-Versio:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Kontrolante ĝisdatigojn...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Ĝisdatigoj haveblaj.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Ĝisdata.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Estas ĝisdatigo por Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Ĉi tiuj ĝisdatigoj povas prezenti novajn aldonojn kiel pli novaj funkcioj aŭ pli nova subteno por Fluxion-formatoj. Ĉi tiuj ĝisdatigoj ankaŭ povas prezenti kritikajn ŝanĝojn por sekurigi la aplikaĵon.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Ĉiam rekomendas ruli la plej novan eblan version de ĉi tiu aplikaĵo.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Ĉu vi ŝatus ĝisdatigi?</value>
     </data>
 </root>

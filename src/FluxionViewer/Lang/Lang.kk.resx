@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Қолдау көрсетілетін кодтау(лар):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Қолдау көрсетілмейтін қысу &quot;$1&quot;.</value>
+        <value>Қолдау көрсетілмейтін қысу "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>&quot;$1&quot; кодтауына қолдау көрсетілмейді.</value>
+        <value>"$1" кодтауына қолдау көрсетілмейді.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion файлдары (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion нұсқасы:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Жаңартулар тексерілуде...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Жаңартулар қолжетімді.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Жаңартылған.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer жаңартуы бар.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Бұл жаңартуларда жаңа мүмкіндіктер немесе Fluxion пішімдері үшін жаңа қолдау сияқты жаңа толықтырулар болуы мүмкін. Бұл жаңартулар қолданбаны қауіпсіз ету үшін маңызды өзгерістерді де қамтуы мүмкін.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Әрқашан осы қолданбаның ең соңғы ықтимал нұсқасын іске қосу ұсынылады.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Жаңартқыңыз келе ме?</value>
     </data>
 </root>

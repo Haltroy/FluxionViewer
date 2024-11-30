@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Toetatud kodeering(ud):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Toetamata tihendus &quot;$1&quot;.</value>
+        <value>Toetamata tihendus "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Toetamata kodeering &quot;$1&quot;.</value>
+        <value>Toetamata kodeering "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion Files (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxioni versioon:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Värskenduste otsimine...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Saadaval on värskendused.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Ajakohane.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Vieweri jaoks on värskendus.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value> Need värskendused võivad sisaldada uusi täiendusi, nagu uuemad funktsioonid või uuem tugi Fluxioni vormingutele. Need värskendused võivad sisaldada ka olulisi muudatusi, et muuta rakendus turvaliseks.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Alati on soovitatav käivitada selle rakenduse uusim võimalik versioon.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Kas soovite värskendada?</value>
     </data>
 </root>

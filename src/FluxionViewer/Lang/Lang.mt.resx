@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -52,10 +49,10 @@
         <value>&lt;file&gt;: Tgħabbi l-fajl</value>
     </data>
     <data name="help_3" xml:space="preserve">
-        <value>--kompressjoni KOMPRESJONI: Tgħabbi l-fajl b&apos;kompressjoni speċifika.</value>
+        <value>--kompressjoni KOMPRESJONI: Tgħabbi l-fajl b'kompressjoni speċifika.</value>
     </data>
     <data name="help_4" xml:space="preserve">
-        <value>--save FAJL TA &apos;KODIKAZZJONI TAL-KOMPPRESSJONI: Tikkonverti u tiffranka l-fajl b&apos;kompressjoni speċifika (mhux obbligatorja) u kodifikazzjoni.</value>
+        <value>--save FAJL TA 'KODIKAZZJONI TAL-KOMPPRESSJONI: Tikkonverti u tiffranka l-fajl b'kompressjoni speċifika (mhux obbligatorja) u kodifikazzjoni.</value>
     </data>
     <data name="help_5" xml:space="preserve">
         <value>--no-gui: Timxi fuq il-linja tal-kmand biss.</value>
@@ -67,16 +64,16 @@
         <value>--help: Juri dan l-iskrin.</value>
     </data>
     <data name="help_7" xml:space="preserve">
-        <value>Algoritmu(i) ta&apos; kompressjoni appoġġjat:</value>
+        <value>Algoritmu(i) ta' kompressjoni appoġġjat:</value>
     </data>
     <data name="help_8" xml:space="preserve">
         <value>Kodifika/i appoġġjati:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Kompressjoni mhux appoġġjata &quot;$1&quot;.</value>
+        <value>Kompressjoni mhux appoġġjata "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Kodifikazzjoni mhux appoġġjata &quot;$1&quot;.</value>
+        <value>Kodifikazzjoni mhux appoġġjata "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fajls Fluxion (*.flx)</value>
@@ -184,7 +181,7 @@
         <value>Proprjetajiet Node</value>
     </data>
     <data name="Splitter_Tooltip" xml:space="preserve">
-        <value>Iddreggja dan biex tibdel id-daqs ta&apos; dan il-pannell.</value>
+        <value>Iddreggja dan biex tibdel id-daqs ta' dan il-pannell.</value>
     </data>
     <data name="OK" xml:space="preserve">
         <value>kollox sew</value>
@@ -196,10 +193,10 @@
         <value>Dwar dan il-programm...</value>
     </data>
     <data name="ToolTip_Paste" xml:space="preserve">
-        <value>Paste nodu maqtugħ/ikkupjat ma&apos; dan in-nodu...</value>
+        <value>Paste nodu maqtugħ/ikkupjat ma' dan in-nodu...</value>
     </data>
     <data name="ToolTip_Cut" xml:space="preserve">
-        <value>Aqta&apos; dan in-node...</value>
+        <value>Aqta' dan in-node...</value>
     </data>
     <data name="ToolTip_Copy" xml:space="preserve">
         <value>Ikkopja dan in-node...</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Verżjoni Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Qed niċċekkja għal aġġornamenti...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Aġġornamenti disponibbli.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Aġġornata.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Hemm aġġornament għal Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Dawn l-aġġornamenti jistgħu jinkludu żidiet ġodda bħal karatteristiċi aktar ġodda jew appoġġ aktar ġdid għal formati Fluxion. Dawn l-aġġornamenti jistgħu wkoll jinkludu bidliet kritiċi biex jagħmlu l-applikazzjoni sigura.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Huwa dejjem rakkomandat li tħaddem l-aħħar verżjoni possibbli ta 'din l-applikazzjoni.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Tixtieq taġġorna?</value>
     </data>
 </root>

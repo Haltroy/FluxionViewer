@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Verzia Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Kontrolujú sa aktualizácie...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Dostupné aktualizácie.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Aktuálne.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Je tu aktualizácia pre Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Tieto aktualizácie môžu obsahovať nové doplnky, ako sú novšie funkcie alebo novšia podpora formátov Fluxion. Tieto aktualizácie môžu obsahovať aj kritické zmeny na zabezpečenie aplikácie.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Vždy sa odporúča spustiť najnovšiu možnú verziu tejto aplikácie.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Chcete aktualizovať?</value>
     </data>
 </root>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Gisuportahan nga pag-encode (mga):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Dili suportadong compression &quot;$1&quot;.</value>
+        <value>Dili suportadong compression "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Dili suportadong encoding &quot;$1&quot;.</value>
+        <value>Dili suportadong encoding "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion Files (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Bersyon sa Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Pagsusi alang sa mga update...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Magamit ang mga update.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Pinakabag-o.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Adunay usa ka update alang sa Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Kini nga mga pag-update mahimong adunay mga bag-ong pagdugang sama sa mas bag-ong mga bahin o mas bag-ong suporta alang sa mga format sa Fluxion. Kini nga mga update mahimo usab nga adunay mga kritikal nga pagbag-o aron mahimo nga luwas ang aplikasyon.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Kanunay nga girekomenda nga ipadagan ang labing bag-o nga posible nga bersyon sa kini nga aplikasyon.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Gusto ka ba nga mag-update?</value>
     </data>
 </root>

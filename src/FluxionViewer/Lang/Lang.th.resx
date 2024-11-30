@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>การเข้ารหัสที่รองรับ:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>ไม่รองรับการบีบอัด &quot;$1&quot;</value>
+        <value>ไม่รองรับการบีบอัด "$1"</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>ไม่รองรับการเข้ารหัส &quot;$1&quot;</value>
+        <value>ไม่รองรับการเข้ารหัส "$1"</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>ไฟล์ Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>เวอร์ชัน Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>กำลังตรวจสอบการอัปเดต...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>มีการอัปเดตให้ใช้งานแล้ว</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>อัปเดตล่าสุด</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>มีการอัปเดตสำหรับ Fluxion Viewer</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>การอัปเดตเหล่านี้อาจมีการเพิ่มคุณลักษณะใหม่ๆ เช่น คุณลักษณะใหม่ๆ หรือการรองรับรูปแบบ Fluxion ใหม่ การอัปเดตเหล่านี้อาจมีการเปลี่ยนแปลงที่สำคัญเพื่อให้แอปพลิเคชันมีความปลอดภัย</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>ขอแนะนำให้ใช้เวอร์ชันล่าสุดของแอปพลิเคชันนี้เสมอ</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>คุณต้องการอัปเดตหรือไม่</value>
     </data>
 </root>

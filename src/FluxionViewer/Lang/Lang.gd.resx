@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -49,7 +46,7 @@
         <value>&lt;&gt;: a dhìth. []: Roghainneil</value>
     </data>
     <data name="help_2" xml:space="preserve">
-        <value>&lt;file&gt;: A&apos; luchdadh an fhaidhle</value>
+        <value>&lt;file&gt;: A' luchdadh an fhaidhle</value>
     </data>
     <data name="help_3" xml:space="preserve">
         <value>--compression COMPRESSION: A’ luchdachadh am faidhle le teannachadh sònraichte.</value>
@@ -73,19 +70,19 @@
         <value>Còdachadh(an le taic):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Dùmhlachadh &quot;$1&quot; gun taic.</value>
+        <value>Dùmhlachadh "$1" gun taic.</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Chan eil taic ris a&apos; chòdachadh &quot;$1&quot;.</value>
+        <value>Chan eil taic ris a' chòdachadh "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Faidhlichean Fluxion (*.flx)</value>
     </data>
     <data name="Status_LoadingFile" xml:space="preserve">
-        <value>A&apos; luchdachadh an fhaidhle...</value>
+        <value>A' luchdachadh an fhaidhle...</value>
     </data>
     <data name="Status_SavingFile" xml:space="preserve">
-        <value>A&apos; sàbhaladh an fhaidhle...</value>
+        <value>A' sàbhaladh an fhaidhle...</value>
     </data>
     <data name="Attribute_Remove" xml:space="preserve">
         <value>Thoir air falbh am feart seo bhon nód.</value>
@@ -193,7 +190,7 @@
         <value>Sàbhaladh fèin-ghluasadach</value>
     </data>
     <data name="ToolTip_About" xml:space="preserve">
-        <value>Mu dheidhinn a&apos; phrògram seo...</value>
+        <value>Mu dheidhinn a' phrògram seo...</value>
     </data>
     <data name="ToolTip_Paste" xml:space="preserve">
         <value>Cuir a-steach nód gearraidh / leth-bhreac don nód seo ...</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Tionndadh Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>A’ coimhead airson ùrachaidhean...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Ùrachaidhean rim faighinn.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Làn-fhiosrach.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Tha ùrachadh ann airson Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Faodaidh na h-ùrachaidhean sin a bhith a’ nochdadh cur-ris ùra leithid feartan nas ùire no taic nas ùire airson cruthan Fluxion. Faodaidh na h-ùrachaidhean sin cuideachd atharrachaidhean èiginneach a nochdadh gus an tagradh a dhèanamh tèarainte.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Thathas an-còmhnaidh a’ moladh an dreach as ùire den tagradh seo a ruith.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Am bu toil leat ùrachadh?</value>
     </data>
 </root>

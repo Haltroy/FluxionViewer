@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>지원되는 인코딩:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>지원되지 않는 압축 &quot;$1&quot;.</value>
+        <value>지원되지 않는 압축 "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>지원되지 않는 인코딩 &quot;$1&quot;입니다.</value>
+        <value>지원되지 않는 인코딩 "$1"입니다.</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fluxion 파일(*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Fluxion 버전:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>업데이트 확인 중...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>업데이트가 있습니다.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>최신.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Fluxion Viewer에 대한 업데이트가 있습니다.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>이러한 업데이트에는 새로운 기능이나 Fluxion 형식에 대한 새로운 지원과 같은 새로운 추가 기능이 포함될 수 있습니다. 이러한 업데이트에는 애플리케이션을 안전하게 만들기 위한 중요한 변경 사항도 포함될 수 있습니다.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>이 애플리케이션의 최신 버전을 실행하는 것이 항상 권장됩니다.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>업데이트하시겠습니까?</value>
     </data>
 </root>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>പിന്തുണയ്ക്കുന്ന എൻകോഡിംഗ്(കൾ):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>പിന്തുണയ്ക്കാത്ത കംപ്രഷൻ &quot;$1&quot;.</value>
+        <value>പിന്തുണയ്ക്കാത്ത കംപ്രഷൻ "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>പിന്തുണയ്ക്കാത്ത എൻകോഡിംഗ് &quot;$1&quot;.</value>
+        <value>പിന്തുണയ്ക്കാത്ത എൻകോഡിംഗ് "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>ഫ്ലക്‌ഷൻ ഫയലുകൾ (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>ഫ്ലക്‌ഷൻ പതിപ്പ്:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>അപ്‌ഡേറ്റുകൾക്കായി പരിശോധിക്കുന്നു...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>അപ്ഡേറ്റുകൾ ലഭ്യമാണ്.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>കാലികമാണ്.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>ഫ്ലക്‌ഷൻ വ്യൂവറിനായി ഒരു അപ്‌ഡേറ്റ് ഉണ്ട്.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>ഈ അപ്‌ഡേറ്റുകളിൽ പുതിയ ഫീച്ചറുകൾ അല്ലെങ്കിൽ Fluxion ഫോർമാറ്റുകൾക്കുള്ള പുതിയ പിന്തുണ പോലുള്ള പുതിയ കൂട്ടിച്ചേർക്കലുകൾ ഫീച്ചർ ചെയ്തേക്കാം. ഈ അപ്‌ഡേറ്റുകൾ ആപ്ലിക്കേഷൻ സുരക്ഷിതമാക്കാൻ നിർണായകമായ മാറ്റങ്ങളും അവതരിപ്പിച്ചേക്കാം.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>ഈ ആപ്ലിക്കേഷൻ്റെ ഏറ്റവും പുതിയ സാധ്യമായ പതിപ്പ് പ്രവർത്തിപ്പിക്കാൻ എപ്പോഴും ശുപാർശ ചെയ്യപ്പെടുന്നു.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>നിങ്ങൾക്ക് അപ്ഡേറ്റ് ചെയ്യാൻ താൽപ്പര്യമുണ്ടോ?</value>
     </data>
 </root>

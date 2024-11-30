@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Tallafawa (s):</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Matsi mara tallafi &quot;$1&quot;.</value>
+        <value>Matsi mara tallafi "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Ƙididdiga mara tallafi &quot;$1&quot;.</value>
+        <value>Ƙididdiga mara tallafi "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Fayilolin Fluxion (*.flx)</value>
@@ -169,7 +166,7 @@
         <value>Ee</value>
     </data>
     <data name="SaveConfirmNo" xml:space="preserve">
-        <value>A&apos;a</value>
+        <value>A'a</value>
     </data>
     <data name="Cancel" xml:space="preserve">
         <value>Soke</value>
@@ -178,7 +175,7 @@
         <value>Halayen Node</value>
     </data>
     <data name="Attr_Type" xml:space="preserve">
-        <value>Nau&apos;in:</value>
+        <value>Nau'in:</value>
     </data>
     <data name="Tab_Prop" xml:space="preserve">
         <value>Node Properties</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Sigar Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Ana duba sabuntawa...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Akwai sabuntawa.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Na zamani.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Akwai sabuntawa don Fluxion Viewer.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Waɗannan sabuntawar ƙila su ƙunshi sabbin ƙari kamar sabbin abubuwa ko sabon tallafi don tsarin Fluxion. Waɗannan sabuntawar ƙila su ƙunshi mahimman canje-canje don tabbatar da aikace-aikacen amintacce.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Ana ba da shawarar koyaushe don gudanar da sabon yuwuwar sigar wannan aikace-aikacen.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Kuna so ku sabunta?</value>
     </data>
 </root>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
-                id="root"
-                xmlns="">
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
         <xsd:element name="root" msdata:IsDataSet="true">
 
         </xsd:element>
@@ -73,10 +70,10 @@
         <value>Рамзгузории дастгирӣшаванда:</value>
     </data>
     <data name="cli_unsupportedcompression" xml:space="preserve">
-        <value>Фишурдани дастгирнашаванда &quot;$1&quot;.</value>
+        <value>Фишурдани дастгирнашаванда "$1".</value>
     </data>
     <data name="cli_unsupportedencoding" xml:space="preserve">
-        <value>Рамзгузории дастгирӣнашаванда &quot;$1&quot;.</value>
+        <value>Рамзгузории дастгирӣнашаванда "$1".</value>
     </data>
     <data name="FileExtName" xml:space="preserve">
         <value>Файлҳои Fluxion (*.flx)</value>
@@ -245,5 +242,26 @@
     </data>
     <data name="FluxionVersionSelect" xml:space="preserve">
         <value>Версияи Fluxion:</value>
+    </data>
+    <data name="Update_CheckForUpdates" xml:space="preserve">
+        <value>Санҷиши навсозиҳо...</value>
+    </data>
+    <data name="Update_UpdateAvailable" xml:space="preserve">
+        <value>Навсозиҳо дастрас.</value>
+    </data>
+    <data name="Update_UpToDate" xml:space="preserve">
+        <value>Навшуда.</value>
+    </data>
+    <data name="Update_1" xml:space="preserve">
+        <value>Барои Fluxion Viewer навсозӣ мавҷуд аст.</value>
+    </data>
+    <data name="Update_2" xml:space="preserve">
+        <value>Ин навсозиҳо метавонанд иловаҳои нав, ба монанди хусусиятҳои навтар ё дастгирии навтари форматҳои Fluxion дошта бошанд. Ин навсозиҳо инчунин метавонанд тағйироти муҳимро барои бехатарии барнома ворид кунанд.</value>
+    </data>
+    <data name="Update_3" xml:space="preserve">
+        <value>Ҳамеша тавсия дода мешавад, ки версияи охирини имконпазири ин барномаро иҷро кунед.</value>
+    </data>
+    <data name="Update_4" xml:space="preserve">
+        <value>Мехоҳед навсозӣ кунед?</value>
     </data>
 </root>
