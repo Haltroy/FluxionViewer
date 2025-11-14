@@ -1,5 +1,7 @@
 # Fluxion Viewer
 
+My cringe attempt at making a data storage format that "should've been better than XML or JSON" but obviously it failed so I'm archiving. Also I'm abandoning C# from my life and might only try it once again but in C++.
+
 Edit, view and convert Fluxion files easily with Fluxion Viewer.
 
 This program uses [FluxionSharp](https://github.com/haltroy/FluxionSharp) to read/write
